@@ -205,11 +205,9 @@
   border: none;
   color: white;
   padding: 15px 32px;
-  text-align: center;
   text-decoration: none;
   display: inline-block;
   margin: 4px 2px;
-  margin-top: 350px;
 }
 
 /* Gjør at bakgrunnsbilde blir fint */
@@ -225,10 +223,7 @@
 }
 
 
-/* Utvider nettsiden */
-.hjelp1 {
-  height: 2000px;
-}
+
 
 /* Gjør info området fint*/
 .p1 {
@@ -241,11 +236,18 @@
   text-decoration: none;
   display: inline-block;
   margin: 4px 2px;
-  margin-top: 350px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-size: larger;
 }
 
 .info1 {
   text-align: center;
+}
+
+.date1 {
+  text-decoration: underline;
+  font-size: 25px;
 }
 
 /* Gir footer en bakgrunnsfarge, høyde og litt andre ting */
