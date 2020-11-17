@@ -14,7 +14,7 @@
 .headergrid {
     display: grid;
     margin-left: 10px;
-    margin-right: 11.5px;
+    margin-right: 10px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:"header1 header2 header3 header4 header5 header6 header7 header8 header9 header10";
   }
