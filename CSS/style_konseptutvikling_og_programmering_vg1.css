@@ -198,6 +198,20 @@
     margin: 4px 2px;
 }
 
+/* Gjør info området fint*/
+.p1 {
+  text-align: center;
+  background-color: rgba(29, 27, 27, 0.781);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  margin-top: 350px;
+}
+
 /* Gjør at bakgrunnsbilde blir fint */
 .textimage {
   background-color: rgba(221, 206, 206, 0.288);
