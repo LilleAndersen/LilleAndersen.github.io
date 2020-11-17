@@ -212,6 +212,7 @@
 
 /* Teksten blir sentrert og blir større og at det blir et nytt bilde*/
 .info1 {
+    margin-top: 100px;
     text-align: center;
     font-size: larger;
     background-image: url(../IMAGES/IMG_0042_redigert1asdasdasd.png);
