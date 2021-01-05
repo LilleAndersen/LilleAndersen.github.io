@@ -259,6 +259,25 @@
   text-align: center;
 }
 
+.her:link {
+  color: rgb(45, 46, 49);
+}
+
+/* visited link */
+.her:visited {
+  color: rgb(45, 46, 49);
+}
+
+/* mouse over link */
+.her:hover {
+  color: darkslategray;
+}
+
+/* selected link */
+.her:active {
+  color:darkslategray;
+}
+
 /* Gjør at de forskjellige områdene som var definert i starten er tilkoblet html */
 .header { grid-area: header; }
 .bilde1 { grid-area: bilde1; }
