@@ -226,9 +226,7 @@
 }
 
 /* Utvider nettsiden */
-.hjelp1 {
-  height: 2000px;
-}
+
 
 /* Gjør info området fint*/
 .p1 {
@@ -242,6 +240,7 @@
   display: inline-block;
   margin: 4px 2px;
   margin-top: 350px;
+  margin-bottom: 200px;
 }
 
 /* Gir footer en bakgrunnsfarge, høyde og litt andre ting */
