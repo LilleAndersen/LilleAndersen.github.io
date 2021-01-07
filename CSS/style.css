@@ -21,18 +21,18 @@
 
 /* Textimage fra grid-container blir delt inn i egne deler*/ 
 .imagegrid {
-display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-grid-template-areas: "bilde1 bilde1 bilde1 bilde1 bilde1"
-                     "text1 text1 bilde2 bilde3 bilde3"
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  grid-template-areas: "emptyspace emptyspace emptyspace emptyspace emptyspace"
+                     "overskrift overskrift overskrift overskrift overskrift"
                      "hjelp1 info1 info1 info1 hjelp2";
 }
 
 /* Setter bakgrunnsfarge */ 
 .body {
-background-color: rgba(92, 84, 84, 0.342);
-position: relative;
+  background-color: rgba(92, 84, 84, 0.342);
+  position: relative;
 }
 
 /* Setter bakgrunnsfarge, margin og skygge på header */
@@ -52,41 +52,41 @@ position: relative;
 
 /*Gjør at teksten blir sentrert*/ 
 .header8 {
-text-align: center;
+  text-align: center;
 }
 
 /*Gjør at teksten blir sentrert*/ 
 .header9 {
-text-align: center;
+  text-align: center;
 }
 
 /*Gjør at teksten blir sentrert*/ 
 .header10 {
-text-align: center;
+  text-align: center;
 }
 
 /*Gjør knappen finere*/ 
 .link1 {
-text-decoration: none;
-color: white;
-padding-left: 42px;
-padding-right: 42px;
+  text-decoration: none;
+  color: white;
+  padding-left: 42px;
+  padding-right: 42px;
 }
 
 /* Gjør at dropdown menyen blir fin*/ 
 .dropbtn {
-background-color: rgba(29, 27, 27, 0.781);
-color: white;
-padding: 15px;
-width: 160px;
-font-size: 16px;
-border: none;
-cursor: pointer;
-text-align: center;
-padding: 15px 0px 15px 0px;
-margin: 0px 10px 0px 0px;
-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-text-decoration: none;
+  background-color: rgba(29, 27, 27, 0.781);
+  color: white;
+  padding: 15px;
+  width: 160px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  padding: 15px 0px 15px 0px;
+  margin: 0px 10px 0px 0px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  text-decoration: none;
 }
 
 .dropbtn:hover {
@@ -96,28 +96,28 @@ text-decoration: none;
 
 /* Gjør at dropdown menyen blir fin*/ 
 .dropdown {
-position: relative;
-display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 /* Gjør at dropdown menyen blir fin*/ 
 .dropdown-content {
-display: none;
-position: absolute;
-background-color: #f9f9f9;
-min-width: 160px;
-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-z-index: 1;
-text-align: left;
-transition:ease-in 1s;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  text-align: left;
+  transition:ease-in 1s;
 }
 
 /* Gjør at dropdown menyen blir fin*/ 
 .dropdown-content a {
-color: black;
-padding: 12px 16px;
-text-decoration: none;
-display: block;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
 }
 
 /* Gjør at dropdown menyen blir fin*/ 
@@ -125,31 +125,31 @@ display: block;
 
 /* Gjør at dropdown menyen blir fin*/ 
 .dropdown:hover .dropdown-content {
-display: block;
+  display: block;
 }
 
 /* Gjør at dropdown menyen blir fin*/ 
 .dropdown:hover .dropbtn {
-background-color: darkslategray;
-transition-duration: 0.4s;
+  background-color: darkslategray;
+  transition-duration: 0.4s;
 }
 
 /* Gjør at bilde blir så stor så jeg vil ha det.*/ 
-.bilde1 {
+.emptyspace {
   height: 250px;
 }
 
 /* Gjør at hovuddelen blir fin*/
-.bilde2 {
-    text-align: left;
-    background-color: rgba(29, 27, 27, 0.781);
-    border: none;
-    color: white;
-    padding: 15px 60;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
+.overskrift {
+  text-align: left;
+  background-color: rgba(29, 27, 27, 0.781);
+  border: none;
+  color: white;
+  padding: 15px 60;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
 }
 
 /* Gjør info området fint*/
@@ -249,11 +249,11 @@ transition-duration: 0.4s;
 
 /* Gir footer en bakgrunnsfarge, høyde og litt andre ting */
 .footer {
-    background-color: rgb(45, 46, 49);
-    height: 100px;
-    margin-top: 10px;
-    text-align: center;
-    position: relative;
+  background-color: rgb(45, 46, 49);
+  height: 100px;
+  margin-top: 10px;
+  text-align: center;
+  position: relative;
 }
 
 /* Endrer tekstfargen*/
@@ -264,10 +264,8 @@ transition-duration: 0.4s;
 
 /* Gjør at de forskjellige områdene som var definert i starten er tilkoblet html */
 .header { grid-area: header; }
-.bilde1 { grid-area: bilde1; }
-.bilde2 { grid-area: bilde2; }
-.bilde3 { grid-area: bilde3; }
-.text1 { grid-area: text1; }
+.emptyspace { grid-area: emptyspace; }
+.overskrift { grid-area: overskrift; }
 .info1 { grid-area: info1; }
 .footer { grid-area: footer;}
 .textimage { grid-area: textimage;}
