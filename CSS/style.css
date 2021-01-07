@@ -15,6 +15,7 @@
   display: grid;
   margin-left: 10px;
   margin-right: 10px;
+  justify-content: space-evenly;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas:"header1 header2 header3 header4 header5 header6 header7 header8 header9 header10";
 }
@@ -78,7 +79,7 @@
   background-color: rgba(29, 27, 27, 0.781);
   color: white;
   padding: 15px;
-  width: 160px;
+  min-width: 160px;
   font-size: 16px;
   border: none;
   cursor: pointer;
@@ -140,16 +141,19 @@
 }
 
 /* Gjør at hovuddelen blir fin*/
-.overskrift {
-  text-align: left;
+.navn1 {
   background-color: rgba(29, 27, 27, 0.781);
   border: none;
   color: white;
-  padding: 15px 60;
+  padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   margin: 4px 2px;
+}
+
+.overskrift {
+  text-align: center;
 }
 
 /* Gjør info området fint*/
@@ -218,25 +222,6 @@
   font-size: larger;
 }
 
-.her:link {
-  color: rgb(45, 46, 49);
-}
-
-/* visited link */
-.her:visited {
-  color: rgb(45, 46, 49);
-}
-
-/* mouse over link */
-.her:hover {
-  color: darkslategray;
-}
-
-/* selected link */
-.her:active {
-  color:darkslategray;
-}
-
 .info1 {
   text-align: center;
   padding-top: 100px;
@@ -260,6 +245,25 @@
 .footer-text {
   color: white;
   text-align: center;
+}
+
+.her:link {
+  color: rgb(45, 46, 49);
+}
+
+/* visited link */
+.her:visited {
+  color: rgb(45, 46, 49);
+}
+
+/* mouse over link */
+.her:hover {
+  color: darkslategray;
+}
+
+/* selected link */
+.her:active {
+  color:darkslategray;
 }
 
 /* Gjør at de forskjellige områdene som var definert i starten er tilkoblet html */
