@@ -76,8 +76,7 @@
 .dropbtn {
   background-color: rgba(29, 27, 27, 0.781);
   color: white;
-  padding: 15px;
-  min-width: 160px;
+  min-width: 175px;
   font-size: 16px;
   border: none;
   cursor: pointer;
@@ -153,6 +152,10 @@
 .overskrift {
   text-align: center;
   margin-bottom: 600px;
+}
+
+.overskrift1 {
+  margin-bottom: -250px;
 }
 
 /* Gjør at bakgrunnsbilde blir fint */
