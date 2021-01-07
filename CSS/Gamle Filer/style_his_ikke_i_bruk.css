@@ -1,0 +1,245 @@
+/* Gjør at siden blir delt inn i 5 like store kolonner*/
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  grid-template-areas:"header header header header header"
+                      "textimage textimage textimage textimage textimage"
+                      "textimage textimage textimage textimage textimage"
+                      "textimage textimage textimage textimage textimage"
+                      "footer footer footer footer footer";
+}
+
+/* Header fra grid-container blir delt inn i 10 like store kolonner */  
+.headergrid {
+  display: grid;
+  margin-left: 10px;
+  margin-right: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:"header1 header2 header3 header4 header5 header6 header7 header8 header9 header10";
+}
+
+/* Textimage fra grid-container blir delt inn i egne deler*/ 
+.imagegrid {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+grid-template-areas: "bilde1 bilde1 bilde1 bilde1 bilde1"
+                     "text1 text1 bilde2 bilde3 bilde3"
+                     "hjelp1 info1 info1 info1 hjelp2";
+}
+
+/* Setter bakgrunnsfarge */ 
+.body {
+background-color: rgba(92, 84, 84, 0.342);
+position: relative;
+}
+
+/* Setter bakgrunnsfarge, margin og skygge på header */
+.header {
+  background-position-y: -250px;
+  margin-bottom: 12px;
+  background-color: rgba(221, 206, 206, 0.288);
+  box-shadow: 0px 8px 24px 0px rgba(0,0,0,0.2);
+}
+
+/*Gjør at teksten blir sentrert*/ 
+.header1 {
+  text-align: center;
+}
+
+/*Gjør at teksten blir sentrert*/ 
+.header8 {
+text-align: center;
+}
+
+/*Gjør at teksten blir sentrert*/ 
+.header9 {
+text-align: center;
+}
+
+/*Gjør at teksten blir sentrert*/ 
+.header10 {
+text-align: center;
+}
+
+/*Gjør knappen finere*/ 
+.link1 {
+text-decoration: none;
+color: white;
+padding-left: 42px;
+padding-right: 42px;
+}
+
+/* Gjør at dropdown menyen blir fin*/ 
+.dropbtn {
+background-color: rgba(29, 27, 27, 0.781);
+color: white;
+padding: 15px;
+width: 160px;
+font-size: 16px;
+border: none;
+cursor: pointer;
+text-align: center;
+margin: 20px 10px 20px 10px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+text-decoration: none;
+}
+
+/* Gjør at dropdown menyen blir fin*/ 
+.dropdown {
+position: relative;
+display: inline-block;
+transition-duration: 0.4s;
+}
+
+/* Gjør at dropdown menyen blir fin*/ 
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+text-align: left;
+}
+
+/* Gjør at dropdown menyen blir fin*/ 
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+/* Gjør at dropdown menyen blir fin*/ 
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Gjør at dropdown menyen blir fin*/ 
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+/* Gjør at dropdown menyen blir fin*/ 
+.dropdown:hover .dropbtn {
+background-color: darkslategray;
+}
+
+/* Gjør at bile blir så stor så jeg vil ha det.*/ 
+.bilde1 {
+  height: 250px;
+}
+
+/* Gjør at hovuddelen blir fin*/
+.bilde2 {
+    text-align: left;
+    background-color: rgba(29, 27, 27, 0.781);
+    border: none;
+    color: white;
+    padding: 15px 60;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+}
+
+/* Gjør at bakgrunnsbilde blir fint */
+.textimage {
+  background-color: rgba(221, 206, 206, 0.288);
+  background-image: url(../IMAGES/cabin-1082063.jpg);
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+/* Teksten blir sentrert og blir større og at det blir et nytt bilde*/
+.info1 {
+    margin-top: 100px;
+    text-align: center;
+    font-size: larger;
+    background-image: url(../IMAGES/IMG_0042_redigert1asdasdasd.png);
+    background-repeat: no-repeat;
+    background-size: 750px;
+    background-position: center;
+    background-position-y: top;
+}
+
+/* Utvider nettsiden */
+.hjelp1 {
+  height: 2000px;
+}
+
+/* Gjør info området fint*/
+.p1 {
+  text-align: center;
+  background-color: rgba(29, 27, 27, 0.781);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  margin-top: 350px;
+}
+
+/* Gir footer en bakgrunnsfarge, høyde og litt andre ting */
+.footer {
+    background-color: rgb(45, 46, 49);
+    height: 100px;
+    margin-top: 15px;
+    text-align: center;
+    position: relative;
+}
+
+/* Endrer tekstfargen*/
+.footer-text {
+  color: white;
+  text-align: center;
+}
+
+.her:link {
+  color: rgb(45, 46, 49);
+}
+
+/* visited link */
+.her:visited {
+  color: rgb(45, 46, 49);
+}
+
+/* mouse over link */
+.her:hover {
+  color: darkslategray;
+}
+
+/* selected link */
+.her:active {
+  color:darkslategray;
+}
+
+/* Gjør at de forskjellige områdene som var definert i starten er tilkoblet html */
+.header { grid-area: header; }
+.bilde1 { grid-area: bilde1; }
+.bilde2 { grid-area: bilde2; }
+.bilde3 { grid-area: bilde3; }
+.text1 { grid-area: text1; }
+.info1 { grid-area: info1; }
+.footer { grid-area: footer;}
+.textimage { grid-area: textimage;}
+
+.hjelp1 { grid-area: hjelp1;}
+.hjelp2 { grid-area: hjelp2;}
+
+.header1 { grid-area: header1; }
+.header2 { grid-area: header2; }
+.header3 { grid-area: header3; }
+.header4 { grid-area: header4; }
+.header5 { grid-area: header5; }
+.header6 { grid-area: header6; }
+.header7 { grid-area: header7; }
+.header8 { grid-area: header8; }
+.header9 { grid-area: header9; }
+.header10 { grid-area: header10; }
