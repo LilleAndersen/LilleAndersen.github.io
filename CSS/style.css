@@ -3,6 +3,13 @@
   src:url(../FONTS/Montserrat/Montserrat-Regular.ttf);
 }
 
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .header, .textimage, .info1, .footer {
+    width: 100%;
+  }
+}
+
 /* Gjør at siden blir delt inn i 5 like store kolonner*/
 .grid-container {
   display: grid;
@@ -21,7 +28,7 @@
   margin-left: 10px;
   margin-right: 10px;
   justify-content: space-evenly;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas:"header1 header1 header3 header4 header5 header6 header7 header8 header9 header10";
 }
 
