@@ -6,6 +6,7 @@
 /* Gjør at siden blir delt inn i 5 like store kolonner*/
 .grid-container {
   display: grid;
+  width: 100%;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   grid-template-areas:"header header header header header"
@@ -20,6 +21,306 @@
   display: grid;
   margin-left: 10px;
   margin-right: 10px;
+  justify-content: space-evenly;
+  grid-template-columns: 1fr;
+  grid-template-areas:"header1"
+                      "header2"
+                      "header3"
+                      "header4"
+                      "header5"
+                      "header6"
+                      "header7"
+                      "header8"
+                      "header9"
+                      "header10";
+}
+
+/* Textimage fra grid-container blir delt inn i egne deler*/ 
+.imagegrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: "emptyspace emptyspace emptyspace emptyspace emptyspace"
+                     "overskrift overskrift overskrift overskrift overskrift";
+}
+
+/* Setter bakgrunnsfarge */ 
+.body {
+  background-color: rgba(92, 84, 84, 0.342);
+  margin: 0%;
+}
+
+/* Setter bakgrunnsfarge, margin og skygge på header */
+.header {
+  padding: 20px 10px 20px 10px;
+  background-color: rgba(221, 206, 206, 0.288);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  margin: 10px;
+}
+
+/*Gjør at teksten blir sentrert*/ 
+.header1 {
+  text-align: center;
+  margin: -20px 0px 0px 0px;
+}
+
+/*Gjør at teksten blir sentrert*/ 
+.header8 {
+  text-align: center;
+  width: 100%;
+}
+
+/*Gjør at teksten blir sentrert*/ 
+.header9 {
+  text-align: center;
+  width: 100%;
+}
+
+/*Gjør at teksten blir sentrert*/ 
+.header10 {
+  text-align: center;
+  width: 100%;
+}
+
+/*Gjør knappen finere*/ 
+.link1 {
+  text-decoration: none;
+  color: white;
+}
+
+/* Gjør at dropdown menyen blir fin*/ 
+.dropbtn {
+  background-color: rgba(29, 27, 27, 0.781);
+  color: white;
+  font-size: 16px;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  padding: 15px 20px 15px 0px;
+  margin-top: 20px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  text-decoration: none;
+}
+
+.dropbtn:hover {
+  z-index: 0;
+}
+
+/* Gjør at dropdown menyen blir fin*/ 
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+/* Gjør at dropdown menyen blir fin*/ 
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 175px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  text-align: center;
+}
+
+/* Gjør at dropdown menyen blir fin*/ 
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Gjør at dropdown menyen blir fin*/ 
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Gjør at dropdown menyen blir fin*/ 
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Gjør at dropdown menyen blir fin*/ 
+.dropdown:hover .dropbtn {
+  background-color: darkslategray;
+  transition-duration: 0.4s;
+}
+
+/* Gjør at bilde blir så stor så jeg vil ha det.*/ 
+.emptyspace {
+  height: 100px;
+}
+
+/* Gjør at hovuddelen blir fin*/
+.navn1 {
+  background-color: rgba(29, 27, 27, 0.781);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 20px;
+}
+
+.overskrift {
+  text-align: center;
+  margin-bottom: 350px;
+}
+
+.overskrift1 {
+  margin-bottom: -250px;
+}
+
+/* Gjør at bakgrunnsbilde blir fint */
+.textimage {
+  background-color: rgba(221, 206, 206, 0.288);
+  background-image: url(../IMAGES/cabin-1082063.jpg);
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 0px 10px 0px 10px;
+}
+
+/* Gjør at bakgrunnsbilde blir fint */
+.textimage1 {
+  background-color: rgba(221, 206, 206, 0.288);
+  background-image: url(../IMAGES/cabin-1082058.jpg);
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+}
+
+/* Gjør info området fint*/
+.p1 {
+  text-align: center;
+  background-color: rgba(29, 27, 27, 0.781);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 100px 20px 100px 20px;
+  font-size: larger;
+}
+
+/* Gjør info området fint*/
+.p2 {
+  text-align: center;
+  background-color: rgba(29, 27, 27, 0.781);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 100px 20px 0px 20px;
+  font-size: larger;
+}
+
+
+.info1 {
+  text-align: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  box-shadow: 0px -150px 75px 75px #c6c4c5;
+  z-index: 1;
+}
+
+.info2 {
+  text-align: center;
+}
+
+.date1 {
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+/* Gir footer en bakgrunnsfarge, høyde og litt andre ting */
+.footer {
+  background-color: rgb(45, 46, 49);
+  height: 100px;
+  margin: 10px;
+  text-align: center;
+  position: relative;
+}
+
+/* Endrer tekstfargen*/
+.footer-text {
+  color: white;
+  text-align: center;
+}
+
+.her:link {
+  color: rgb(45, 46, 49);
+}
+
+/* visited link */
+.her:visited {
+  color: rgb(45, 46, 49);
+}
+
+/* mouse over link */
+.her:hover {
+  color: darkslategray;
+}
+
+/* selected link */
+.her:active {
+  color:darkslategray;
+}
+
+/* Gjør at de forskjellige områdene som var definert i starten er tilkoblet html */
+.header { grid-area: header; }
+.emptyspace { grid-area: emptyspace; }
+.overskrift { grid-area: overskrift; }
+.info1 { grid-area: info1; }
+.footer { grid-area: footer;}
+.textimage { grid-area: textimage;}
+
+.hjelp1 { grid-area: hjelp1;}
+.hjelp2 { grid-area: hjelp2;}
+
+.header1 { grid-area: header1; }
+.header2 { grid-area: header2; }
+.header3 { grid-area: header3; }
+.header4 { grid-area: header4; }
+.header5 { grid-area: header5; }
+.header6 { grid-area: header6; }
+.header7 { grid-area: header7; }
+.header8 { grid-area: header8; }
+.header9 { grid-area: header9; }
+.header10 { grid-area: header10; }
+
+/*  ↑  Alt over er css for mobil  ↑  */
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*  ↓  Alt under er css for pc  ↓  */
+
+
+@media only screen and (min-width:830px) {
+/* Gjør at siden blir delt inn i 5 like store kolonner*/
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  grid-template-areas:"header header header header header"
+                      "textimage textimage textimage textimage textimage"
+                      "textimage textimage textimage textimage textimage"
+                      "info1 info1 info1 info1 info1"
+                      "footer footer footer footer footer";
+}
+
+/* Header fra grid-container blir delt inn i 10 like store kolonner */  
+.headergrid {
+  display: grid;
+  margin: 0px 0px 0px 20px;
   justify-content: space-evenly;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas:"header1 header1 header3 header4 header5 header6 header7 header8 header9 header10";
@@ -51,7 +352,7 @@
 /*Gjør at teksten blir sentrert*/ 
 .header1 {
   text-align: left;
-  margin: 0px 0px 0px 10px;
+  margin: 0px 0px 0px 0px;
 }
 
 /*Gjør at teksten blir sentrert*/ 
@@ -73,8 +374,7 @@
 .link1 {
   text-decoration: none;
   color: white;
-  padding-left: 42px;
-  padding-right: 42px;
+  padding: 0px 25px 0px 25px;
 }
 
 /* Gjør at dropdown menyen blir fin*/ 
@@ -82,18 +382,18 @@
   background-color: rgba(29, 27, 27, 0.781);
   color: white;
   min-width: 175px;
+  width: initial;
   font-size: 16px;
   border: none;
   cursor: pointer;
   text-align: center;
   padding: 15px 0px 15px 0px;
-  margin: 0px 10px 0px 0px;
+  margin: 0px 20px 0px 0px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   text-decoration: none;
 }
 
 .dropbtn:hover {
-  transition: all 0.3s ease-in-out 0s, linear 0.3s, linear 0.01s;
   z-index: 0;
 }
 
@@ -108,11 +408,11 @@
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  min-width: 175px;
+  width: initial;
+  width: 100px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   text-align: left;
-  transition:ease-in 1s;
 }
 
 /* Gjør at dropdown menyen blir fin*/ 
@@ -290,3 +590,4 @@
 .header8 { grid-area: header8; }
 .header9 { grid-area: header9; }
 .header10 { grid-area: header10; }
+}
