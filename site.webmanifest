@@ -1,0 +1,14 @@
+{
+    "name": "Tobias' Skoleside",
+    "short_name": "Tobias' Skoleside",
+    "icons": [
+        {
+            "src": "/android-chrome-96x96.png?v=2",
+            "sizes": "96x96",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#da532c",
+    "background_color": "#da532c",
+    "display": "standalone"
+}
