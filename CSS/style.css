@@ -8,11 +8,11 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  grid-template-areas:"header header header header header"
+  grid-template-areas:"header    header    header    header    header"
                       "textimage textimage textimage textimage textimage"
                       "textimage textimage textimage textimage textimage"
-                      "info1 info1 info1 info1 info1"
-                      "footer footer footer footer footer";
+                      "info1     info1     info1     info1     info1"
+                      "footer    footer    footer    footer    footer";
 }
 
 /* Header fra grid-container blir delt inn i 10 like store kolonner */  
@@ -39,7 +39,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas: "emptyspace emptyspace emptyspace emptyspace emptyspace"
-                     "overskrift overskrift overskrift overskrift overskrift";
+                       "overskrift overskrift overskrift overskrift overskrift";
 }
 
 /* Setter bakgrunnsfarge */ 
@@ -565,32 +565,6 @@
   margin: 10px;
   text-align: center;
   position: relative;
-}
-
-/* Endrer tekstfargen*/
-.footer-text {
-  color: white;
-  text-align: center;
-}
-
-/* Link farge*/
-.her:link {
-  color: rgb(45, 46, 49);
-}
-
-/* Når besøkt link */
-.her:visited {
-  color: rgb(45, 46, 49);
-}
-
-/* Mus over link */
-.her:hover {
-  color: darkslategray;
-}
-
-/* Valgt link */
-.her:active {
-  color:darkslategray;
 }
 
 /* Gjør at de forskjellige områdene som var definert i starten er tilkoblet html */
