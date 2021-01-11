@@ -242,7 +242,6 @@
 }
 
 .img1 {
-  width: fit-content;
   width: 90%;
   height: 210px;
 }
@@ -543,9 +542,9 @@
   width: 750px;
 }
 
-.img1 {
-  width: 750px; 
-  height: 421,875px;
+.img1 { 
+  height: 600px;
+  width: 50%; 
 }
 
 /* Gir footer en bakgrunnsfarge, høyde og litt andre ting */
