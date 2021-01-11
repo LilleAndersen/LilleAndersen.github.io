@@ -3,7 +3,7 @@
   src:url(../FONTS/Montserrat/Montserrat-Regular.ttf);
 }
 
-/* Gjør at siden blir delt inn i 5 like store kolonner*/
+/* Gjør at siden blir delt inn i 5 like store kolonner og setter font*/
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -159,11 +159,13 @@
   margin: 4px 20px;
 }
 
+/* Utvider siden*/
 .overskrift {
   text-align: center;
   margin-bottom: 350px;
 }
 
+/* Utvider siden*/
 .overskrift1 {
   margin-bottom: -250px;
 }
@@ -205,7 +207,7 @@
   font-size: larger;
 }
 
-/* Gjør info området fint*/
+/* Gjør info området fint */
 .p2 {
   text-align: center;
   background-color: rgba(29, 27, 27, 0.781);
@@ -218,29 +220,30 @@
   font-size: larger;
 }
 
-
+/* Legger til skygge på info */
 .info1 {
   text-align: center;
-  align-items: center;
-  align-self: center;
-  align-content: center;
   box-shadow: 0px -150px 75px 75px #c6c4c5;
   z-index: 1;
 }
 
+/* Gjør at teksten er sentrert */
 .info2 {
   text-align: center;
 }
 
+/* Gjør at datoen teksten blir større*/
 .date1 {
   text-decoration: underline;
   font-size: 25px;
 }
 
+/* Endrer størrelse på bildet*/
 .img {
   width: 90%;
 }
 
+/* Endrer størrelse på bildet*/
 .img1 {
   width: 90%;
   height: 210px;
@@ -261,21 +264,22 @@
   text-align: center;
 }
 
+/* Link farge*/
 .her:link {
   color: rgb(45, 46, 49);
 }
 
-/* visited link */
+/* Når besøkt link */
 .her:visited {
   color: rgb(45, 46, 49);
 }
 
-/* mouse over link */
+/* Mus over link */
 .her:hover {
   color: darkslategray;
 }
 
-/* selected link */
+/* Valgt link */
 .her:active {
   color:darkslategray;
 }
@@ -310,7 +314,7 @@
 
 
 @media only screen and (min-width:830px) {
-/* Gjør at siden blir delt inn i 5 like store kolonner*/
+/* Gjør at siden blir delt inn i 5 like store kolonner og setter font*/
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -457,11 +461,13 @@
   display: inline-block;
 }
 
+/* Utvider siden*/
 .overskrift {
   text-align: center;
   margin-bottom: 600px;
 }
 
+/* Utvider siden*/
 .overskrift1 {
   margin-bottom: -250px;
 }
@@ -520,6 +526,7 @@
   font-size: larger;
 }
 
+/* Legger til skygge på info */
 .info1 {
   text-align: center;
   align-items: center;
@@ -529,19 +536,23 @@
   z-index: 1;
 }
 
+/* Gjør at teksten er sentrert */
 .info2 {
   text-align: center;
 }
 
+/* Gjør at datoen teksten blir større*/
 .date1 {
   text-decoration: underline;
   font-size: 25px;
 }
 
+/* Endrer størrelse på bildet */
 .img {
   width: 750px;
 }
 
+/* Endrer størrelse på bildet */
 .img1 { 
   height: 475px;
   width: 50%; 
@@ -562,21 +573,22 @@
   text-align: center;
 }
 
+/* Link farge*/
 .her:link {
   color: rgb(45, 46, 49);
 }
 
-/* visited link */
+/* Når besøkt link */
 .her:visited {
   color: rgb(45, 46, 49);
 }
 
-/* mouse over link */
+/* Mus over link */
 .her:hover {
   color: darkslategray;
 }
 
-/* selected link */
+/* Valgt link */
 .her:active {
   color:darkslategray;
 }
