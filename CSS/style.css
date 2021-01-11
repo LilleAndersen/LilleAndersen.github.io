@@ -241,6 +241,12 @@
   width: 90%;
 }
 
+.img1 {
+  width: fit-content;
+  width: 90%;
+  height: 210px;
+}
+
 /* Gir footer en bakgrunnsfarge, høyde og litt andre ting */
 .footer {
   background-color: rgb(45, 46, 49);
@@ -535,6 +541,11 @@
 
 .img {
   width: 750px;
+}
+
+.img1 {
+  width: 750px; 
+  height: 421,875px;
 }
 
 /* Gir footer en bakgrunnsfarge, høyde og litt andre ting */
