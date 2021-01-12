@@ -195,7 +195,7 @@
 }
 
 /* Gjør at bakgrunnsbilde blir fint */
-.main_konsept {
+.main_konsep {
   background-color: rgba(221, 206, 206, 0.288);
   background-image: url(../IMAGES/technology-1283624_1920.jpg);
   background-color: #cccccc;
@@ -208,7 +208,18 @@
 /* Gjør at bakgrunnsbilde blir fint */
 .main_produk {
   background-color: rgba(221, 206, 206, 0.288);
-  background-image: url(../IMAGES/technology-2125547_1920.jpg);
+  background-image: url(../IMAGES/camera-2598507_1920.jpg);
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Gjør at bakgrunnsbilde blir fint */
+.main_teknol {
+  background-color: rgba(221, 206, 206, 0.288);
+  background-image: url(../IMAGES/cup-of-coffee-1280537_1920.jpg);
   background-color: #cccccc;
   background-position: center;
   background-repeat: no-repeat;
