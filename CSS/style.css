@@ -183,7 +183,7 @@
 }
 
 /* Gjør at bakgrunnsbilde blir fint */
-.textimage1 {
+.main_homepage {
   background-color: rgba(221, 206, 206, 0.288);
   background-image: url(../IMAGES/cabin-1082058.jpg);
   background-color: #cccccc;
@@ -192,6 +192,28 @@
   background-size: cover;
   position: relative;
   background-attachment: fixed;
+}
+
+/* Gjør at bakgrunnsbilde blir fint */
+.main_konsept {
+  background-color: rgba(221, 206, 206, 0.288);
+  background-image: url(../IMAGES/technology-1283624_1920.jpg);
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Gjør at bakgrunnsbilde blir fint */
+.main_produk {
+  background-color: rgba(221, 206, 206, 0.288);
+  background-image: url(../IMAGES/technology-2125547_1920.jpg);
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 /* Gjør info området fint*/
@@ -471,30 +493,6 @@
 /* Utvider siden*/
 .overskrift1 {
   margin-bottom: -250px;
-}
-
-/* Gjør at bakgrunnsbilde blir fint */
-.main {
-  background-color: rgba(221, 206, 206, 0.288);
-  background-image: url(../IMAGES/cabin-1082063.jpg);
-  background-color: #cccccc;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  margin: 0px 10px 0px 10px;
-}
-
-/* Gjør at bakgrunnsbilde blir fint */
-.textimage1 {
-  background-color: rgba(221, 206, 206, 0.288);
-  background-image: url(../IMAGES/cabin-1082058.jpg);
-  background-color: #cccccc;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  background-attachment: fixed;
 }
 
 /* Gjør info området fint*/
