@@ -266,17 +266,17 @@
 
 /* Link farge*/
 .her:link {
-  color: rgb(45, 46, 49);
+  color:  rgba(92, 84, 84, 0.342);
 }
 
 /* Når besøkt link */
 .her:visited {
-  color: rgb(45, 46, 49);
+  color:  darkslategray;
 }
 
 /* Mus over link */
 .her:hover {
-  color: darkslategray;
+  color: rgba(221, 206, 206, 0.288);
 }
 
 /* Valgt link */
