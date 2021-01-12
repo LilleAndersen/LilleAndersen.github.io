@@ -8,11 +8,11 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  grid-template-areas:"header    header    header    header    header"
-                      "textimage textimage textimage textimage textimage"
-                      "textimage textimage textimage textimage textimage"
-                      "info1     info1     info1     info1     info1"
-                      "footer    footer    footer    footer    footer";
+  grid-template-areas:"header   header   header   header   header"
+                      "main     main     main     main     main"
+                      "main     main     main     main     main"
+                      "info1    info1    info1    info1    info1"
+                      "footer   footer   footer   footer   footer";
 }
 
 /* Header fra grid-container blir delt inn i 10 like store kolonner */  
@@ -171,7 +171,7 @@
 }
 
 /* Gjør at bakgrunnsbilde blir fint */
-.textimage {
+.main {
   background-color: rgba(221, 206, 206, 0.288);
   background-image: url(../IMAGES/cabin-1082063.jpg);
   background-color: #cccccc;
@@ -266,22 +266,22 @@
 
 /* Link farge*/
 .her:link {
-  color:  rgba(92, 84, 84, 0.342);
+  color: #c0bdbd;
 }
 
 /* Når besøkt link */
 .her:visited {
-  color:  darkslategray;
+  color: #c0bdbd;
 }
 
 /* Mus over link */
 .her:hover {
-  color: rgba(221, 206, 206, 0.288);
+  color: #a49c9c;
 }
 
 /* Valgt link */
 .her:active {
-  color:darkslategray;
+  color:#c0bdbd;
 }
 
 /* Gjør at de forskjellige områdene som var definert i starten er tilkoblet html */
@@ -290,7 +290,7 @@
 .overskrift { grid-area: overskrift; }
 .info1 { grid-area: info1; }
 .footer { grid-area: footer;}
-.textimage { grid-area: textimage;}
+.main { grid-area: main;}
 
 .hjelp1 { grid-area: hjelp1;}
 .hjelp2 { grid-area: hjelp2;}
@@ -306,6 +306,7 @@
 .header9 { grid-area: header9; }
 .header10 { grid-area: header10; }
 
+
 /*  ↑  Alt over er css for mobil  ↑  */
 
 /*------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -320,8 +321,8 @@
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   grid-template-areas:"header header header header header"
-                      "textimage textimage textimage textimage textimage"
-                      "textimage textimage textimage textimage textimage"
+                      "main main main main main"
+                      "main main main main main"
                       "info1 info1 info1 info1 info1"
                       "footer footer footer footer footer";
 }
@@ -473,7 +474,7 @@
 }
 
 /* Gjør at bakgrunnsbilde blir fint */
-.textimage {
+.main {
   background-color: rgba(221, 206, 206, 0.288);
   background-image: url(../IMAGES/cabin-1082063.jpg);
   background-color: #cccccc;
@@ -573,7 +574,7 @@
 .overskrift { grid-area: overskrift; }
 .info1 { grid-area: info1; }
 .footer { grid-area: footer;}
-.textimage { grid-area: textimage;}
+.main { grid-area: main;}
 
 .hjelp1 { grid-area: hjelp1;}
 .hjelp2 { grid-area: hjelp2;}
