@@ -279,7 +279,6 @@
 /* Endrer størrelse på bildet*/
 .img1 {
   width: 90%;
-  height: 210px;
 }
 
 /* Gir footer en bakgrunnsfarge, høyde og litt andre ting */
@@ -559,12 +558,11 @@
 
 /* Endrer størrelse på bildet */
 .img {
-  width: 750px;
+  width: 50%;
 }
 
 /* Endrer størrelse på bildet */
 .img1 { 
-  height: 475px;
   width: 50%; 
 }
 
