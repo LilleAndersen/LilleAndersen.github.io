@@ -544,6 +544,8 @@ body {
 .dropbtn {
   --dropbtn-bkg-color: #424242;
   --dropbtn-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  --dropbtn-txt-color: white;
+  --dropdown-hover-color:darkslategray;
 }
 
 .footer {
@@ -555,45 +557,49 @@ body {
 }
 
 body.dark-theme {
-  --body-bkg-color: #3d3d3d;
+  --body-bkg-color: #2F3136;
 }
 
 .header.dark-theme {
-  --hdr-bkg-color: #3d3d3d;
+  --hdr-bkg-color: #107e7d;
   --hdr-box-shadow: 16px 16px 16px 16px rgba(0,0,0,0.2);
   }
 
 .dropbtn.dark-theme {
-  --dropbtn-bkg-color: #3d3d3d;
+  --dropbtn-bkg-color: #17B5B2;
   --dropbtn-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  --dropbtn-txt-color: black;
+  --dropdown-hover-color: #007af5;
 }
 
 .footer.dark-theme {
-  --ftr-bkg-color: rgba(248, 231, 231, 0.575);
+  --ftr-bkg-color: #107e7d;
 }
 
 .footer-text.dark-theme {
   --ftr-txt-color: black;
 }
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
 
 body {
-  --body-bkg-color: #3d3d3d;
+  --body-bkg-color: #2F3136;
 }
 
 .header {
-  --hdr-bkg-color: #3d3d3d;
+  --hdr-bkg-color: #107e7d;
   --hdr-box-shadow: 16px 16px 16px 16px rgba(0,0,0,0.2);
   }
 
 .dropbtn {
-  --dropbtn-bkg-color: #3d3d3d;
+  --dropbtn-bkg-color: #17B5B2;
   --dropbtn-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  --dropbtn-txt-color: black;
+  --dropdown-hover-color:#007af5;
 }
 
 .footer {
-  --ftr-bkg-color: rgba(248, 231, 231, 0.575);
+  --ftr-bkg-color: #107e7d;
 }
 
 .footer-text {
@@ -612,7 +618,10 @@ body.light-theme {
 .dropbtn.light-theme {
   --dropbtn-bkg-color: 0px 8px 16px 0px rgba(0,0,0,0.2);
   --dropbtn-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  --dropbtn-txt-color:white;
+  --dropdown-hover-color:darkslategray;
 }
+
 
 .footer.light-theme {
   --ftr-bkg-color: rgb(45, 46, 49);
@@ -622,7 +631,7 @@ body.light-theme {
   --ftr-txt-color: white;
 }
 }
-*/
+
 
 
 /*  ↑  Alt over er css for vanlig CSS og Theme  ↑  */
@@ -639,6 +648,15 @@ body {
 .dropbtn {
   background-color: var(--dropbtn-bkg-color);
   box-shadow: var(--dropbtn-box-shadow);
+  color: var(--dropbtn-txt-color);
+}
+
+.dropdown:hover .dropbtn {
+  background-color: var(--dropdown-hover-color);
+}
+
+.link1 {
+  color: var(--dropbtn-txt-color);
 }
 
 .header {
