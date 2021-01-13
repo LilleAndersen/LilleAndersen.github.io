@@ -168,31 +168,20 @@
 /* Gjør at bakgrunnsbilde blir fint */
 .main {
   background-color: rgba(221, 206, 206, 0.288);
-  background-image: url(../IMAGES/cabin-1082063.jpg);
+  background-image: url(../IMAGES/cup-of-coffee-1280537_1920.jpg);
   background-color: #cccccc;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   margin: 0px 10px 0px 10px;
-}
-
-/* Gjør at bakgrunnsbilde blir fint */
-.main_homepage {
-  background-color: rgba(221, 206, 206, 0.288);
-  background-image: url(../IMAGES/cabin-1082058.jpg);
-  background-color: #cccccc;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
   background-attachment: fixed;
 }
 
 /* Gjør at bakgrunnsbilde blir fint */
 .main_konsep {
   background-color: rgba(221, 206, 206, 0.288);
-  background-image: url(../IMAGES/technology-1283624_1920.jpg);
+  background-image: url(../IMAGES/work-731198_1920.jpg);
   background-color: #cccccc;
   background-position: center;
   background-repeat: no-repeat;
@@ -214,7 +203,7 @@
 /* Gjør at bakgrunnsbilde blir fint */
 .main_teknol {
   background-color: rgba(221, 206, 206, 0.288);
-  background-image: url(../IMAGES/cup-of-coffee-1280537_1920.jpg);
+  background-image: url(../IMAGES/social-media-763731_1920.jpg);
   background-color: #cccccc;
   background-position: center;
   background-repeat: no-repeat;
@@ -244,7 +233,7 @@
   padding: 15px 32px;
   text-decoration: none;
   display: inline-block;
-  margin: 100px 20px 0px 20px;
+  margin: 0px 20px 0px 20px;
   font-size: larger;
 }
 
@@ -365,8 +354,8 @@
 .imagegrid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-areas: "emptyspace emptyspace emptyspace emptyspace emptyspace"
-                     "overskrift overskrift overskrift overskrift overskrift";
+  grid-template-areas:"emptyspace emptyspace emptyspace emptyspace emptyspace"
+                      "overskrift overskrift overskrift overskrift overskrift";
 }
 
 /* Setter bakgrunnsfarge, margin og skygge på header */
@@ -380,8 +369,6 @@
   text-align: left;
   margin: 0px 0px 0px 0px;
 }
-
-
 
 /*Gjør knappen finere*/ 
 .link1 {
@@ -433,23 +420,9 @@
   display: block;
 }
 
-/* Gjør at dropdown menyen blir fin*/ 
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-/* Gjør at dropdown menyen blir fin*/ 
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-/* Gjør at dropdown menyen blir fin*/ 
-.dropdown:hover .dropbtn {
-  background-color: darkslategray;
-  transition-duration: 0.4s;
-}
-
 /* Gjør at bilde blir så stor så jeg vil ha det.*/ 
 .emptyspace {
-  height: 350px;
+  height: 0px;
 }
 
 /* Gjør at hovuddelen blir fin*/
@@ -465,13 +438,14 @@
 
 /* Utvider siden*/
 .overskrift {
+  margin-top: 350px;
   text-align: center;
   margin-bottom: 600px;
 }
 
 /* Utvider siden*/
 .overskrift1 {
-  margin-bottom: -250px;
+  margin-bottom: -350px;
 }
 
 /* Gjør info området fint*/
