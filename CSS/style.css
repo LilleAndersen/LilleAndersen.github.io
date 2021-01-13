@@ -44,15 +44,12 @@
 
 /* Setter bakgrunnsfarge */ 
 .body {
-  background-color: rgba(92, 84, 84, 0.342);
   margin: 0%;
 }
 
 /* Setter bakgrunnsfarge, margin og skygge på header */
 .header {
   padding: 20px 10px 20px 10px;
-  background-color: rgba(221, 206, 206, 0.288);
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   margin: 10px;
 }
 
@@ -85,7 +82,6 @@
 
 /* Gjør at dropdown menyen blir fin*/ 
 .dropbtn {
-  background-color: rgba(29, 27, 27, 0.781);
   color: white;
   font-size: 16px;
   width: 100%;
@@ -94,7 +90,6 @@
   text-align: center;
   padding: 15px 0px 15px 0px;
   margin-top: 20px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   text-decoration: none;
 }
 
@@ -283,7 +278,6 @@
 
 /* Gir footer en bakgrunnsfarge, høyde og litt andre ting */
 .footer {
-  background-color: rgb(45, 46, 49);
   height: 100px;
   margin: 10px;
   text-align: center;
@@ -292,7 +286,6 @@
 
 /* Endrer tekstfargen*/
 .footer-text {
-  color: white;
   text-align: center;
 }
 
@@ -376,18 +369,9 @@
                      "overskrift overskrift overskrift overskrift overskrift";
 }
 
-/* Setter bakgrunnsfarge */ 
-.body {
-  background-color: rgba(92, 84, 84, 0.342);
-  margin: 0%;
-}
-
 /* Setter bakgrunnsfarge, margin og skygge på header */
 .header {
-  background-position-y: -250px;
   padding: 20px 0px 20px 0px;
-  background-color: rgba(221, 206, 206, 0.288);
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   margin: 10px;
 }
 
@@ -397,20 +381,7 @@
   margin: 0px 0px 0px 0px;
 }
 
-/*Gjør at teksten blir sentrert*/ 
-.header8 {
-  text-align: center;
-}
 
-/*Gjør at teksten blir sentrert*/ 
-.header9 {
-  text-align: center;
-}
-
-/*Gjør at teksten blir sentrert*/ 
-.header10 {
-  text-align: center;
-}
 
 /*Gjør knappen finere*/ 
 .link1 {
@@ -421,7 +392,6 @@
 
 /* Gjør at dropdown menyen blir fin*/ 
 .dropbtn {
-  background-color: rgba(29, 27, 27, 0.781);
   color: white;
   min-width: 175px;
   width: initial;
@@ -431,7 +401,6 @@
   text-align: center;
   padding: 15px 0px 15px 0px;
   margin: 0px 20px 0px 0px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   text-decoration: none;
 }
 
@@ -550,12 +519,6 @@
   text-align: center;
 }
 
-/* Gjør at datoen teksten blir større*/
-.date1 {
-  text-decoration: underline;
-  font-size: 25px;
-}
-
 /* Endrer størrelse på bildet */
 .img {
   width: 50%;
@@ -564,15 +527,6 @@
 /* Endrer størrelse på bildet */
 .img1 { 
   width: 50%; 
-}
-
-/* Gir footer en bakgrunnsfarge, høyde og litt andre ting */
-.footer {
-  background-color: rgb(45, 46, 49);
-  height: 100px;
-  margin: 10px;
-  text-align: center;
-  position: relative;
 }
 
 /* Gjør at de forskjellige områdene som var definert i starten er tilkoblet html */
@@ -596,4 +550,132 @@
 .header8 { grid-area: header8; }
 .header9 { grid-area: header9; }
 .header10 { grid-area: header10; }
+}
+
+/*  ↑  Alt over er css for vanlig CSS  ↑  */
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*  ↓  Alt under er css for Dark Mode og Light Mode  ↓  */
+
+body {
+  --body-bkg-color: rgba(92, 84, 84, 0.342);
+}
+
+.header {
+  --hdr-bkg-color: rgba(221, 206, 206, 0.288);
+  --hdr-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+
+.dropbtn {
+  --dropbtn-bkg-color: #424242;
+  --dropbtn-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.footer {
+  --ftr-bkg-color: rgb(45, 46, 49);
+}
+
+.footer-text {
+  --ftr-txt-color: white;
+}
+
+body.dark-theme {
+  --body-bkg-color: #3d3d3d;
+}
+
+.header.dark-theme {
+  --hdr-bkg-color: #3d3d3d;
+  --hdr-box-shadow: 16px 16px 16px 16px rgba(0,0,0,0.2);
+  }
+
+.dropbtn.dark-theme {
+  --dropbtn-bkg-color: #3d3d3d;
+  --dropbtn-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.footer.dark-theme {
+  --ftr-bkg-color: rgba(248, 231, 231, 0.575);
+}
+
+.footer-text.dark-theme {
+  --ftr-txt-color: black;
+}
+
+/* @media (prefers-color-scheme: dark) {
+
+body {
+  --body-bkg-color: #3d3d3d;
+}
+
+.header {
+  --hdr-bkg-color: #3d3d3d;
+  --hdr-box-shadow: 16px 16px 16px 16px rgba(0,0,0,0.2);
+  }
+
+.dropbtn {
+  --dropbtn-bkg-color: #3d3d3d;
+  --dropbtn-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.footer {
+  --ftr-bkg-color: rgba(248, 231, 231, 0.575);
+}
+
+.footer-text {
+  --ftr-txt-color: black;
+}
+
+body.light-theme {
+  --body-bkg-color: rgba(92, 84, 84, 0.342);
+}
+
+.header.light-theme {
+  --hdr-bkg-color: rgba(221, 206, 206, 0.288);
+  --hdr-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+
+.dropbtn.light-theme {
+  --dropbtn-bkg-color: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  --dropbtn-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.footer.light-theme {
+  --ftr-bkg-color: rgb(45, 46, 49);
+}
+
+.footer-text.light-theme {
+  --ftr-txt-color: white;
+}
+}
+*/
+
+
+/*  ↑  Alt over er css for vanlig CSS og Theme  ↑  */
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*  ↓  Alt under er css for Variabler  ↓  */
+
+
+body {
+  background-color: var(--body-bkg-color);
+}
+
+.dropbtn {
+  background-color: var(--dropbtn-bkg-color);
+  box-shadow: var(--dropbtn-box-shadow);
+}
+
+.header {
+  background-color: var(--hdr-bkg-color);
+  box-shadow: var(--hdr-box-shadow);
+}
+
+.footer {
+  background-color: var(--ftr-bkg-color);
+}
+
+.footer-text {
+  color: var(--ftr-txt-color);
 }
