@@ -580,7 +580,7 @@ body.dark-theme {
   --ftr-txt-color: black;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
 
 body {
   --body-bkg-color: #2F3136;
