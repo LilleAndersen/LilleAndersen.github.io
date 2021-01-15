@@ -503,6 +503,10 @@
   width: 50%; 
 }
 
+.img2 {
+  width: 60%;
+}
+
 /* Gjør at de forskjellige områdene som var definert i starten er tilkoblet html */
 .header { grid-area: header; }
 .emptyspace { grid-area: emptyspace; }
