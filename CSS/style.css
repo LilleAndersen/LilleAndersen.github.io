@@ -370,13 +370,6 @@
   margin: 0px 0px 0px 0px;
 }
 
-/*Gjør knappen finere*/ 
-.link1 {
-  text-decoration: none;
-  color: white;
-  padding: 0px 25px 0px 25px;
-}
-
 /* Gjør at dropdown menyen blir fin*/ 
 .dropbtn {
   color: white;
