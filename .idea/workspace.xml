@@ -8,17 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bee98fe4-341e-4398-a2ef-7d8e61cbc69b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/LilleAndersen.github.io.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/Konseptuvikling_og_prog_VG1/konseptutvikling_og_programmering_vg1.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/VG1/Konseptuvikling_og_prog_VG1/konseptutvikling_og_programmering_vg1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/Konseptuvikling_og_prog_VG1/mysql_oppgave_27.1.21.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/VG1/Konseptuvikling_og_prog_VG1/mysql_oppgave_27.1.21.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/Teknologiforståelse_VG1/teknologiforståelse_vg1.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/VG1/Teknologiforståelse_VG1/teknologiforståelse_vg1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/produksjon_og_historiefortelling_vg1.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/VG1/Produksjon_og_Historiefortelling_VG1/produksjon_og_historiefortelling_vg1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/VG1/Konseptuvikling_og_prog_VG1/konseptutvikling_og_programmering_vg1.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/VG1/Konseptuvikling_og_prog_VG1/konseptutvikling_og_programmering_vg1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/VG1/Konseptuvikling_og_prog_VG1/tutorial_oppgave_17.2.21.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/VG1/Konseptuvikling_og_prog_VG1/tutorial_oppgave_17.2.21.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +19,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,6 +45,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -61,19 +61,6 @@
       <recent name="G:\Min disk\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\HTML\VG1" />
       <recent name="G:\Min disk\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\HTML\Produksjon_og_Historiefortelling_VG1" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -93,6 +80,8 @@
       <workItem from="1612786903902" duration="2065000" />
       <workItem from="1612789002619" duration="1260000" />
       <workItem from="1612863669777" duration="19000" />
+      <workItem from="1613556202936" duration="663000" />
+      <workItem from="1613556888680" duration="67000" />
     </task>
     <servers />
   </component>
