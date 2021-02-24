@@ -36,7 +36,7 @@ body {
   a {
     font-weight: 300;
     color: #fff;
-    border-bottom: 1.5px solid #ccc6c6;
+    border-bottom: 2px solid #ccc6c6;
     text-decoration: none;
   }
   a:hover {
