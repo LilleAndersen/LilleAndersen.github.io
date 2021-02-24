@@ -106,7 +106,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="proofread" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -155,7 +155,7 @@
       <workItem from="1614152394121" duration="999000" />
       <workItem from="1614155680680" duration="567000" />
       <workItem from="1614162936319" duration="748000" />
-      <workItem from="1614181311367" duration="3248000" />
+      <workItem from="1614181311367" duration="3417000" />
     </task>
     <servers />
   </component>
