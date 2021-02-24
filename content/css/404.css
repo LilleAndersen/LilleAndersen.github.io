@@ -63,7 +63,7 @@ body {
     font-size: 18px;
   }
   input[type=text]:focus {
-    border-color:none; 
+    // border-color: none;
     border-bottom:2px solid #ccc;
     }
   
