@@ -8,10 +8,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bee98fe4-341e-4398-a2ef-7d8e61cbc69b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/LilleAndersen.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LilleAndersen.github.io.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/VG1/Konseptuvikling_og_prog_VG1/konseptutvikling_og_programmering_vg1.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/VG1/Konseptuvikling_og_prog_VG1/konseptutvikling_og_programmering_vg1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/VG1/Konseptuvikling_og_prog_VG1/tutorial_oppgave_17-24.2.21.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/VG1/Konseptuvikling_og_prog_VG1/tutorial_oppgave_17-24.2.21.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/VG1/Konseptuvikling_og_prog_VG1/tutorial_oppgave_17.2.21.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/404/404page.css" beforeDir="false" afterPath="$PROJECT_DIR$/404.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FONTS/Montserrat/Montserrat-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/VG1/Konseptuvikling_og_prog_VG1/konseptutvikling_og_programmering_vg1.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/VG1/KonPro/konseptutviklingOgProgrammering.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/VG1/Konseptuvikling_og_prog_VG1/mysql_oppgave_27.1.21.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/VG1/KonPro/mysqlOppgave_27.1.21.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/VG1/Konseptuvikling_og_prog_VG1/tutorial_oppgave_17-24.2.21.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/VG1/KonPro/tutorialOppgave_17-24.2.21.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/VG1/Produksjon_og_Historiefortelling_VG1/produksjon_og_historiefortelling_vg1.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/VG1/ProHis/produksjonOgHistoriefortelling.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/VG1/Teknologiforståelse_VG1/teknologiforståelse_vg1.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/VG1/Tek/teknologiforståelse_vg1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGES/IMG_0015_redigert1asd.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/images/IMG_0015_redigert1asd.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGES/IMG_0042_redigert1asdasdasd.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/images/IMG_0042_redigert1asdasdasd.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGES/IMG_9982_redigert1asd.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/images/IMG_9982_redigert1asd.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGES/IMG_9999_redigert1asd.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/images/IMG_9999_redigert1asd.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGES/MySQL CODE/1.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/content/images/MySQL CODE/1.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGES/MySQL CODE/2.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/content/images/MySQL CODE/2.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGES/MySQL CODE/3.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/content/images/MySQL CODE/3.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGES/cabin-1082058.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/images/cabin-1082058.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGES/cabin-1082063.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/images/cabin-1082063.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGES/camera-2598507_1920.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/images/camera-2598507_1920.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGES/cup-of-coffee-1280537_1920.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/images/cup-of-coffee-1280537_1920.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGES/game-2294201_1920.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/images/game-2294201_1920.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGES/iOS Icons/apple-touch-icon-114x114-precomposed.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/icons/apple-touch-icon-114x114-precomposed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGES/iOS Icons/apple-touch-icon-114x114.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/icons/apple-touch-icon-114x114.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGES/iOS Icons/apple-touch-icon-120x120-precomposed.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/icons/apple-touch-icon-120x120-precomposed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGES/iOS Icons/apple-touch-icon-120x120.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/icons/apple-touch-icon-120x120.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGES/iOS Icons/apple-touch-icon-57x57-precomposed.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/icons/apple-touch-icon-57x57-precomposed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGES/iOS Icons/apple-touch-icon-57x57.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/icons/apple-touch-icon-57x57.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGES/iOS Icons/apple-touch-icon-60x60-precomposed.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/icons/apple-touch-icon-60x60-precomposed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGES/iOS Icons/apple-touch-icon-60x60.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/icons/apple-touch-icon-60x60.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGES/iOS Icons/apple-touch-icon-72x72-precomposed.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/icons/apple-touch-icon-72x72-precomposed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGES/iOS Icons/apple-touch-icon-72x72.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/icons/apple-touch-icon-72x72.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGES/iOS Icons/apple-touch-icon-76x76-precomposed.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/icons/apple-touch-icon-76x76-precomposed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGES/iOS Icons/apple-touch-icon-76x76.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/icons/apple-touch-icon-76x76.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGES/iOS Icons/apple-touch-icon-precomposed.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/icons/apple-touch-icon-precomposed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGES/placeholder.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/images/placeholder.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGES/sever-3100049_1920.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/images/sever-3100049_1920.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGES/social-media-763731_1920.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/images/social-media-763731_1920.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGES/technology-1283624_1920.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/images/technology-1283624_1920.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGES/tutorial_task.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/content/images/tutorial_task.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGES/work-731198_1920.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/images/work-731198_1920.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/auto_resize.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/auto_resize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/theme_changer.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/theme_changer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-chrome-96x96.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/icons/android-chrome-96x96.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/icons/apple-touch-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/icons/favicon-16x16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/icons/favicon-32x32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/content/icons/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/icons/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mstile-150x150.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/icons/mstile-150x150.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,19 +97,34 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="proofread" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Min disk\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\content\icons" />
+      <recent name="G:\Min disk\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\content\images" />
+      <recent name="G:\Min disk\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io" />
       <recent name="G:\Min disk\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\HTML\VG1" />
       <recent name="G:\Min disk\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\HTML\Produksjon_og_Historiefortelling_VG1" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -84,6 +147,10 @@
       <workItem from="1613556202936" duration="663000" />
       <workItem from="1613556888680" duration="67000" />
       <workItem from="1613556975498" duration="996000" />
+      <workItem from="1614152394121" duration="999000" />
+      <workItem from="1614155680680" duration="567000" />
+      <workItem from="1614162936319" duration="748000" />
+      <workItem from="1614181311367" duration="2538000" />
     </task>
     <servers />
   </component>

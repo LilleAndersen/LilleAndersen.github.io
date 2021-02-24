@@ -1,8 +1,3 @@
-@font-face {
-  font-family: Montserrat;
-  src:url(../FONTS/Montserrat/Montserrat-Regular.ttf);
-}
-
 /* Gjør at siden blir delt inn i 5 like store kolonner og setter font*/
 .grid-container {
   display: grid;
@@ -168,7 +163,7 @@
 /* Gjør at bakgrunnsbilde blir fint */
 .main {
   background-color: rgba(221, 206, 206, 0.288);
-  background-image: url(../IMAGES/cup-of-coffee-1280537_1920.jpg);
+  background-image: url(content/images/cup-of-coffee-1280537_1920.jpg);
   background-color: #cccccc;
   background-position: center;
   background-repeat: no-repeat;
@@ -181,7 +176,7 @@
 /* Gjør at bakgrunnsbilde blir fint */
 .main_konsep {
   background-color: rgba(221, 206, 206, 0.288);
-  background-image: url(../IMAGES/work-731198_1920.jpg);
+  background-image: url(content/images/work-731198_1920.jpg);
   background-color: #cccccc;
   background-position: center;
   background-repeat: no-repeat;
@@ -192,7 +187,7 @@
 /* Gjør at bakgrunnsbilde blir fint */
 .main_produk {
   background-color: rgba(221, 206, 206, 0.288);
-  background-image: url(../IMAGES/camera-2598507_1920.jpg);
+  background-image: url(content/images/camera-2598507_1920.jpg);
   background-color: #cccccc;
   background-position: center;
   background-repeat: no-repeat;
@@ -203,7 +198,7 @@
 /* Gjør at bakgrunnsbilde blir fint */
 .main_teknol {
   background-color: rgba(221, 206, 206, 0.288);
-  background-image: url(../IMAGES/social-media-763731_1920.jpg);
+  background-image: url(content/images/social-media-763731_1920.jpg);
   background-color: #cccccc;
   background-position: center;
   background-repeat: no-repeat;
