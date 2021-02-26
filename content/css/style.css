@@ -16,7 +16,6 @@
   margin-left: 10px;
   margin-right: 10px;
   justify-content: space-evenly;
-  outline: none;
   grid-template-columns: 1fr;
   grid-template-areas:"header1"
                       "header2"
@@ -74,6 +73,10 @@
 .link1 {
   text-decoration: none;
   color: white;
+}
+
+button {
+  outline: none;
 }
 
 /* Gjør at dropdown menyen blir fin*/ 
