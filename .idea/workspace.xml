@@ -9,9 +9,11 @@
   <component name="ChangeListManager">
     <list default="true" id="bee98fe4-341e-4398-a2ef-7d8e61cbc69b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/a/konPro/mysqlOppgave_27.1.21.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/a/b/mysqlOppgave_27.1.21.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/a/konPro/tutorialOppgave_17-24.2.21.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/a/b/tutorialOppgave_17-24.2.21.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/a/b/mysqlOppgave_27.1.21.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/a/b/mysqlOppgave_27.1.21.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/a/b/tutorialOppgave_17-24.2.21.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/a/b/tutorialOppgave_17-24.2.21.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/a/medieproduksjon.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/a/medieproduksjon.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/a/programmering.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/a/programmering.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/a/teknologi.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/a/teknologi.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +113,7 @@
       <workItem from="1614247720878" duration="823000" />
       <workItem from="1614337730041" duration="1502000" />
       <workItem from="1615384599329" duration="1297000" />
-      <workItem from="1615385944771" duration="490000" />
+      <workItem from="1615385944771" duration="801000" />
     </task>
     <servers />
   </component>
