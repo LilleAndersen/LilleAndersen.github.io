@@ -164,10 +164,18 @@ button {
   margin-bottom: -250px;
 }
 
+.mainGithub {
+  position: fixed;
+  bottom: 1%;
+  left: 1%;
+  z-index: 100;
+  width: 1.5%;
+}
+
 /* Gjør at bakgrunnsbilde blir fint */
 .main {
   background-color: rgba(221, 206, 206, 0.288);
-  background-image: url(../../assets/images/cup-of-coffee-1280537_1920.jpg);
+  background-image: url(../images/cup-of-coffee-1280537_1920.jpg);
   background-color: #cccccc;
   background-position: center;
   background-repeat: no-repeat;
@@ -180,7 +188,7 @@ button {
 /* Gjør at bakgrunnsbilde blir fint */
 .main_konsep {
   background-color: rgba(221, 206, 206, 0.288);
-  background-image: url(../../assets/images/work-731198_1920.jpg);
+  background-image: url(../images/work-731198_1920.jpg);
   background-color: #cccccc;
   background-position: center;
   background-repeat: no-repeat;
@@ -191,7 +199,7 @@ button {
 /* Gjør at bakgrunnsbilde blir fint */
 .main_produk {
   background-color: rgba(221, 206, 206, 0.288);
-  background-image: url(../../assets/images/camera-2598507_1920.jpg);
+  background-image: url(../images/camera-2598507_1920.jpg);
   background-color: #cccccc;
   background-position: center;
   background-repeat: no-repeat;
@@ -202,7 +210,7 @@ button {
 /* Gjør at bakgrunnsbilde blir fint */
 .main_teknol {
   background-color: rgba(221, 206, 206, 0.288);
-  background-image: url(../../assets/images/social-media-763731_1920.jpg);
+  background-image: url(../images/social-media-763731_1920.jpg);
   background-color: #cccccc;
   background-position: center;
   background-repeat: no-repeat;
