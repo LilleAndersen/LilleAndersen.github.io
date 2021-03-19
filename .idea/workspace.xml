@@ -8,6 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bee98fe4-341e-4398-a2ef-7d8e61cbc69b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/images/mysqlOppgave_27.1.21.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/a/mysqlOppgave_27.1.21.php" afterDir="false" />
@@ -16,7 +17,7 @@
       <change beforePath="$PROJECT_DIR$/content/programmering.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/programmering.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/teknologi.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/teknologi.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,6 +117,7 @@
       <workItem from="1616171847972" duration="5230000" />
       <workItem from="1616183693874" duration="442000" />
       <workItem from="1616184165675" duration="177000" />
+      <workItem from="1616184364569" duration="300000" />
     </task>
     <servers />
   </component>
