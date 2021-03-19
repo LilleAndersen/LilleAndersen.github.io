@@ -520,26 +520,4 @@ button {
 .img2 {
   width: 60%;
 }
-
-/* Gjør at de forskjellige områdene som var definert i starten er tilkoblet html */
-.header { grid-area: header; }
-.emptyspace { grid-area: emptyspace; }
-.overskrift { grid-area: overskrift; }
-.info1 { grid-area: info1; }
-.footer { grid-area: footer;}
-.main { grid-area: main;}
-
-.hjelp1 { grid-area: hjelp1;}
-.hjelp2 { grid-area: hjelp2;}
-
-.header1 { grid-area: header1; }
-.header2 { grid-area: header2; }
-.header3 { grid-area: header3; }
-.header4 { grid-area: header4; }
-.header5 { grid-area: header5; }
-.header6 { grid-area: header6; }
-.header7 { grid-area: header7; }
-.header8 { grid-area: header8; }
-.header9 { grid-area: header9; }
-.header10 { grid-area: header10; }
 }
