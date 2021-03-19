@@ -7,18 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bee98fe4-341e-4398-a2ef-7d8e61cbc69b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/mysqlOppgave_27.1.21.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/mysqlOppgave_27.1.21.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/tutorialOppgave_17-24.2.21.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/tutorialOppgave_17-24.2.21.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/medie.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/medie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/programmering.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/programmering.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/teknologi.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/teknologi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
-    </list>
+    <list default="true" id="bee98fe4-341e-4398-a2ef-7d8e61cbc69b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,7 +103,7 @@
       <workItem from="1616050152397" duration="1388000" />
       <workItem from="1616059971744" duration="694000" />
       <workItem from="1616171645320" duration="186000" />
-      <workItem from="1616171847972" duration="1255000" />
+      <workItem from="1616171847972" duration="2126000" />
     </task>
     <servers />
   </component>
