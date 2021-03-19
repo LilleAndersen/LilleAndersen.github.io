@@ -37,6 +37,15 @@
                        "overskrift overskrift overskrift overskrift overskrift";
 }
 
+.buttonsGrid {
+  margin: 100px 30% -300px 30%;
+  position: center;
+  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "404button1 404button2 404button3";
+}
+
 /* Setter bakgrunnsfarge */ 
 .body {
   margin: 0;
@@ -96,6 +105,7 @@ button {
   background-color: #424242;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
+
 
 .dropbtn:hover {
   z-index: 0;
