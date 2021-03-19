@@ -9,4 +9,4 @@ RewriteRule ^(.*)$ $1.html [NC,L]
 
 # DirectoryIndex home.html
 
-# Redirect 301 /home.html
+Redirect 301 /home.html
