@@ -8,10 +8,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bee98fe4-341e-4398-a2ef-7d8e61cbc69b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/old404/bad404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/404.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/old404/bad404.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/a/mysqlOppgave_27.1.21.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/a/mysqlOppgave_27.1.21.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/a/tutorialOppgave_17-24.2.21.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/a/tutorialOppgave_17-24.2.21.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/medie.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/medie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/programmering.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/programmering.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/teknologi.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/teknologi.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/videoPlayer.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -151,7 +157,7 @@
       <workItem from="1616171847972" duration="5230000" />
       <workItem from="1616183693874" duration="442000" />
       <workItem from="1616184165675" duration="177000" />
-      <workItem from="1616184364569" duration="4925000" />
+      <workItem from="1616184364569" duration="6238000" />
     </task>
     <servers />
   </component>
