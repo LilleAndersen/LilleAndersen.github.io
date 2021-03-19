@@ -40,12 +40,15 @@
 /* Setter bakgrunnsfarge */ 
 .body {
   margin: 0;
+  background-color: rgba(92, 84, 84, 0.342);
 }
 
 /* Setter bakgrunnsfarge, margin og skygge på header */
 .header {
   padding: 20px 10px;
   margin: 10px;
+  background-color: rgba(221, 206, 206, 0.288);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 /*Gjør at teksten blir sentrert*/ 
@@ -90,6 +93,8 @@ button {
   padding: 15px 0 15px 0;
   margin-top: 20px;
   text-decoration: none;
+  background-color: #424242;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .dropbtn:hover {
@@ -279,11 +284,13 @@ button {
   margin: 10px;
   text-align: center;
   position: relative;
+  background-color: rgb(45, 46, 49);
 }
 
 /* Endrer tekstfargen*/
 .footer-text {
   text-align: center;
+  color: white;
 }
 
 /* Link farge*/
@@ -535,150 +542,4 @@ button {
 .header8 { grid-area: header8; }
 .header9 { grid-area: header9; }
 .header10 { grid-area: header10; }
-}
-
-/*  ↑  Alt over er css for vanlig CSS  ↑  */
-
-/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-
-/*  ↓  Alt under er css for Dark Mode og Light Mode  ↓  */
-
-body {
-  --body-bkg-color: rgba(92, 84, 84, 0.342);
-}
-
-.header {
-  --hdr-bkg-color: rgba(221, 206, 206, 0.288);
-  --hdr-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-
-.dropbtn {
-  --dropbtn-bkg-color: #424242;
-  --dropbtn-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  --dropbtn-txt-color: white;
-  --dropdown-hover-color:darkslategray;
-}
-
-.footer {
-  --ftr-bkg-color: rgb(45, 46, 49);
-}
-
-.footer-text {
-  --ftr-txt-color: white;
-}
-
-body.dark-theme {
-  --body-bkg-color: #2F3136;
-}
-
-.header.dark-theme {
-  --hdr-bkg-color: #107e7d;
-  --hdr-box-shadow: 16px 16px 16px 16px rgba(0,0,0,0.2);
-  }
-
-.dropbtn.dark-theme {
-  --dropbtn-bkg-color: #17B5B2;
-  --dropbtn-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  --dropbtn-txt-color: black;
-  --dropdown-hover-color: #007af5;
-}
-
-.footer.dark-theme {
-  --ftr-bkg-color: #107e7d;
-}
-
-.footer-text.dark-theme {
-  --ftr-txt-color: black;
-}
-
-/* @media (prefers-color-scheme: dark) {
-
-body {
-  --body-bkg-color: #2F3136;
-}
-
-.header {
-  --hdr-bkg-color: #107e7d;
-  --hdr-box-shadow: 16px 16px 16px 16px rgba(0,0,0,0.2);
-  }
-
-.dropbtn {
-  --dropbtn-bkg-color: #17B5B2;
-  --dropbtn-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  --dropbtn-txt-color: black;
-  --dropdown-hover-color:#007af5;
-}
-
-.footer {
-  --ftr-bkg-color: #107e7d;
-}
-
-.footer-text {
-  --ftr-txt-color: black;
-}
-
-body.light-theme {
-  --body-bkg-color: rgba(92, 84, 84, 0.342);
-}
-
-.header.light-theme {
-  --hdr-bkg-color: rgba(221, 206, 206, 0.288);
-  --hdr-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-
-.dropbtn.light-theme {
-  --dropbtn-bkg-color: 0 8px 16px 0 rgba(0,0,0,0.2);
-  --dropbtn-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  --dropbtn-txt-color:white;
-  --dropdown-hover-color:darkslategray;
-}
-
-
-.footer.light-theme {
-  --ftr-bkg-color: rgb(45, 46, 49);
-}
-
-.footer-text.light-theme {
-  --ftr-txt-color: white;
-}
-}
-
-
-
-/*  ↑  Alt over er css for vanlig CSS og Theme  ↑  */
-
-/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-
-/*  ↓  Alt under er css for Variabler  ↓  */
-
-
-body {
-  background-color: var(--body-bkg-color);
-}
-
-.dropbtn {
-  background-color: var(--dropbtn-bkg-color);
-  box-shadow: var(--dropbtn-box-shadow);
-  color: var(--dropbtn-txt-color);
-}
-
-.dropdown:hover .dropbtn {
-  background-color: var(--dropdown-hover-color);
-}
-
-.link1 {
-  color: var(--dropbtn-txt-color);
-}
-
-.header {
-  background-color: var(--hdr-bkg-color);
-  box-shadow: var(--hdr-box-shadow);
-}
-
-.footer {
-  background-color: var(--ftr-bkg-color);
-}
-
-.footer-text {
-  color: var(--ftr-txt-color);
 }
