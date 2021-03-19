@@ -5,7 +5,7 @@
 <meta charset="UTF-8">
 <head>
     <!-- Forteller HTML dokumentet hvor den skal leite for CSS dokumentet -->
-    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../../assets/css/style.css">
 
     <link rel="apple-touch-icon" sizes="120x120" href="/assets/icons/apple-touch-icon.png?v=2">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png?v=2">
@@ -40,7 +40,7 @@
         <div class="headergrid noselect">
             <!-- Gjør at knappen leder den som trykker der den skal -->
             <div class="header1">
-                <a href="../../home.html" class="link1">  <button class="dropbtn">Tobias' Skoleside</button></a>
+                <a href="../../home.php" class="link1">  <button class="dropbtn">Tobias' Skoleside</button></a>
             </div>
             <div class="header5">
             </div>
@@ -49,9 +49,9 @@
                 <div class="dropdown">
                     <button class="dropbtn"> Fag VG1 </button>
                     <div class="dropdown-content">
-                        <a href="../../content/teknologi.html">Teknologiforståelse</a>
-                        <a href="../../content/programmering.html">Konseptutvikling og Programmering</a>
-                        <a href="../../content/medie.html">Produksjon og Historiefortelling</a>
+                        <a href="../teknologi.php">Teknologiforståelse</a>
+                        <a href="../programmering.php">Konseptutvikling og Programmering</a>
+                        <a href="../medie.php">Produksjon og Historiefortelling</a>
                     </div>
                 </div>
             </div>
@@ -103,7 +103,7 @@
         <p class="p1"> <a class="date1">Oppgave 2 <br></a> Placehold <br>Placehold <br>Placehold <br>Placehold</p>
     </div>
 
-    <a href="https://github.com/LilleAndersen/LilleAndersen.github.io"> <img src="../logos/mark-github-512.png" class="mainGithub" alt="Github logo"> </a>
+    <a href="https://github.com/LilleAndersen/LilleAndersen.github.io"> <img src="../../assets/logos/mark-github-512.png" class="mainGithub" alt="Github logo"> </a>
 
     <!-- Bunninfo -->
     <div class="footer">

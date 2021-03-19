@@ -40,16 +40,16 @@
         <div class="headergrid noselect">
             <!-- Gjør at knappen leder den som trykker der den skal -->
             <div class="header1">
-                <a href="home.html" class="link1">  <button class="dropbtn">Tobias' Skoleside</button></a>
+                <a href="home.php" class="link1">  <button class="dropbtn">Tobias' Skoleside</button></a>
     </div>
         <div class="header8">
             <!-- Dropdown menyen -->
             <div class="dropdown">
                 <button class="dropbtn">Fag VG1</button>
                 <div class="dropdown-content">
-                  <a href="content/teknologi.html" >Teknologiforståelse</a>
-                  <a href="content/programmering.html">Konseptutvikling og Programmering</a>
-                  <a href="content/medie.html">Produksjon og Historiefortelling</a>
+                  <a href="content/teknologi.php" >Teknologiforståelse</a>
+                  <a href="content/programmering.php">Konseptutvikling og Programmering</a>
+                  <a href="content/medie.php">Produksjon og Historiefortelling</a>
                 </div>
               </div> 
             </div>

@@ -8,9 +8,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bee98fe4-341e-4398-a2ef-7d8e61cbc69b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/mysqlOppgave_27.1.21.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/a/mysqlOppgave_27.1.21.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/tutorialOppgave_17-24.2.21.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/a/tutorialOppgave_17-24.2.21.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/medie.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/medie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/programmering.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/programmering.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/teknologi.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/teknologi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +58,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="proofread" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -60,11 +66,11 @@
       <recent name="G:\Min disk\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\content\html\vg1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\Min disk\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\content" />
-      <recent name="G:\Min disk\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\assets\images" />
-      <recent name="G:\Min disk\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\assets" />
-      <recent name="G:\Min disk\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\content\a\images" />
       <recent name="G:\Min disk\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\content\a" />
+      <recent name="G:\Min disk\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\content" />
+      <recent name="G:\Min disk\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\assets" />
+      <recent name="G:\Min disk\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\assets\images" />
+      <recent name="G:\Min disk\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\content\a\images" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -108,6 +114,8 @@
       <workItem from="1616059971744" duration="694000" />
       <workItem from="1616171645320" duration="186000" />
       <workItem from="1616171847972" duration="5230000" />
+      <workItem from="1616183693874" duration="442000" />
+      <workItem from="1616184165675" duration="177000" />
     </task>
     <servers />
   </component>
