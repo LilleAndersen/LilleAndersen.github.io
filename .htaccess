@@ -7,4 +7,4 @@ RewriteRule ^(.*)$ $1.html [NC,L]
 
 # DirectoryIndex home.html
 
-# Redirect 301 / https://little.yessness.com/home.html
+Redirect 301 / https://little.yessness.com/home.html
