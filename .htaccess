@@ -19,6 +19,8 @@ Options -Indexes
 
 ErrorDocument 404 /404.html
 
+Redirect /github https://github.com/lilleandersen/lilleandersen.github.io
+
 # ↓ Doesnt' work ↓
 
 # DirectoryIndex home.html
