@@ -7,9 +7,6 @@ RewriteRule ^(.*)$ $1.html [NC,L]
 
 Options -Indexes
 
-ErrorDocument 404 https://little.yessness.com/404
-
-
 # ↓ Doesnt' work ↓
 
 # DirectoryIndex home.html
