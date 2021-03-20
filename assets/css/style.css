@@ -52,6 +52,17 @@
   background-color: rgba(92, 84, 84, 0.342);
 }
 
+.splashBody {
+  background-color: rgba(221, 206, 206, 1);
+}
+
+.loading {
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+  position: absolute;
+}
+
 /* Setter bakgrunnsfarge, margin og skygge på header */
 .header {
   padding: 20px 10px;
