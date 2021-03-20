@@ -7,12 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bee98fe4-341e-4398-a2ef-7d8e61cbc69b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/old404/bad404.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/old404/bad404.html" beforeDir="false" />
-    </list>
+    <list default="true" id="bee98fe4-341e-4398-a2ef-7d8e61cbc69b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -132,7 +127,7 @@
       <workItem from="1616184364569" duration="6777000" />
       <workItem from="1616242504258" duration="407000" />
       <workItem from="1616242930044" duration="1819000" />
-      <workItem from="1616244862168" duration="1347000" />
+      <workItem from="1616244862168" duration="1668000" />
     </task>
     <servers />
   </component>
