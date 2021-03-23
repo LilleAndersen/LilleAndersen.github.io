@@ -65,7 +65,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="ReaderModeSettings">
@@ -135,6 +135,7 @@
       <workItem from="1616517731381" duration="14000" />
       <workItem from="1616519136025" duration="380000" />
       <workItem from="1616519788337" duration="3000" />
+      <workItem from="1616522420562" duration="2713000" />
     </task>
     <servers />
   </component>
