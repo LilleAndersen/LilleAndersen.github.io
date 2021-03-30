@@ -27,4 +27,4 @@ RewriteRule ^(.*)$ $1.html [NC,L]
 
 # ErrorDocument 404 /404.html
 
-#Redirect /github https://github.com/lilleandersen/lilleandersen.github.io
+# Redirect /github https://github.com/lilleandersen/lilleandersen.github.io
