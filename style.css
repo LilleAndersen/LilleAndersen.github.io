@@ -1,11 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
 
-html {
+* {
+    cursor: url('assets/logos/cursor-black (Custom).png') 8 8, auto;
     scroll-behavior: smooth;
 }
 
-#home {
-    background-color: #242482;
+#home, #school {
+    background: rgb(23,23,82);
+    background: linear-gradient(225deg, rgba(23,23,82,1) 0%, rgba(36,36,130,1) 50%, rgba(55,55,199,1) 100%);
     display: grid;
     grid-template-columns: 1fr;
     grid-template-areas: "header"
@@ -42,7 +44,7 @@ html {
     width: initial;
     font-size: 20px;
     border: none;
-    cursor: pointer;
+    cursor: none;
     padding: 20px;
     text-decoration: none;
     user-select: none;
@@ -83,11 +85,35 @@ html {
 
 #info {
     font-size: 25px;
-    margin: 700px 0 400px 0;
+    margin: 700px 0 350px 0;
+}
+
+.mainbtn {
+    margin: 0 20px;
+}
+
+#backtotop {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 15px;
+    z-index: 100;
+    opacity: 0;
+    transition: ease 250ms;
+}
+
+.logo {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    margin: 5px;
+    background-color: transparent;
 }
 
 .splashscreen {
-    background-color: #242482;
+    background: rgb(23,23,82);
+    background: linear-gradient(225deg, rgba(23,23,82,1) 0%, rgba(36,36,130,1) 50%, rgba(55,55,199,1) 100%);
 }
 
 .loading {
@@ -98,8 +124,46 @@ html {
     position: absolute;
 }
 
-::-webkit-scrollbar {
+#home::-webkit-scrollbar {
     display: none;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #242482;
+    color: #242482;
+    display: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(242,78,112,1);
+    border-radius: 30px;
+}
+
+::-webkit-scrollbar-track-piece {
+
+}
+
+.rotate {
+    transition: transform ease-in-out 0.2s;
+}
+
+.rotate:hover {
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: scale(1.1) rotate(360deg);
 }
 
 .main { grid-area: main; }

@@ -8,10 +8,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bee98fe4-341e-4398-a2ef-7d8e61cbc69b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/icons/android-chrome-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/android-chrome-256x256.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/site.webmanifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/logos/GitHub-Mark-120px-plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/logos/cursor (Custom).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/logos/cursor-black (Custom).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/logos/cursor-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/logos/cursor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/scrollbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/logos/Spin-1s-200px.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/logos/Spin-1s-200px.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/android-chrome-96x96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/apple-touch-icon-114x114-precomposed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/apple-touch-icon-114x114.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/apple-touch-icon-120x120-precomposed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/apple-touch-icon-120x120.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/apple-touch-icon-57x57-precomposed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/apple-touch-icon-57x57.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/apple-touch-icon-60x60-precomposed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/apple-touch-icon-60x60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/apple-touch-icon-72x72-precomposed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/apple-touch-icon-72x72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/apple-touch-icon-76x76-precomposed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/apple-touch-icon-76x76.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/apple-touch-icon-precomposed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/apple-touch-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/favicon-16x16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/favicon-32x32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/mstile-150x150.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/mstile-150x150.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/safari-pinned-tab.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/safari-pinned-tab.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/logos/mark-github-512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/site.webmanifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/browserconfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/browserconfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/a/mysqlOppgave_27.1.21.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/a/mysqlOppgave_27.1.21.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/a/tutorialOppgave_17-24.2.21.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/a/tutorialOppgave_17-24.2.21.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/personalwork.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/freetime.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/schoolwork.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/school.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +64,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -43,8 +81,8 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/style.css" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/404.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/style.css" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/index.html" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/.htaccess" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -54,11 +92,15 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1o3rn9QHaa1GImo9D7GUVgWQ2OM" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -69,7 +111,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="ReaderModeSettings">
@@ -80,11 +122,11 @@
       <recent name="G:\Min disk\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\content\html\vg1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\Min disk\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io" />
+      <recent name="G:\Min disk\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\assets\icons" />
       <recent name="G:\Min disk\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\assets" />
+      <recent name="G:\Min disk\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io" />
       <recent name="G:\Min disk\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\assets\old404" />
       <recent name="G:\Min disk\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\assets\old 404 page" />
-      <recent name="G:\Min disk\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\content\a" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -158,6 +200,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
