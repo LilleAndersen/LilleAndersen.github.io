@@ -135,18 +135,12 @@
 /* Track */
 ::-webkit-scrollbar-track {
     background: #242482;
-    color: #242482;
-    display: none;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
     background: rgba(242,78,112,1);
     border-radius: 30px;
-}
-
-::-webkit-scrollbar-track-piece {
-
 }
 
 .rotate {
