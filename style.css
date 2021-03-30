@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+#home {
+    background-color: #242482;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "header"
+                         "main";
+}
+
+#header {
+    margin: 2% 20% 0 20%;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr 1fr;
+    grid-template-areas: "homebtn help schoolbtn otherbtn";
+}
+
+.homebtn {
+
+}
+
+.schoolbtn {
+
+}
+
+.otherbtn {
+    margin-left: 25px;
+}
+
+/* Gjør at dropdown menyen blir fin
+.btn {
+    background: rgb(251,99,81);
+    background: linear-gradient(90deg, rgba(251,99,81,1) 0%, rgba(246,89,95,1) 50%, rgba(242,78,112,1) 100%);
+    color: #242482;
+    min-width: 195px;
+    width: initial;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    padding: 20px;
+    text-decoration: none;
+    user-select: none;
+    border-radius: 35px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+} */
+
+.btn {
+    color: #242482;
+    min-width: 195px;
+    width: initial;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    padding: 20px;
+    text-decoration: none;
+    user-select: none;
+    border-radius: 35px;
+    display: block;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    outline: none;
+
+
+    background: rgb(251,99,81);
+    background: linear-gradient(to right, rgba(255,151,139,1) 0%, rgba(249,124,128,1) 50%, rgba(242,115,142,1) 50%, rgba(251,99,81,1) 0%, rgba(246,89,95,1) 50%, rgba(242,78,112,1) 100%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+}
+
+.btn:hover {
+    color: white;
+    background-position: left bottom;
+}
+
+.main { grid-area: main; }
+.header { grid-area: header; }
+.help { grid-area: help; }
+#homebtn { grid-area: homebtn; }
+#schoolbtn { grid-area: schoolbtn; }
+#otherbtn { grid-area: otherbtn; }
