@@ -8,8 +8,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bee98fe4-341e-4398-a2ef-7d8e61cbc69b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/a/mysqlOppgave_27.1.21.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/a/mysqlOppgave_27.1.21.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/a/tutorialOppgave_17-24.2.21.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/a/tutorialOppgave_17-24.2.21.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/media.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/schoolwork.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/programming.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/technology.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +145,7 @@
       <workItem from="1616519136025" duration="380000" />
       <workItem from="1616519788337" duration="3000" />
       <workItem from="1616522420562" duration="3310000" />
-      <workItem from="1617103432062" duration="589000" />
+      <workItem from="1617103432062" duration="1404000" />
     </task>
     <servers />
   </component>
