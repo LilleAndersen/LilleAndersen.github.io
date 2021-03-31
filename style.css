@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
 
 * {
-    cursor: url('assets/logos/cursor-black (Custom).png') 8 8, auto;
+    cursor: url('assets/logos/cursor-purple (Custom).png') 8 8, auto;
     scroll-behavior: smooth;
 }
 
 #home, #school {
-    background: rgb(23,23,82);
-    background: linear-gradient(225deg, rgba(23,23,82,1) 0%, rgba(36,36,130,1) 50%, rgba(55,55,199,1) 100%);
+    background: rgb(255,255,255);
+    background: linear-gradient(225deg, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 50%, rgba(228,228,228,1) 100%);
     display: grid;
     grid-template-columns: 1fr;
     grid-template-areas: "header"
@@ -15,10 +15,6 @@
 }
 
 #header {
-
-    padding: 25px;
-    border-radius: 250000000px;
-    box-shadow: rgba(0, 0, 0, 0.15) 0 8px 16px 8px;
     margin: 2% 20% 5% 20%;
     display: grid;
     grid-template-columns: 1fr 7fr 1fr 1fr;
@@ -42,7 +38,7 @@
 }
 
 .btn {
-    color: #242482;
+    color: white;
     min-width: 165px;
     max-width: 250px;
     width: initial;
@@ -60,22 +56,22 @@
     box-shadow: rgba(0, 0, 0, 0.15) 0 8px 16px 8px;
 
 
-    background: rgb(251,99,81);
-    background: linear-gradient(to right, rgba(255,151,139,1) 0%, rgba(249,124,128,1) 50%, rgba(242,115,142,1) 50%, rgba(251,99,81,1) 0%, rgba(246,89,95,1) 50%, rgba(242,78,112,1) 100%);
+    background: #42273b;
+    background: linear-gradient(to right, white 50%, rgba(68,46,62,1) 0%, rgba(66,39,59,1) 50%, rgba(66,29,57,1) 100%);
     background-size: 200% 100%;
     background-position: right bottom;
     transition: all .5s ease-out;
 }
 
 .btn:hover {
-    color: white;
+    color: #42273b;
     background-position: left bottom;
 }
 
 .main {
     margin: 0 20% 0 20%;
     text-align: center;
-    color: white;
+    color: #42273b;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -117,8 +113,8 @@
 }
 
 .splashscreen {
-    background: rgb(23,23,82);
-    background: linear-gradient(225deg, rgba(23,23,82,1) 0%, rgba(36,36,130,1) 50%, rgba(55,55,199,1) 100%);
+    background: rgb(68,46,62);
+    background: linear-gradient(225deg, rgba(68,46,62,1) 0%, rgba(66,39,59,1) 50%, rgba(66,29,57,1) 100%);
 }
 
 .loading {
@@ -139,13 +135,13 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: #242482;
+    background: #F5F5F5;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: rgba(242,78,112,1);
-    border-radius: 30px;
+    background: #42273B;
+    border-radius: 300000000px;
 }
 
 .rotate {
