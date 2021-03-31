@@ -38,14 +38,14 @@
 .morebtn {
     min-width: 165px !important;
     max-width: 250px !important;
-    background-color: rgb(251,99,81);
+    background: rgb(251,99,81);
+    background: linear-gradient(to right, rgba(255,151,139,1) 0%, rgba(249,124,128,1) 50%, rgba(242,115,142,1) 50%, rgba(251,99,81,1) 0%, rgba(246,89,95,1) 50%, rgba(242,78,112,1) 100%);
     background-size: 200% 100%;
+    transition: all .5s ease-out;
 }
 
 .morebtn:hover {
     color: white !important;
-    background-color: rgb(251,99,81);
-    background-size: 200% 100%;
     transition: all .5s ease-out;
 
 }
