@@ -36,12 +36,14 @@
 }
 
 .morebtn {
-
+    min-width: 165px !important;
+    max-width: 250px !important;
+    background-color: rgb(251,99,81);
+    background-size: 200% 100%;
 }
 
 .morebtn:hover {
     color: white !important;
-    min-width: ;
     background-color: rgb(251,99,81);
     background-size: 200% 100%;
     transition: all .5s ease-out;
