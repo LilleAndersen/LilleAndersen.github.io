@@ -15,10 +15,6 @@
 }
 
 #header {
-
-    padding: 25px;
-    border-radius: 250000000px;
-    box-shadow: rgba(0, 0, 0, 0.15) 0 8px 16px 8px;
     margin: 2% 20% 5% 20%;
     display: grid;
     grid-template-columns: 1fr 7fr 1fr 1fr;
