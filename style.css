@@ -113,8 +113,8 @@
 }
 
 .splashscreen {
-    background: rgb(68,46,62);
-    background: linear-gradient(225deg, rgba(68,46,62,1) 0%, rgba(66,39,59,1) 50%, rgba(66,29,57,1) 100%);
+    background: rgb(255,255,255);
+    background: linear-gradient(225deg, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 50%, rgba(228,228,228,1) 100%);
 }
 
 .loading {
