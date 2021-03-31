@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
 
 * {
-    cursor: url('assets/logos/cursor-black (Custom).png') 8 8, auto;
+
     scroll-behavior: smooth;
 }
 
 #home, #school {
     background: rgb(23,23,82);
-    background: linear-gradient(225deg, rgba(23,23,82,1) 0%, rgba(36,36,130,1) 50%, rgba(55,55,199,1) 100%);
+    background: linear-gradient(225deg, rgba(23,23,82,0.95) 0%, rgba(36,36,130,1) 50%, rgba(55,55,199,1) 100%);
     display: grid;
     grid-template-columns: 1fr;
     grid-template-areas: "header"
@@ -16,9 +16,10 @@
 
 #header {
     margin: 2% 20% 5% 20%;
+    justify-content: space-evenly;
     display: grid;
-    grid-template-columns: 1fr 7fr 1fr 1fr;
-    grid-template-areas: "homebtn help schoolbtn otherbtn";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "homebtn schoolbtn otherbtn";
 }
 
 .homebtn {
@@ -30,22 +31,20 @@
 }
 
 .otherbtn {
+    text-align: center;
     margin-left: 25px;
 }
 
-.otherbtn {
-    text-align: center;
+.morebtn {
+    
 }
 
 .btn {
-    color: #242482;
-    min-width: 165px;
-    max-width: 250px;
-    width: initial;
-    font-size: 20px;
+    color: white;
+    font-size: 25px;
     border: none;
-    cursor: none;
-    padding: 20px;
+    cursor: pointer;
+    padding: 10px;
     text-decoration: none;
     user-select: none;
     border-radius: 35px;
@@ -53,19 +52,15 @@
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
     outline: none;
-    box-shadow: rgba(0, 0, 0, 0.15) 0 8px 16px 8px;
 
 
-    background: rgb(251,99,81);
-    background: linear-gradient(to right, rgba(255,151,139,1) 0%, rgba(249,124,128,1) 50%, rgba(242,115,142,1) 50%, rgba(251,99,81,1) 0%, rgba(246,89,95,1) 50%, rgba(242,78,112,1) 100%);
     background-size: 200% 100%;
     background-position: right bottom;
     transition: all .5s ease-out;
 }
 
 .btn:hover {
-    color: white;
-    background-position: left bottom;
+    color: rgb(251,99,81);
 }
 
 .main {
@@ -81,7 +76,7 @@
 }
 
 #name {
-    font-size: 50px;
+    font-size: 60px;
 }
 
 #info {
@@ -163,7 +158,6 @@
 
 .main { grid-area: main; }
 .header { grid-area: header; }
-.help { grid-area: help; }
 #homebtn { grid-area: homebtn; }
 #schoolbtn { grid-area: schoolbtn; }
 #otherbtn { grid-area: otherbtn; }
