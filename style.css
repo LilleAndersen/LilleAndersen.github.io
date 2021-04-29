@@ -1,11 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
 
-* {
+*
+{
     cursor: url("assets/logos/cursor-black (Custom).png") 8 8, auto;
     scroll-behavior: smooth;
 }
 
-#home, #school {
+#home, #school
+{
     background: rgb(23,23,82);
     background: linear-gradient(225deg, rgba(23,23,82,0.95) 0%, rgba(36,36,130,1) 50%, rgba(55,55,199,1) 100%);
     display: grid;
@@ -14,7 +16,8 @@
                          "main";
 }
 
-#header {
+#header
+{
     margin: 2% 20% 5% 20%;
     justify-content: space-evenly;
     display: grid;
@@ -22,20 +25,77 @@
     grid-template-areas: "homebtn schoolbtn otherbtn";
 }
 
-.homebtn {
+.main
+{
+    margin: 0 20% 0 20%;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#welcome
+{
+    text-align: center;
+    margin-top: 20%;
+}
+
+#name
+{
+    font-size: 60px;
+}
+
+#homeinfo
+{
+    margin: 700px 0 350px 0;
+}
+
+#info
+{
+    font-size: 25px;
+    margin: 25px;
+}
+
+#schoolcontent
+{
+    margin: 500px 0 0 0;
+    padding: 100px 0 0 0;
+}
+
+p
+{
+    font-size: 20px;
+    margin: 50px 0 50px 0;
+}
+
+.date
+{
+    font-size: 32px;
+}
+
+/* ↑ Spesific Page Css ↑ */
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* ↓ General Css ↓ */
+
+.homebtn
+{
 
 }
 
-.schoolbtn {
+.schoolbtn
+{
 
 }
 
-.otherbtn {
+.otherbtn
+{
     text-align: center;
     margin-left: 25px;
 }
 
-.morebtn {
+.morebtn
+{
     cursor: none !important;
     min-width: 165px !important;
     max-width: 250px !important;
@@ -46,12 +106,14 @@
     transition: all .5s ease-out;
 }
 
-.morebtn:hover {
+.morebtn:hover
+{
     color: white !important;
     background-position: left bottom;
 }
 
-.btn {
+.btn
+{
     color: white;
     font-size: 25px;
     border: none;
@@ -71,32 +133,13 @@
     transition: all .5s ease-out;
 }
 
-.btn:hover {
+.btn:hover
+{
     color: rgb(251,99,81);
 }
 
-.main {
-    margin: 0 20% 0 20%;
-    text-align: center;
-    color: white;
-    font-family: 'Roboto Condensed', sans-serif;
-}
-
-#welcome {
-    text-align: center;
-    margin-top: 20%;
-}
-
-#name {
-    font-size: 60px;
-}
-
-#info {
-    font-size: 25px;
-    margin: 700px 0 350px 0;
-}
-
-.mainbtn {
+.mainbtn
+{
     margin: 0 30px;
     font-size: 20px !important;
     padding: 15px !important;
@@ -104,11 +147,29 @@
     max-width: 230px !important;
 }
 
-.mainbtn:hover {
+.mainbtn:hover
+{
     color: rgb(251,99,81);
 }
 
-#backtotop {
+.main404
+{
+    margin-top: -50px;
+    margin-bottom: 750px;
+}
+
+.img
+{
+    width: 70%;
+}
+
+iframe
+{
+    width: 70%;
+}
+
+#backtotop
+{
     position: fixed;
     bottom: 0;
     right: 0;
@@ -118,7 +179,8 @@
     transition: ease 250ms;
 }
 
-.logo {
+.logo
+{
     position: fixed;
     bottom: 0;
     left: 0;
@@ -127,12 +189,14 @@
     background-color: transparent;
 }
 
-.splashscreen {
+.splashscreen
+{
     background: rgb(23,23,82);
     background: linear-gradient(225deg, rgba(23,23,82,1) 0%, rgba(36,36,130,1) 50%, rgba(55,55,199,1) 100%);
 }
 
-.loading {
+.loading
+{
     width: 5%;
     top: 50%;
     left: 50%;
@@ -140,34 +204,41 @@
     position: absolute;
 }
 
-#home::-webkit-scrollbar {
+#home::-webkit-scrollbar
+{
     display: none;
 }
 
-::-webkit-scrollbar {
+::-webkit-scrollbar
+{
     width: 10px;
 }
 
 /* Track */
-::-webkit-scrollbar-track {
+::-webkit-scrollbar-track
+{
     background: #242482;
 }
 
 /* Handle */
-::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb
+{
     background: rgba(242,78,112,1);
     border-radius: 30px;
 }
 
-::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover
+{
     background: rgba(249,124,128,1);
 }
 
-.rotate {
+.rotate
+{
     transition: transform ease-in-out 0.2s;
 }
 
-.rotate:hover {
+.rotate:hover
+{
     transition: 0.70s;
     -webkit-transition: 0.70s;
     -moz-transition: 0.70s;
