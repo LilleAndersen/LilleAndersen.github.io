@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
 
 * {
-
+    cursor: url("assets/logos/cursor-black (Custom).png") 8 8, auto;
     scroll-behavior: smooth;
 }
 
@@ -36,6 +36,7 @@
 }
 
 .morebtn {
+    cursor: none !important;
     min-width: 165px !important;
     max-width: 250px !important;
     background: rgb(251,99,81);
@@ -54,7 +55,6 @@
     color: white;
     font-size: 25px;
     border: none;
-    cursor: pointer;
     padding: 20px;
     text-decoration: none;
     user-select: none;
@@ -157,6 +157,10 @@
 ::-webkit-scrollbar-thumb {
     background: rgba(242,78,112,1);
     border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(249,124,128,1);
 }
 
 .rotate {
