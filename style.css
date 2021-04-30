@@ -9,7 +9,8 @@
       1.7 Scrollbar
       1.8 Underpage
       1.9 Images
-      1.10 Github Logod
+      1.10 Github Logo
+      1.11 Links
     2 Page Specific
       2.1 Home
       2.2 School
@@ -166,6 +167,7 @@
 ::-webkit-scrollbar-thumb:hover
 {
     background: rgba(249,124,128,1);
+
 }
 
 /* 1.8 Underpage */
@@ -237,6 +239,30 @@ iframe
     -ms-transform: rotate(180deg);
     transform: scale(1.1) rotate(360deg);
 }
+
+/* 1.11 Links */
+
+/* unvisited link */
+.here:link {
+    color: rgba(242,78,112,1);
+}
+
+/* visited link */
+.here:visited {
+    color: rgba(242,78,112,1);
+}
+
+/* mouse over link */
+.here:hover {
+    color: rgba(249,124,128,1);
+}
+
+/* selected link */
+.here:active {
+    color: rgba(242,78,112,1);
+}
+
+/* 2 Page Specific*/
 
 /* 2.1 Home */
 
