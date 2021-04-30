@@ -326,6 +326,16 @@ iframe
 
 /* 3 Rest */
 
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: rgba(242,78,112,1);
+}
+
+::selection {
+    color: white;
+    background: rgba(242,78,112,1);
+}
+
 /* Connects class to grid area */
 
 .main { grid-area: main; }
