@@ -8,16 +8,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bee98fe4-341e-4398-a2ef-7d8e61cbc69b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/logos/cursor-orange.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/logos/cursor (Custom).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/logos/cursor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/auto_resize.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/auto_resize.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/scrollbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scrollbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/freetime.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/freetime.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/school.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/school.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,6 +86,19 @@
       <recent name="G:\Min disk\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\assets\old 404 page" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -154,6 +157,7 @@
       <workItem from="1619718789700" duration="1756000" />
       <workItem from="1619798398236" duration="1817000" />
       <workItem from="1619810181431" duration="5868000" />
+      <workItem from="1619899894292" duration="320000" />
     </task>
     <servers />
   </component>

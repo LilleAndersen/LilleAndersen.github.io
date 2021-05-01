@@ -22,7 +22,10 @@
 
 /* 1.1 Imports */
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"); /* Imports font from googel.fonts.com to use */
+@font-face {
+    font-family: "Roboto Condensed";
+    src: url(assets/fonts/RobotoCondensed-Regular.ttf); /* Imports font from fonts folder to use */
+}
 
 /* 1.2 Cursor */
 
