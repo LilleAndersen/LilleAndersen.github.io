@@ -8,14 +8,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bee98fe4-341e-4398-a2ef-7d8e61cbc69b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/json/school.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/images/IMG_0042_redigert1asdasdasd.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/photoserie.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/images/game-2294201_1920.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/charity.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/images/placeholder.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/images/sever-3100049_1920.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/server.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/images/tutorial_task.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/tutorial.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/images/work-731198_1920.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/scrollbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scrollbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/scrollbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/general.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/school.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/school.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -170,7 +173,7 @@
       <workItem from="1619798398236" duration="1817000" />
       <workItem from="1619810181431" duration="5868000" />
       <workItem from="1619899894292" duration="1350000" />
-      <workItem from="1619980973999" duration="1715000" />
+      <workItem from="1619980973999" duration="4051000" />
     </task>
     <servers />
   </component>
