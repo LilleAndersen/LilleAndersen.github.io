@@ -1,23 +1,25 @@
 /* Table of contents
     1 Broad CSS
       1.1 Imports
-      1.2 Cursor
-      1.3 Grid
-      1.4 Header
-      1.5 Main
-      1.6 Button
-      1.7 Scrollbar
-      1.8 Underpage
-      1.9 Images
-      1.10 Github Logo
-      1.11 Links
+      1.2 Variables
+      1.3 Cursor
+      1.4 Grid
+      1.5 Header
+      1.6 Main
+      1.7 Button
+      1.8 Scrollbar
+      1.9 Underpage
+      1.10 Images
+      1.11 Github Logo
+      1.12 Links
     2 Page Specific
       2.1 Home
       2.2 School
       2.3 Freetime
       2.4 404
       2.5 Splashscreen
-    3 Rest
+    3 Animations
+    4 Rest
 */
 
 /* 1.1 Imports */
@@ -27,7 +29,16 @@
     src: url(assets/fonts/RobotoCondensed-Regular.ttf); /* Imports font from fonts folder to use */
 }
 
-/* 1.2 Cursor */
+/* 1.2 Variables */
+
+html
+{
+    --bkg: rgb(23,23,82);
+    --bkg-grad: linear-gradient(225deg, rgba(23,23,82,0.95) 0%, rgba(36,36,130,1) 50%, rgba(55,55,199,1) 100%);
+    --btn-bkg: rgb(251,99,81);
+}
+
+/* 1.3 Cursor */
 
 *
 {
@@ -35,19 +46,19 @@
     scroll-behavior: smooth; /* Change scroll behavior */
 }
 
-/* 1.3 Grid */
+/* 1.4 Grid */
 
 #home, #school
 {
-    background: rgb(23,23,82); /* Background color */
-    background: linear-gradient(225deg, rgba(23,23,82,0.95) 0%, rgba(36,36,130,1) 50%, rgba(55,55,199,1) 100%); /* Gradient on background */
+    background: var(--bkg); /* Background color */
+    background: var(--bkg-grad); /* Gradient on background */
     display: grid; /* Grid code */
     grid-template-columns: 1fr;
     grid-template-areas: "header"
                          "main";
 }
 
-/* 1.4 Header */
+/* 1.5 Header */
 
 #header
 {
@@ -73,7 +84,7 @@
 
 }
 
-/* 1.5 Main */
+/* 1.6 Main */
 
 .main
 {
@@ -88,12 +99,12 @@
     cursor: none !important; /* Removes cursor on hover */
     min-width: 165px !important; /* Adds !important min width */
     max-width: 250px !important; /* Adds !important max width */
-    background: rgb(251,99,81);
+    background: var(--btn-bkg);
     background: linear-gradient(to right, rgba(255,151,139,1) 0%, rgba(249,124,128,1) 50%, rgba(242,115,142,1) 50%, rgba(251,99,81,1) 0%, rgba(246,89,95,1) 50%, rgba(242,78,112,1) 100%); /* Gradient and gradient on button hover */
     background-size: 200% 100%;
     background-position: right bottom; /* Transition start position */
     transition: all .5s ease-out; /* Hover transition */
-
+    /* animation: btn-grad 1s infinite linear; */
 }
 
 .morebtn:hover
@@ -113,7 +124,7 @@
     transition: ease 250ms; /* Transition */
 }
 
-/* 1.6 Button */
+/* 1.7 Button */
 
 .btn
 {
@@ -137,10 +148,10 @@
 
 .btn:hover
 {
-    color: rgb(251,99,81); /* Hover text color */
+    color: var(--btn-bkg); /* Hover text color */
 }
 
-/* 1.7 Scrollbar */
+/* 1.8 Scrollbar */
 
 #home::-webkit-scrollbar
 {
@@ -170,7 +181,7 @@
     background: rgba(249,124,128,1); /* Scrollbar thumb piece hover color */
 }
 
-/* 1.8 Underpage */
+/* 1.9 Underpage */
 
 p
 {
@@ -194,10 +205,10 @@ p
 
 .mainbtn:hover
 {
-    color: rgb(251,99,81); /* Mainbtn hover color */
+    color: var(--btn-bkg); /* Mainbtn hover color */
 }
 
-/* 1.9 Images */
+/* 1.10 Images */
 
 .img
 {
@@ -209,7 +220,7 @@ iframe
     width: 70%; /* Iframe width */
 }
 
-/* 1.10 Github Logo */
+/* 1.11 Github Logo */
 
 .logo
 {
@@ -242,7 +253,7 @@ iframe
     transform: scale(1.1) rotate(360deg);
 }
 
-/* 1.11 Links */
+/* 1.12 Links */
 
 /* unvisited link */
 .here:link {
@@ -314,8 +325,8 @@ iframe
 
 .splashscreen
 {
-    background: rgb(23,23,82); /* Background color */
-    background: linear-gradient(225deg, rgba(23,23,82,1) 0%, rgba(36,36,130,1) 50%, rgba(55,55,199,1) 100%); /* Background gradient */
+    background: var(--bkg); /* Background color */
+    background: var(--bkg-grad); /* Gradient on background */
 }
 
 .loading
@@ -327,7 +338,22 @@ iframe
     position: absolute; /* Absolute to bypass any other set restrictions and bypass other html element */
 }
 
-/* 3 Rest */
+/* 3 Animation */
+
+@keyframes btn-grad
+{
+    0%
+    {
+        background-position: 0;
+    }
+
+    100%
+    {
+        background-position: 90%;
+    }
+}
+
+/* 4 Rest */
 
 ::-moz-selection { /* Code for Firefox */
     color: white;
