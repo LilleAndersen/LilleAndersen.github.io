@@ -1,5 +1,4 @@
 window.onscroll = function () {
-    console.log(window.pageYOffset)
     if (window.pageYOffset >= 800) {
         document.getElementById("backtotop").style.opacity="1";
     }
@@ -20,12 +19,13 @@ fetch("../assets/json/school.json")
     .then(response => response.json())
     .then(data =>
     {
+        console.log(data)
         for (let i = 0; i < data.school.length; i++)
         {
-            document.getElementById("content").innerHTML +=
-                "<div id='" + data.school[i].title.replace(/\s/g, "") + "'>" +
-                "<h2>" + data.school[i].title + "</h2>" +
-                "<p>" + data.school[i].content + "</p>" +
+            document.getElementById("schoolcontent").innerHTML +=
+                "<div>" +
+                "<h2>" + data.school[i].date + "</h2>" +
+                "<p>" + data.school[i].text + "</p>" +
                 "</div>";
         }
     });
