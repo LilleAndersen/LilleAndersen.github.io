@@ -19,12 +19,12 @@ fetch("../assets/json/school.json")
     .then(response => response.json())
     .then(data =>
     {
-        console.log(data)
         for (let i = 0; i < data.school.length; i++)
         {
             document.getElementById("schoolcontent").innerHTML +=
-                "<div>" +
-                "<h2>" + data.school[i].date + "</h2>" +
+                "<div id='" + data.school[i].title.replace(/\s/g, "") + "'>" +
+                data.school[i].media + "<br>" +
+                "<a class='date'>" + data.school[i].date + "</a>" +
                 "<p>" + data.school[i].text + "</p>" +
                 "</div>";
         }

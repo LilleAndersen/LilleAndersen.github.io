@@ -1,6 +1,7 @@
 {
   "school": [
     {
+      "title": "database",
       "media": "<iframe src=\"https://www.youtube.com/embed/_Z-V9e34ddo\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
       "date": "25.02.21",
       "text": "Denne videoen tilhører et prosjekt som gikk ut på å lage en database <br> som skulle holde informasjon om forskjellige fagkilder. Vi skulle <br> koble dette til nettsiden vår å gjøre det mulig å\n            inn info til databasen <br> fra nettsiden og se informasjonen fra nettsiden."
