@@ -24,8 +24,14 @@ fetch("../assets/json/school.json")
             document.getElementById("schoolcontent").innerHTML +=
                 "<div id='" + data.school[i].title.replace(/\s/g, "") + "'>" +
                 data.school[i].media + "<br>" +
-                "<a class='date'>" + data.school[i].date + "</a>" +
-                "<p>" + data.school[i].text + "</p>" +
+                "<p>" + "<a class='date'>" + data.school[i].date + "</a>" +
+                "<br>" + data.school[i].text +
+                "</p>" +
                 "</div>";
         }
     });
+
+setTimeout(function () {
+    resize()
+},75)
+

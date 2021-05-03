@@ -10,6 +10,8 @@
     <list default="true" id="bee98fe4-341e-4398-a2ef-7d8e61cbc69b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/json/school.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/json/school.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/auto_resize.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/auto_resize.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/general.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/general.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/school.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/school.html" afterDir="false" />
     </list>
@@ -91,21 +93,6 @@
       <recent name="G:\Min disk\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\assets\old 404 page" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -165,7 +152,8 @@
       <workItem from="1619798398236" duration="1817000" />
       <workItem from="1619810181431" duration="5868000" />
       <workItem from="1619899894292" duration="1350000" />
-      <workItem from="1619980973999" duration="6201000" />
+      <workItem from="1619980973999" duration="6267000" />
+      <workItem from="1620070247658" duration="2191000" />
     </task>
     <servers />
   </component>

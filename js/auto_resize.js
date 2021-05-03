@@ -1,5 +1,5 @@
 // Resize iframes when loading
-window.onload = function ()
+function resize()
 {
     const iframes = document.getElementsByTagName("iframe");
 
@@ -13,11 +13,5 @@ window.onload = function ()
 // Resize iframes on window resize
 $(window).on('resize',function ()
 {
-    const iframes = document.getElementsByTagName("iframe");
-
-    for (let i = 0; i < iframes.length; i++)
-    {
-        console.log(iframes[i].offsetWidth);
-        iframes[i].style.height = iframes[i].offsetWidth / 16 * 9 + "px";
-    }
+    resize()
 });
