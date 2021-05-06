@@ -1,4 +1,4 @@
-# LilleAndersen.github.io
+# little.yessness.com
 
 This is a website built for school purposes; to display school projects along with some other things.
 
