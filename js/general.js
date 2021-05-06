@@ -1,3 +1,4 @@
+// Changes visibility in #backtotop after certain amount of px is scrolled
 window.onscroll = function () {
     if (window.pageYOffset >= 800) {
         document.getElementById("backtotop").style.opacity="1";
@@ -9,6 +10,7 @@ window.onscroll = function () {
     }
 }
 
+// Spins Github logo
 $(document).ready(function(){
     $(".img").hover(function(){
         $(".bodyP").addClass("adamfade");
@@ -17,6 +19,7 @@ $(document).ready(function(){
     });
 });
 
+// Softloads content
 fetch("../assets/json/school.json")
     .then(response => response.json())
     .then(data =>
@@ -33,6 +36,7 @@ fetch("../assets/json/school.json")
         }
     });
 
+// Timeout
 setTimeout(function () {
     resize()
 },75)
