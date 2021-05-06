@@ -45,6 +45,7 @@ html
 {
     cursor: url("assets/logos/cursor-orange.png") 8 8, auto; /* Adds custom cursor */
     scroll-behavior: smooth; /* Change scroll behavior */
+
 }
 
 /* 1.4 Grid */
@@ -122,8 +123,8 @@ html
     margin: 15px;
     z-index: 100; /* Order of items */
     opacity: 0;
-    transition: ease 250ms; /* Transition */
-    display: none;
+    transition: ease 300ms; /* Transition */
+    /*display: none;*/
 }
 
 /* 1.7 Button */
