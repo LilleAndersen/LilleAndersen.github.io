@@ -67,20 +67,20 @@ html
     justify-content: space-evenly;
     display: grid; /* Header grid */
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: "homebtn schoolbtn otherbtn";
+    grid-template-areas: "homebtn schoolbtn freetimebtn";
 }
 
-.homebtn
+#homebtn
 {
 
 }
 
-.schoolbtn
+#schoolbtn
 {
 
 }
 
-.otherbtn
+#freetimebtn
 {
 
 }
@@ -123,6 +123,7 @@ html
     z-index: 100; /* Order of items */
     opacity: 0;
     transition: ease 250ms; /* Transition */
+    display: none;
 }
 
 /* 1.7 Button */
@@ -372,4 +373,4 @@ iframe
 .header { grid-area: header; }
 #homebtn { grid-area: homebtn; }
 #schoolbtn { grid-area: schoolbtn; }
-#otherbtn { grid-area: otherbtn; }
+#freetimebtn { grid-area: freetimebtn; }

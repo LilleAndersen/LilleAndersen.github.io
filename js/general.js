@@ -1,9 +1,11 @@
 window.onscroll = function () {
     if (window.pageYOffset >= 800) {
         document.getElementById("backtotop").style.opacity="1";
+        document.getElementById("backtotop").style.display="inline-block";
     }
     else {
         document.getElementById("backtotop").style.opacity="0";
+        document.getElementById("backtotop").style.display="none";
     }
 }
 
