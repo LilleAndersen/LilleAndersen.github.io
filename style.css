@@ -54,10 +54,8 @@ html
 {
     background: var(--bkg); /* Background color */
     background: var(--bkg-grad); /* Gradient on background */
-    display: grid; /* Grid code */
-    grid-template-columns: 1fr;
-    grid-template-areas: "header"
-                         "main";
+    display: flex;
+    flex-direction: column;
 }
 
 /* 1.5 Header */
@@ -66,24 +64,23 @@ html
 {
     margin: 2% 20% 5% 20%; /* Adds margin */
     justify-content: space-evenly;
-    display: grid; /* Header grid */
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: "homebtn schoolbtn freetimebtn";
+    display: flex;
+    flex-direction: row;
 }
 
 #homebtn
 {
-
+    align-items: center;
 }
 
 #schoolbtn
 {
-
+    align-items: center;
 }
 
 #freetimebtn
 {
-
+    align-items: center;
 }
 
 /* 1.6 Main */
