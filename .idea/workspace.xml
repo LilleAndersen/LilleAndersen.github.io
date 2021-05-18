@@ -9,6 +9,15 @@
   <component name="ChangeListManager">
     <list default="true" id="bee98fe4-341e-4398-a2ef-7d8e61cbc69b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/logos/Spin-1s-200px.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/rest/Spin-1s-200px.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/logos/cursor-black (Custom).png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/cursor/cursor-black (Custom).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/logos/cursor-black.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/cursor/cursor-black.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/logos/cursor-orange.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/cursor/cursor-orange.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/logos/square-transparent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/a/mysqlOppgave_27.1.21.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/a/mysqlOppgave_27.1.21.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/a/tutorialOppgave_17-24.2.21.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/a/tutorialOppgave_17-24.2.21.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,13 +48,12 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/home.html" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/index.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/style.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/404.html" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/.htaccess" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/pages/school.html" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/404.html" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/js/common.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/home.html" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/style.css" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -69,11 +77,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last.edited.regexp" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/fonts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="settings.editor.selected.configurable" value="discord-application" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="ReaderModeSettings">
@@ -91,6 +99,19 @@
       <recent name="G:\Min disk\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\assets\old404" />
       <recent name="G:\Min disk\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\assets\old 404 page" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -156,7 +177,10 @@
       <workItem from="1620107064052" duration="1421000" />
       <workItem from="1620315591548" duration="1294000" />
       <workItem from="1620317027353" duration="690000" />
-      <workItem from="1620751877257" duration="1706000" />
+      <workItem from="1620751877257" duration="2302000" />
+      <workItem from="1620798652096" duration="22000" />
+      <workItem from="1621360386417" duration="24000" />
+      <workItem from="1621360520532" duration="390000" />
     </task>
     <servers />
   </component>

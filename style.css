@@ -43,7 +43,7 @@ html
 
 *
 {
-    cursor: url("assets/logos/cursor-orange.png") 8 8, auto; /* Adds custom cursor */
+    cursor: url("assets/cursor/cursor-orange.png") 8 8, auto; /* Adds custom cursor */
     scroll-behavior: smooth; /* Change scroll behavior */
 
 }
