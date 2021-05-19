@@ -6,9 +6,9 @@
       1.4 Flex
       1.5 Header
       1.6 Main
-      1.7 Button
+      1.7 Underpage
       1.8 Scrollbar
-      1.9 Underpage
+      1.9 Button
       1.10 Images
       1.11 Github Logo
       1.12 Links
@@ -124,7 +124,40 @@ html
     /*display: none;*/
 }
 
-/* 1.7 Button */
+br
+{
+    user-select: none;
+}
+
+/* 1.7 Underpage */
+
+p
+{
+    font-size: 20px; /* Font size */
+    margin: 50px 20% 50px 20%; /* Margin */
+}
+
+.date
+{
+    font-size: 32px; /* Font size */
+}
+
+.mainbtn
+{
+    margin: 0 30px;
+    font-size: 20px !important; /* Font-size */
+    padding: 15px !important; /* Padding */
+    min-width: 145px !important; /* Min width */
+    max-width: 230px !important; /* Min width */
+}
+
+.mainbtn:hover
+{
+    color: var(--btn-bkg); /* Mainbtn hover color */
+}
+
+
+/* 1.8 Button */
 
 .btn
 {
@@ -151,7 +184,7 @@ html
     color: var(--btn-bkg); /* Hover text color */
 }
 
-/* 1.8 Scrollbar */
+/* 1.9 Scrollbar */
 
 #home::-webkit-scrollbar
 {
@@ -179,33 +212,6 @@ html
 ::-webkit-scrollbar-thumb:hover
 {
     background: rgba(249,124,128,1); /* Scrollbar thumb piece hover color */
-}
-
-/* 1.9 Underpage */
-
-p
-{
-    font-size: 20px; /* Font size */
-    margin: 50px 20% 50px 20%; /* Margin */
-}
-
-.date
-{
-    font-size: 32px; /* Font size */
-}
-
-.mainbtn
-{
-    margin: 0 30px;
-    font-size: 20px !important; /* Font-size */
-    padding: 15px !important; /* Padding */
-    min-width: 145px !important; /* Min width */
-    max-width: 230px !important; /* Min width */
-}
-
-.mainbtn:hover
-{
-    color: var(--btn-bkg); /* Mainbtn hover color */
 }
 
 /* 1.10 Images */

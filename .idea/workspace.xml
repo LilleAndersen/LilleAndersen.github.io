@@ -10,8 +10,8 @@
     <list default="true" id="bee98fe4-341e-4398-a2ef-7d8e61cbc69b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/logos/Spin-1s-200px.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/rest/Spin-1s-200px.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/logos/cursor-black (Custom).png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/cursor/cursor-black (Custom).png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/logos/cursor-black.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/cursor/cursor-black.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/logos/cursor-black (Custom).png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/cursor/cursor-black.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/logos/cursor-black.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/cursor/cursor-orange-big.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/logos/cursor-orange.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/cursor/cursor-orange.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/logos/square-transparent.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -93,11 +93,11 @@
       <recent name="G:\Min disk\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\content\html\vg1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\My Drive\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\assets\rest" />
+      <recent name="G:\My Drive\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\assets\logos" />
       <recent name="G:\Min disk\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\assets\icons" />
       <recent name="G:\Min disk\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\assets" />
       <recent name="G:\Min disk\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io" />
-      <recent name="G:\Min disk\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\assets\old404" />
-      <recent name="G:\Min disk\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\assets\old 404 page" />
     </key>
   </component>
   <component name="RunManager">
@@ -180,7 +180,7 @@
       <workItem from="1620751877257" duration="2302000" />
       <workItem from="1620798652096" duration="22000" />
       <workItem from="1621360386417" duration="24000" />
-      <workItem from="1621360520532" duration="390000" />
+      <workItem from="1621360520532" duration="3311000" />
     </task>
     <servers />
   </component>
