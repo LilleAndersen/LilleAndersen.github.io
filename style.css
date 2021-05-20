@@ -12,6 +12,7 @@
       1.10 Images
       1.11 Github Logo
       1.12 Links
+      1.13 Footer
     2 Page Specific
       2.1 Home
       2.2 School
@@ -37,6 +38,7 @@ html
     --bkg-grad: linear-gradient(225deg, rgba(23,23,82,0.95) 0%, rgba(36,36,130,1) 50%, rgba(55,55,199,1) 100%);
     --btn-bkg: rgb(251,99,81);
     --btn-bkg-grad: linear-gradient(to right, rgba(255,151,139,1) 0%, rgba(249,124,128,1) 50%, rgba(242,115,142,1) 50%, rgba(251,99,81,1) 0%, rgba(246,89,95,1) 50%, rgba(242,78,112,1) 100%);
+    --txt-clr: #fff;
 }
 
 /* 1.3 Cursor */
@@ -45,7 +47,6 @@ html
 {
     cursor: url("assets/cursor/cursor-orange.png") 8 8, auto; /* Adds custom cursor */
     scroll-behavior: smooth; /* Change scroll behavior */
-
 }
 
 /* 1.4 Flex */
@@ -89,7 +90,7 @@ html
 {
     margin: 0 20% 0 20%;
     text-align: center;
-    color: white; /* Text color */
+    color: var(--txt-clr); /* Text color */
     font-family: 'Roboto Condensed', sans-serif; /* Changes font */
 }
 
@@ -103,12 +104,13 @@ html
     background-size: 200% 100%;
     background-position: right bottom; /* Transition start position */
     transition: all .5s ease-out; /* Hover transition */
+    margin: 0 .5em !important;
     /* animation: btn-grad 1s infinite linear; */
 }
 
 .morebtn:hover
 {
-    color: white !important;
+    color: var(--txt-clr) !important;
     background-position: left bottom;
 }
 
@@ -137,9 +139,16 @@ p
     margin: 50px 20% 50px 20%; /* Margin */
 }
 
-.date
+.projectname
 {
     font-size: 32px; /* Font size */
+}
+
+.date
+{
+    font-size: 16px;
+    margin: 2em 0 -3.25em 0 !important;
+    color: #748CAB;
 }
 
 .mainbtn
@@ -161,7 +170,7 @@ p
 
 .btn
 {
-    color: white;
+    color: var(--txt-clr);
     font-size: 25px;
     border: none;
     padding: 20px;
@@ -282,6 +291,18 @@ iframe
     color: rgba(242,78,112,1); /* Link active color */
 }
 
+/* 1.13 Footer */
+
+footer
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+}
+
+
 /* 2 Page Specific*/
 
 /* 2.1 Home */
@@ -299,7 +320,7 @@ iframe
 
 #homeinfobox
 {
-    margin: 700px 0 350px 0; /* Margin */
+    margin: 700px 0 300px 0; /* Margin */
 }
 
 #homeinfo

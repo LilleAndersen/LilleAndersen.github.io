@@ -29,7 +29,8 @@ fetch("../assets/json/school.json")
             document.getElementById("schoolcontent").innerHTML +=
                 "<div id='" + data.school[i].title.replace(/\s/g, "") + "'>" +
                 data.school[i].media + "<br>" +
-                "<p>" + "<a class='date'>" + data.school[i].date + "</a>" +
+                "<p class='date'>" + data.school[i].date + "</p>" +
+                "<p>" + "<a class='projectname'>" + data.school[i].title + "</a>" +
                 "<br>" + data.school[i].text +
                 "</p>" +
                 "</div>";
