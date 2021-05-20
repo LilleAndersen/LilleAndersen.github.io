@@ -39,4 +39,4 @@ fetch("../assets/json/school.json")
 // Timeout
 setTimeout(function () {
     resize()
-},75)
+},100)
