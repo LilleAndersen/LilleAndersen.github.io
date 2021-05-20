@@ -8,6 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bee98fe4-341e-4398-a2ef-7d8e61cbc69b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/logos/favicon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
@@ -155,7 +156,7 @@
       <workItem from="1621360386417" duration="24000" />
       <workItem from="1621360520532" duration="3936000" />
       <workItem from="1621505180941" duration="661000" />
-      <workItem from="1621506744373" duration="3187000" />
+      <workItem from="1621506744373" duration="3486000" />
     </task>
     <servers />
   </component>
