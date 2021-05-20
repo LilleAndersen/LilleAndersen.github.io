@@ -19,7 +19,7 @@ $(document).ready(function(){
     });
 });
 
-// Softloads content
+// Dynamically loads content
 fetch("../assets/json/school.json")
     .then(response => response.json())
     .then(data =>

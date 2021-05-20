@@ -17,7 +17,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Gjør at previewen blir fin -->
+    <!-- Link preview -->
 
     <meta property="og:title" content="Tobias' Skoleside">
     <meta property="og:image" content="/icon.png">
@@ -27,24 +27,27 @@
 </head>
 
 
-<body id="home" scroll="no" style="overflow: hidden">
+<body id="home" scroll="no" style="overflow: hidden"> <!-- Body tag, Makes Body non-scrollable -->
 
+<!-- Header -->
 
 <div id="header">
-    <a href="#" id="homebtn" class="btn" tabindex="-1">Hjem</a>
-    <a href="pages/school.html" id="schoolbtn" class="btn" tabindex="-1">Skole</a>
-    <a href="#" class="btn" tabindex="-1">Fritid</a>
+    <a href="#" id="homebtn" class="btn" tabindex="-1">Hjem</a> <!-- Home button -->
+    <a href="pages/school.html" id="schoolbtn" class="btn" tabindex="-1">Skole</a> <!-- School button -->
+    <a href="#" class="btn" tabindex="-1">Fritid</a> <!-- Freetime button -->
 </div>
+
+<!-- Content of page -->
 
 <div class="main">
     <div id="welcome">
-            <h1 id="name">Student, Utvikler, Gamer</h1> <!-- Overskriften -->
+            <h1 id="name">Student, Utvikler, Gamer</h1> <!-- Headline -->
             <br>
             <a href="#homeinfobox" class="morebtn btn" tabindex="-1">Mer info</a>
     </div>
 
     <div id="homeinfobox">
-        <!-- Informasjonen på startsiden -->
+        <!-- Information about me -->
         <p id="homeinfo">
             Jeg heter Tobias Strømme Andersen. Jeg er elev med Amalie <br>
             Skram Videregående. Jeg går linjen  Informasjonsteknologi <br>
@@ -52,15 +55,19 @@
             arbeidsbok for å vise alt jeg har jobbet med gjennom <br>
             videregående. Siden oppdateres fortløpende.
         </p>
-        <a href="pages/school.html" class="morebtn mainbtn btn" tabindex="-1">Skole</a>
-        <a href="#" class="morebtn mainbtn btn" tabindex="-1">Fritid</a>
+        <a href="pages/school.html" class="morebtn mainbtn btn" tabindex="-1">Skole</a> <!-- School button -->
+        <a href="#" class="morebtn mainbtn btn" tabindex="-1">Fritid</a> <!-- Freetime button -->
 
     </div>
 </div>
 
+<!-- Github logo in corner -->
 <a href="https://github.com/LilleAndersen/LilleAndersen.github.io"> <img src="assets/logos/GitHub-Mark-120px-plus.png" class="logo rotate" alt="Github logo" width="2%"> </a>
 
+<!-- Back to top -->
 <a href="#" id="backtotop" class="btn" tabindex="-1">Tilbake til toppen</a>
+
+<!-- jQuery library and script sources -->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="js/auto_resize.js"></script>
