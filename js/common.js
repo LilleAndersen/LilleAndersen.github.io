@@ -41,3 +41,13 @@ fetch("../../assets/json/school.json")
 setTimeout(function () {
     resize()
 },100)
+
+// Preloader
+
+$(window).on("load", function () {
+    $(".loader-wrapper").slideDown("slow").fadeOut("slow");
+    setTimeout(function () {
+        document.querySelector("body").style.overflowY="scroll";
+    }, 250)
+
+});
