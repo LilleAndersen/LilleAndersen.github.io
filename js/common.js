@@ -47,7 +47,7 @@ setTimeout(function () {
 $(window).on("load", function () {
     $(".loader-wrapper").slideDown("slow").fadeOut("slow");
     setTimeout(function () {
-        document.querySelector("body").style.overflowY="scroll";
+        document.querySelector("#school").style.overflowY="scroll";
     }, 250)
 
 });
