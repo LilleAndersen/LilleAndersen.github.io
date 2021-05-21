@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!-- Forteller browseren at nettsiden er norsk -->
+<html lang="NB-no">
+<!-- Gjør at nettsiden tillater ÆØÅ -->
+<meta charset="UTF-8">
+<head>
+    <!-- Forteller HTML dokumentet hvor den skal leite for CSS dokumentet -->
+    <link rel="stylesheet" type="text/css" href="../../style.css">
+    <title>Tobias' Skoleside</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="../../assets/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/icons/favicon-16x16.png">
+    <link rel="manifest" href="../../assets/icons/site.webmanifest">
+    <link rel="mask-icon" href="../../assets/icons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Gjør at previewen blir fin -->
+
+    <meta property="og:title" content="Tobias' Skoleside">
+    <meta property="og:image" content="/icon.png">
+    <meta property="og:site_name" content="TSA">
+    <meta property="og:link" content="https://LilleAndersen.github.io">
+    <meta property="og:description" content="Tobias Strømme Andersen sin skolenettside for videregående skole. Inneholder alle oppgaver og prosjekter som skjer innen programfagene. Siden oppdateres fortløpende.">
+</head>
+<body id="school">
+
+<div id="header">
+    <a href="../../" class="homebtn btn" tabindex="-1">Hjem</a>
+    <a href="#" class="schoolbtn btn" tabindex="-1">Skole</a>
+    <a href="../freetime/" class="freetimebtn btn" tabindex="-1">Fritid</a>
+</div>
+
+<div class="main">
+    <div id="welcome">
+        <h1 id="name">Skolearbeid</h1> <!-- Overskriften -->
+        <br>
+        <a href="#schoolcontent" class="morebtn btn" tabindex="-1">Oppgaver</a>
+    </div>
+
+
+
+    <div id="schoolcontent">
+        <!-- Information on school -->
+
+        <!-- <iframe src="https://www.youtube.com/embed/_Z-V9e34ddo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <br>
+        <p> <a class="date">25.02.21 <br></a> Denne videoen tilhører et prosjekt som gikk ut på å lage en database <br> som skulle holde informasjon om forskjellige fagkilder. Vi skulle <br> koble dette til nettsiden vår å gjøre det mulig å
+            inn info til databasen <br> fra nettsiden og se informasjonen fra nettsiden. </p> <br>
+
+        <a href="a/tutorialOppgave_17-24.2.21.html"><img src="../assets/images/tutorial.PNG" alt="bildet" class="img"></a> <br>
+        <p> <a class="date">3.02.21 <br></a> Jeg hadde en oppgave som handlet om å jobbe på et skrivebord. <a href="a/tutorialOppgave_17-24.2.21.html" target="_blank" class="here">Her</a> er svaret mitt.</p> <br>
+
+        <a href="a/mysqlOppgave_27.1.21.html"><img src="../assets/images/server.jpg" alt="bildet" class="img"></a> <br>
+        <p> <a class="date">27.01.21 <br></a> Jeg hadde en oppgave som handler om servere med MySQL. <a href="a/mysqlOppgave_27.1.21.html" target="_blank" class="here">Her</a> er svaret mitt.</p> <br>
+
+        <iframe src="https://www.youtube.com/embed/h1NaiH2hyCs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <br>
+        <p> <a class="date">11.01.21 </a> <br> Denne videoen tilhører et prosjekt som gikk ut på å lage en innlegg <br> til en videodagbok.
+            Videoen var en koronadagbok som skulle vise dagen min <br> og hvordan den er blitt påvirket av korona. <br> </p>
+
+        <iframe src="https://www.youtube.com/embed/HxwR7FIav68" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <br>
+        <p> <a class="date">05.01.21 <br></a> Denne videoen tilhører et prosjekt som gikk ut på å lage en legorobot som skulle <br> gjøre masse forskjellig, som å kjøre i sirkler, rektangler og mange andre former.</p> <br>
+
+        <img src="../assets/images/charity.jpg" alt="bildet av en xbox kontroller" class="img"> <br>
+        <p> <a class="date">17.12.20 </a> <br> Dette bildet tilhører et tverrfaglig prosjekt. Prosjektet gikk på å lage en charity <br>
+            stream for å samle inn penger til BCFS som en del av skolen sitt årlige <br>
+            innsamlingsaksjon. Klassen vår måtte planlegge alt og vi hadde ansvar. <br>
+            Jeg synes det var veldig gøy og streamen var en stor suksess. Mer info <a href="https://docs.google.com/document/d/1foxj9DL2PIXq5AzErvu6ryT_5wtbNj7TR9es8mGa4bM/edit?usp=sharing" target="_blank" class="here">her</a>.</p>
+
+        <iframe src="https://www.youtube.com/embed/W7IoIeMsydU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <br>
+        <p> <a class="date">17.11.20 </a> <br> Denne videoen tilhører et prosjekt som gikk ut på å lage en reklamefilm <br> for linjen jeg går. Vi var delt inn i grupper og laget en reklamefilm sammen. <br>
+            Mer info <a href="#" target="_blank" class="here">her</a>.</p>
+
+        <img src="../assets/images/photoserie.png" alt="Bilde" class="img"> <br>
+        <p> <a class="date">04.11.20 </a> <br>  Dette bildet tilhører et tverrfaglig prosjekt. Prosjektet gikk ut på å lage en <br>
+            serie av bilder som fortalte en historie. Det var og et kriteriet <br> at bildene skal kunne stokkes får å få en
+            annen historie. <br> Dette var en av fire bilder tilhørende oppgaven min.
+            Mer info <a href="https://docs.google.com/presentation/d/1BPuJTTA9PDIgeSSA2F_VkkZ4hgttO9kGwgVUXOCcWt8/edit?usp=sharing" target="_blank" class="here">her</a>.</p>
+
+        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVBPmayuh8Jg4UN76QWuKHyMuGzc1zB-iG4PWtKEmkeomRIvsD8ArEa-qUwBeiPb8FJtJBvaJc7_54/embed?start=false&loop=true&delayms=5000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> <br>
+        <p> <a class="date">20.10.20 <br></a> Dette prosjektet gikk ut på å læer om HMS, gdpr og andre sikkehets foreskrifter.<br>
+            Jeg hadde om HMS og lagde denne presentasjonen angående dette.</p> <br> -->
+    </div>
+</div>
+
+
+
+<a href="https://github.com/LilleAndersen/LilleAndersen.github.io"> <img src="../../assets/logos/GitHub-Mark-120px-plus.png" class="logo rotate" alt="Github logo" width="2%"> </a>
+
+<a href="#" id="backtotop" class="btn" tabindex="-1">Tilbake til toppen</a>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="../../js/auto_resize.js"></script>
+<script src="../../js/common.js"></script>
+
+</body>
+</html>
