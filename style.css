@@ -18,7 +18,6 @@
       2.2 School
       2.3 Freetime
       2.4 404
-      2.5 Splashscreen
     3 Animations
     4 Rest
 */
@@ -352,23 +351,6 @@ footer
 error
 {
     font-size: 40px;
-}
-
-/* 2.5 Splashscreen */
-
-.splashscreen
-{
-    background: var(--bkg); /* Background color */
-    background: var(--bkg-grad); /* Gradient on background */
-}
-
-.loading
-{
-    width: 5%; /* Logo width */
-    top: 50%; /* 50% from top */
-    left: 50%; /* 50% from left */
-    transform:translate(-50%,-50%); /* -50% on two sides to make centered */
-    position: absolute; /* Absolute to bypass any other set restrictions and bypass other html element */
 }
 
 /* 3 Animation */

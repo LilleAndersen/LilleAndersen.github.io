@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+ <!-- Tells browser that the preffered language is Norwegian -->
+<html lang="NB-no">
+    <meta charset="UTF-8"> <!-- Allows ÆØÅ -->
 <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
-<!--    <meta http-equiv="refresh" content="0; url=/home"/> &lt;!&ndash; Redirects to home page &ndash;&gt;-->
-    <meta charset="UTF-8"> <!-- Allows special characters to page -->
 
-    <!-- Favicon -->
+    <link rel="stylesheet" type="text/css" href="style.css"> <!-- Tells HTML where the CSS is located -->
+    <link rel="canonical" href="https://little.yessness.com/">
+    <title>Tobias' Skoleside</title>
 
     <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
@@ -13,6 +14,7 @@
     <link rel="manifest" href="assets/icons/site.webmanifest">
     <link rel="mask-icon" href="assets/icons/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -26,11 +28,59 @@
     <meta property="og:url" content="https://little.yessness.com/">
     <meta property="og:description" content="Tobias Strømme Andersen sin skolenettside for videregående skole. Inneholder alle oppgaver og prosjekter som skjer innen programfagene. Siden oppdateres fortløpende.">
     <meta property="og:type" content="website">
-    <meta name="theme-color" content="#0b2a6c">
-
-    <title>Tobias' Skoleside</title>
 </head>
-<body class="splashscreen">
-<img src="assets/rest/Spin-1s-200px.png" class="loading" alt="Loading ...">
+
+
+<body id="home" scroll="no" style="overflow: hidden"> <!-- Body tag, Makes Body non-scrollable -->
+
+<!-- Header -->
+
+<div id="header">
+    <a href="/" id="homebtn" class="btn" tabindex="-1">Hjem</a> <!-- Home button -->
+    <a href="pages/school/" id="schoolbtn" class="btn" tabindex="-1">Skole</a> <!-- School button -->
+    <a href="#" class="btn" tabindex="-1">Fritid</a> <!-- Freetime button -->
+</div>
+
+<!-- Content of page -->
+
+<div class="main">
+    <div id="welcome">
+            <h1 id="name">Student, Utvikler, Gamer</h1> <!-- Headline -->
+            <br>
+            <a href="#homeinfobox" class="morebtn btn" tabindex="-1">Mer info</a>
+    </div>
+
+    <div id="homeinfobox">
+        <!-- Information about me -->
+        <p id="homeinfo">
+            Jeg heter Tobias Strømme Andersen. Jeg er elev med Amalie <br>
+            Skram Videregående. Jeg går linjen  Informasjonsteknologi <br>
+            og Medieproduksjon (IM). Denne nettsiden er en digital <br>
+            arbeidsbok for å vise alt jeg har jobbet med gjennom <br>
+            videregående. Siden oppdateres fortløpende.
+        </p>
+        <a href="pages/school/index.html" class="morebtn mainbtn btn" tabindex="-1">Skole</a> <!-- School button -->
+        <a href="#" class="morebtn mainbtn btn" tabindex="-1">Fritid</a> <!-- Freetime button -->
+
+    </div>
+
+    <footer>
+        Copyright © 2021, graphide studios
+    </footer>
+
+</div>
+
+<!-- Github logo in corner -->
+<a href="https://github.com/LilleAndersen/LilleAndersen.github.io"> <img src="assets/logos/GitHub-Mark-120px-plus.png" class="logo rotate" alt="Github logo" width="2%"> </a>
+
+<!-- Back to top -->
+<a href="#" id="backtotop" class="btn" tabindex="-1">Tilbake til toppen</a>
+
+<!-- jQuery library and script sources -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="js/auto_resize.js"></script>
+<script src="js/common.js"></script>
+
 </body>
 </html>

@@ -20,7 +20,7 @@ $(document).ready(function(){
 });
 
 // Dynamically loads content
-fetch("../assets/json/school.json")
+fetch("../../assets/json/school.json")
     .then(response => response.json())
     .then(data =>
     {
