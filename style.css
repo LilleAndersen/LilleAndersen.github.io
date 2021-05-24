@@ -234,11 +234,13 @@ body
 {
     width: 70%; /* Image width */
     user-select: none;
+    border-radius: 3rem;
 }
 
 iframe
 {
     width: 70%; /* Iframe width */
+    border-radius: 2rem;
 }
 
 /* 1.11 Github Logo */
