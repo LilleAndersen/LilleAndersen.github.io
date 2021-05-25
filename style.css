@@ -7,8 +7,8 @@
       1.5 Header
       1.6 Main
       1.7 Underpage
-      1.8 Scrollbar
-      1.9 Button
+      1.8 Button
+      1.9 Scroll
       1.10 Images
       1.11 Github Logo
       1.12 Links
@@ -18,14 +18,15 @@
       2.2 School
       2.3 Freetime
       2.4 404
-      2.5 Splashscreen
+      2.5 Preloader
     3 Animations
     4 Rest
 */
 
 /* 1.1 Imports */
 
-@font-face {
+@font-face
+{
     font-family: "Roboto Condensed";
     src: url(assets/fonts/RobotoCondensed-Regular.ttf); /* Imports font from fonts folder to use */
 }
@@ -35,10 +36,10 @@
 html
 {
     --bkg: rgb(23,23,82);
-    --bkg-grad: linear-gradient(225deg, rgba(23,23,82,0.95) 0%, rgba(36,36,130,1) 50%, rgba(55,55,199,1) 100%);
+    --bkg-grad: linear-gradient(225deg, rgba(23,23,82,1) 0%, rgba(36,36,130,1)50%, rgba(55,55,199,1) 75%, rgba(23,23,82,1) 100%);
     --btn-bkg: rgb(251,99,81);
     --btn-bkg-grad: linear-gradient(to right, rgba(255,151,139,1) 0%, rgba(249,124,128,1) 50%, rgba(242,115,142,1) 50%, rgba(251,99,81,1) 0%, rgba(246,89,95,1) 50%, rgba(242,78,112,1) 100%);
-    --txt-clr: #fff;
+    --txt-clr: #fdfffc;
 }
 
 /* 1.3 Cursor */
@@ -46,7 +47,6 @@ html
 *
 {
     cursor: url("assets/cursor/cursor-orange.png") 8 8, auto; /* Adds custom cursor */
-    scroll-behavior: smooth; /* Change scroll behavior */
 }
 
 /* 1.4 Flex */
@@ -55,8 +55,11 @@ html
 {
     background: var(--bkg); /* Background color */
     background: var(--bkg-grad); /* Gradient on background */
+    background-size: 5000vw;
     display: flex;
     flex-direction: column;
+    background-attachment: fixed;
+    animation: bkg-grad 12s infinite linear;
 }
 
 /* 1.5 Header */
@@ -105,7 +108,6 @@ html
     background-position: right bottom; /* Transition start position */
     transition: all .5s ease-out; /* Hover transition */
     margin: 0 .5em !important;
-    /* animation: btn-grad 1s infinite linear; */
 }
 
 .morebtn:hover
@@ -193,7 +195,13 @@ p
     color: var(--btn-bkg); /* Hover text color */
 }
 
-/* 1.9 Scrollbar */
+/* 1.9 Scroll */
+
+*
+{
+    scroll-behavior: smooth; /* Change scroll behavior */
+
+}
 
 body
 {
@@ -240,7 +248,7 @@ body
 iframe
 {
     width: 70%; /* Iframe width */
-    border-radius: 2rem;
+    border-radius: 3rem;
 }
 
 /* 1.11 Github Logo */
@@ -253,6 +261,7 @@ iframe
     z-index: 100; /* Makes item at the top of everything */
     margin: 5px; /* Margin */
     background-color: transparent; /* Background transparent */
+    width: 2.2vw;
 }
 
 .rotate
@@ -361,18 +370,21 @@ error
     font-size: 40px;
 }
 
-/* 2.5 Splashscreen */
+/* 2.5 Preloader */
 
 .loader-wrapper
 {
     background: var(--bkg); /* Background color */
-    background: linear-gradient(225deg, rgba(23,23,82,1) 0%, rgba(36,36,130,1) 50%, rgba(55,55,199,1) 100%); /* Gradient on background */
-    width: 100%;
+    background: var(--bkg-grad); /* Gradient on background */
+    background-size: 5000vw;
     height: 100%;
+    width: 100%;
     top: 0;
     left: 0;
     position: absolute;
     z-index: 500;
+    background-attachment: fixed;
+    animation: bkg-grad 12s infinite linear;
 }
 
 .loading
@@ -386,7 +398,7 @@ error
 
 /* 3 Animation */
 
-@keyframes btn-grad
+@keyframes bkg-grad
 {
     0%
     {

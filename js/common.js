@@ -37,7 +37,7 @@ fetch("../../assets/json/school.json")
         }
     });
 
-// Timeout
+// Resize timeout
 setTimeout(function () {
     resize()
 },100)
