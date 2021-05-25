@@ -200,7 +200,7 @@ p
 *
 {
     scroll-behavior: smooth; /* Change scroll behavior */
-
+    overscroll-behavior: none;
 }
 
 body
