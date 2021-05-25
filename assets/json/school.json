@@ -2,73 +2,73 @@
   "school": [
     {
       "title": "Verstasjon",
-      "media": "<img src=\"../../assets/images/verstasjon.jpg\" alt=\"bildet\" class=\"img\">",
+      "media": "<img src=\"../../assets/images/verstasjon.jpg\" alt=\"bildet\" class=\"img\" loading=\"lazy\">",
       "date": "26.04.21",
       "text": "Det gikk ut på vi skulle lage en verstasjon og vise data på en nettside. Dataene skulle bruke database og vi måtte bruke php til å få det inn på nettsiden. Vi skulle og lage romovervåkning og opplaste bildet på FTP server og vise på nettside."
     },
     {
       "title": "App",
-      "media": "<img src=\"../../assets/images/app.jpg\" alt=\"bildet\" class=\"img\">",
+      "media": "<img src=\"../../assets/images/app.jpg\" alt=\"bildet\" class=\"img\" loading=\"lazy\">",
       "date": "13.04.21",
       "text": "Dette prosjektet handlet om at vi skulle lage en demo app for en kunde. Våres gruppe valgte Kaffe Diem som vår kunde og vi lagde en demo app og web interface."
     },
     {
       "title": "Raspberry Pi",
-      "media": "<img src=\"../../assets/images/rpi.jpg\" alt=\"bildet\" class=\"img\">",
+      "media": "<img src=\"../../assets/images/rpi.jpg\" alt=\"bildet\" class=\"img\" loading=\"lazy\">",
       "date": "26.03.21",
       "text": "Vi holdt på med Raspberry Pi. Vi testet mye og vikk gjøre engentil hva vi ville så lenge vi lærte noe. Min gruppe hadde et grasiøst prosjekt som gikk ut på å; 1. Trykke på en knapp, 2. Starte en timer med lys, 3. Ta bilde når timeren er bilde"
     },
     {
       "title": "Database",
-      "media": "<iframe src=\"https://www.youtube.com/embed/_Z-V9e34ddo\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "media": "<iframe src=\"https://www.youtube.com/embed/_Z-V9e34ddo\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen loading=\"lazy\"></iframe>",
       "date": "25.02.21",
       "text": "Denne videoen tilhører et prosjekt som gikk ut på å lage en database som skulle holde informasjon om forskjellige fagkilder. Vi skulle koble dette til nettsiden vår å gjøre det mulig å inn info til databasen fra nettsiden og se informasjonen fra nettsiden."
     },
     {
       "title": "Skrivebord",
-      "media": "<img src=\"../../assets/images/tutorial.jpg\" alt=\"bildet\" class=\"img\">",
+      "media": "<img src=\"../../assets/images/tutorial.jpg\" alt=\"bildet\" class=\"img\" loading=\"lazy\">",
       "date": "3.02.21",
       "text": "Jeg hadde en oppgave som handlet om å jobbe på et skrivebord. <a href=\"a/tutorialOppgave_17-24.2.21.html\" target=\"_blank\" class=\"here\">Her</a> er svaret mitt."
     },
     {
       "title": "Server",
-      "media": "<img src=\"../../assets/images/server.jpg\" alt=\"bildet\" class=\"img\">",
+      "media": "<img src=\"../../assets/images/server.jpg\" alt=\"bildet\" class=\"img\" loading=\"lazy\">",
       "date": "27.01.21",
       "text": "Jeg hadde en oppgave som handler om servere med MySQL. <a href=\"a/mysqlOppgave_27.1.21.html\" target=\"_blank\" class=\"here\">Her</a> er svaret mitt."
     },
     {
       "title": "Videodagbok",
-      "media": "<iframe src=\"https://www.youtube.com/embed/h1NaiH2hyCs\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "media": "<iframe src=\"https://www.youtube.com/embed/h1NaiH2hyCs\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen loading=\"lazy\"></iframe>",
       "date": "11.01.21",
       "text": "Denne videoen tilhører et prosjekt som gikk ut på å lage en innlegg til en videodagbok. Videoen var en koronadagbok som skulle vise dagen min og hvordan den er blitt påvirket av korona."
     },
     {
       "title": "Lego",
-      "media": "<iframe src=\"https://www.youtube.com/embed/HxwR7FIav68\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "media": "<iframe src=\"https://www.youtube.com/embed/HxwR7FIav68\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen loading=\"lazy\"></iframe>",
       "date": "05.01.21",
       "text": "Denne videoen tilhører et prosjekt som gikk ut på å lage en legorobot som skulle gjøre masse forskjellig, som å kjøre i sirkler, rektangler og mange andre former."
     },
     {
       "title": "Charity",
-      "media": "<img src=\"../../assets/images/charity.jpg\" alt=\"bildet av en xbox kontroller\" class=\"img\">",
+      "media": "<img src=\"../../assets/images/charity.jpg\" alt=\"bildet av en xbox kontroller\" class=\"img\" loading=\"lazy\">",
       "date": "17.12.20",
       "text": "Dette bildet tilhører et tverrfaglig prosjekt. Prosjektet gikk på å lage en charity stream for å samle inn penger til BCFS som en del av skolen sitt årlige innsamlingsaksjon. Klassen vår måtte planlegge alt og vi hadde ansvar. Jeg synes det var veldig gøy og streamen var en stor suksess. Mer info <a href=\"https://docs.google.com/document/d/1foxj9DL2PIXq5AzErvu6ryT_5wtbNj7TR9es8mGa4bM/edit?usp=sharing\" target=\"_blank\" class=\"here\">her</a>."
     },
     {
       "title": "Reklame",
-      "media": "<iframe src=\"https://www.youtube.com/embed/W7IoIeMsydU\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "media": "<iframe src=\"https://www.youtube.com/embed/W7IoIeMsydU\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen loading=\"lazy\"></iframe>",
       "date": "17.11.20",
       "text": "Denne videoen tilhører et prosjekt som gikk ut på å lage en reklamefilm for linjen jeg går. Vi var delt inn i grupper og laget en reklamefilm sammen. Mer info <a href=\"#\" target=\"_blank\" class=\"here\">her</a>."
     },
     {
       "title": "Fotoserie",
-      "media": "<img src=\"../../assets/images/photoserie.jpg\" alt=\"Bilde\" class=\"img\">",
+      "media": "<img src=\"../../assets/images/photoserie.jpg\" alt=\"Bilde\" class=\"img\" loading=\"lazy\">",
       "date": "04.11.20",
       "text": "Dette bildet tilhører et tverrfaglig prosjekt. Prosjektet gikk ut på å lage en serie av bilder som fortalte en historie. Det var og et kriteriet at bildene skal kunne stokkes får å få en annen historie. Dette var en av fire bilder tilhørende oppgaven min. Mer info <a href=\"https://docs.google.com/presentation/d/1BPuJTTA9PDIgeSSA2F_VkkZ4hgttO9kGwgVUXOCcWt8/edit?usp=sharing\" target=\"_blank\" class=\"here\">her</a>."
     },
     {
       "title": "HMS",
-      "media": "<iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vSVBPmayuh8Jg4UN76QWuKHyMuGzc1zB-iG4PWtKEmkeomRIvsD8ArEa-qUwBeiPb8FJtJBvaJc7_54/embed?start=false&loop=true&delayms=5000\" frameborder=\"0\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\"></iframe>",
+      "media": "<iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vSVBPmayuh8Jg4UN76QWuKHyMuGzc1zB-iG4PWtKEmkeomRIvsD8ArEa-qUwBeiPb8FJtJBvaJc7_54/embed?start=false&loop=true&delayms=5000\" frameborder=\"0\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\" loading=\"lazy\"></iframe>",
       "date": "20.10.20",
       "text": "Dette prosjektet gikk ut på å lære om HMS, gdpr og andre sikkehets foreskrifter. Jeg hadde om HMS og lagde denne presentasjonen angående dette."
     }
