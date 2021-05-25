@@ -20,7 +20,7 @@
     },
     {
       "title": "Database",
-      "media": "<iframe src=\"https://www.youtube.com/embed/_Z-V9e34ddo\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen loading=\"lazy\"></iframe>",
+      "media": "<iframe class='lazyframe' src=\"https://www.youtube.com/embed/_Z-V9e34ddo\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
       "date": "25.02.21",
       "text": "Denne videoen tilhører et prosjekt som gikk ut på å lage en database som skulle holde informasjon om forskjellige fagkilder. Vi skulle koble dette til nettsiden vår å gjøre det mulig å inn info til databasen fra nettsiden og se informasjonen fra nettsiden."
     },
@@ -38,13 +38,13 @@
     },
     {
       "title": "Videodagbok",
-      "media": "<iframe src=\"https://www.youtube.com/embed/h1NaiH2hyCs\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen loading=\"lazy\"></iframe>",
+      "media": "<iframe class='lazyframe' src=\"https://www.youtube.com/embed/h1NaiH2hyCs\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
       "date": "11.01.21",
       "text": "Denne videoen tilhører et prosjekt som gikk ut på å lage en innlegg til en videodagbok. Videoen var en koronadagbok som skulle vise dagen min og hvordan den er blitt påvirket av korona."
     },
     {
       "title": "Lego",
-      "media": "<iframe src=\"https://www.youtube.com/embed/HxwR7FIav68\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen loading=\"lazy\"></iframe>",
+      "media": "<iframe class='lazyframe' src=\"https://www.youtube.com/embed/HxwR7FIav68\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
       "date": "05.01.21",
       "text": "Denne videoen tilhører et prosjekt som gikk ut på å lage en legorobot som skulle gjøre masse forskjellig, som å kjøre i sirkler, rektangler og mange andre former."
     },
@@ -56,7 +56,7 @@
     },
     {
       "title": "Reklame",
-      "media": "<iframe src=\"https://www.youtube.com/embed/W7IoIeMsydU\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen loading=\"lazy\"></iframe>",
+      "media": "<iframe class='lazyframe' src=\"https://www.youtube.com/embed/W7IoIeMsydU\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
       "date": "17.11.20",
       "text": "Denne videoen tilhører et prosjekt som gikk ut på å lage en reklamefilm for linjen jeg går. Vi var delt inn i grupper og laget en reklamefilm sammen. Mer info <a href=\"#\" target=\"_blank\" class=\"here\">her</a>."
     },
@@ -68,7 +68,7 @@
     },
     {
       "title": "HMS",
-      "media": "<iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vSVBPmayuh8Jg4UN76QWuKHyMuGzc1zB-iG4PWtKEmkeomRIvsD8ArEa-qUwBeiPb8FJtJBvaJc7_54/embed?start=false&loop=true&delayms=5000\" frameborder=\"0\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\" loading=\"lazy\"></iframe>",
+      "media": "<iframe class='lazyframe' src=\"https://docs.google.com/presentation/d/e/2PACX-1vSVBPmayuh8Jg4UN76QWuKHyMuGzc1zB-iG4PWtKEmkeomRIvsD8ArEa-qUwBeiPb8FJtJBvaJc7_54/embed?start=false&loop=true&delayms=5000\" frameborder=\"0\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\"</iframe>",
       "date": "20.10.20",
       "text": "Dette prosjektet gikk ut på å lære om HMS, gdpr og andre sikkehets foreskrifter. Jeg hadde om HMS og lagde denne presentasjonen angående dette."
     }

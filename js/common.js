@@ -52,5 +52,4 @@ $(window).on("load", function () {
 
 });
 
-// Passing a selector
-lazyframe("iframe");
+lazyframe('.lazyframe');
