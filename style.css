@@ -36,7 +36,7 @@
 html
 {
     --bkg: rgb(23,23,82);
-    --bkg-grad: linear-gradient(225deg, rgba(23,23,82,1) 0%, rgba(36,36,130,1)50%, rgba(55,55,199,1) 75%, rgba(23,23,82,1) 100%);
+    --bkg-grad: linear-gradient(225deg, rgba(23,23,82,1) 0%, rgba(36,36,130,1)25%, rgba(55,55,199,1) 50%, rgba(36,36,130,1)75%, rgba(23,23,82,1) 100%);
     --btn-bkg: rgb(251,99,81);
     --btn-bkg-grad: linear-gradient(to right, rgba(255,151,139,1) 0%, rgba(249,124,128,1) 50%, rgba(242,115,142,1) 50%, rgba(251,99,81,1) 0%, rgba(246,89,95,1) 50%, rgba(242,78,112,1) 100%);
     --txt-clr: #fdfffc;
@@ -55,7 +55,7 @@ html
 {
     background: var(--bkg); /* Background color */
     background: var(--bkg-grad); /* Gradient on background */
-    background-size: 5000vw;
+    background-size: 500vw;
     display: flex;
     flex-direction: column;
     background-attachment: fixed;
@@ -336,7 +336,7 @@ footer
 
 #homeinfobox
 {
-    margin: 700px 0 300px 0; /* Margin */
+    margin: 80vh 0 30vh 0; /* Margin */
 }
 
 #homeinfo
