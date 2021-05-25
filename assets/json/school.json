@@ -68,9 +68,9 @@
     },
     {
       "title": "HMS",
-      "media": "<iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vSVBPmayuh8Jg4UN76QWuKHyMuGzc1zB-iG4PWtKEmkeomRIvsD8ArEa-qUwBeiPb8FJtJBvaJc7_54/embed?start=false&loop=true&delayms=5000\" frameborder=\"0\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\" loading=\"lazy\"></iframe>",
+      "media": "<img src=\"../../assets/images/hms.jpg\" alt=\"Bilde\" class=\"img\" loading=\"lazy\">",
       "date": "20.10.20",
-      "text": "Dette prosjektet gikk ut på å lære om HMS, gdpr og andre sikkehets foreskrifter. Jeg hadde om HMS og lagde denne presentasjonen angående dette."
+      "text": "Dette prosjektet gikk ut på å lære om HMS, gdpr og andre sikkehets foreskrifter. Jeg hadde om HMS og lagde denne presentasjonen angående dette. Mer info <a href=\"https://docs.google.com/presentation/d/1946PR6z7mhGwhbbER3RiiGJjzL5NFr66d76q4pIAmOM/edit?usp=sharing\" target=\"_blank\" class=\"here\">her</a>."
     }
   ]
 }
