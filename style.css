@@ -60,6 +60,7 @@ html
     flex-direction: column;
     background-attachment: fixed;
     animation: bkg-grad 12s infinite linear;
+    overflow: hidden;
 }
 
 /* 1.5 Header */
