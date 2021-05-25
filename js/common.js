@@ -1,3 +1,5 @@
+$("#header-pre").load("/sections/header.html")
+
 // Changes visibility in #backtotop after certain amount of px is scrolled
 window.onscroll = function () {
     if (window.pageYOffset >= 800) {
