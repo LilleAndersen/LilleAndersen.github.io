@@ -52,4 +52,6 @@ $(window).on("load", function () {
 
 });
 
-lazyframe('.lazyframe');
+lazyframe('.lazyloading');
+
+console.log("hi")
