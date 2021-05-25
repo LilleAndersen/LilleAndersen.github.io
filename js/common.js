@@ -51,7 +51,3 @@ $(window).on("load", function () {
     }, 250)
 
 });
-
-lazyframe('.lazyloading');
-
-console.log("hi")
