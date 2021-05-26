@@ -140,7 +140,7 @@ br
     border: solid #F3526A !important;
     color: var(--btn-bkg) !important;
     margin: 9vh 0 0 0 !important;
-
+    transition: all .5s ease-out; /* Hover transition */
 }
 
 #infobtn:hover
@@ -148,7 +148,14 @@ br
     color: var(--txt-clr) !important;
     background: #F3526A !important;
     border-radius: 20px !important;
+    transition: all .5s ease-out; /* Hover transition */
 
+}
+
+#infobtn:hover::after
+{
+    content: "Mer info";
+    transition: all .5s ease-out; /* Hover transition */
 }
 
 /* 1.7 Underpage */
