@@ -46,7 +46,7 @@ html
 
 *
 {
-    cursor: url("assets/cursor/cursor-orange.png") 8 8, auto; /* Adds custom cursor */
+    /*cursor: url("assets/cursor/cursor-orange.png") 8 8, auto; !* Adds custom cursor *!*/
 }
 
 /* 1.4 Flex */
@@ -132,6 +132,23 @@ html
 br
 {
     user-select: none;
+}
+
+#infobtn
+{
+    background: none !important;
+    border: solid #F3526A !important;
+    color: var(--btn-bkg) !important;
+    margin: 9vh 0 0 0 !important;
+
+}
+
+#infobtn:hover
+{
+    color: var(--txt-clr) !important;
+    background: #F3526A !important;
+    border-radius: 20px !important;
+
 }
 
 /* 1.7 Underpage */
@@ -319,6 +336,22 @@ footer
     bottom: 0;
     left: 0;
     padding: 1rem;
+}
+
+#old
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: right;
+    margin: 0 0 0 90vw;
+    color: var(--txt-clr);
+    outline: none;
+    border: none;
+    text-decoration: none;
+    z-index: 10000000;
 }
 
 
