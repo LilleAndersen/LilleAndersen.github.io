@@ -1,6 +1,6 @@
 # [little.yessness.com](https://little.yessness.com/)
 
-This is my personal school website for school and all other potential projects. It was made with the basis of a school assignment. But it has become more that just a school assignment.
+This is my personal school website for school and all other potential projects. It was made with the basis of a school assignment. But it has become more than just a school assignment.
 
 ---
 
