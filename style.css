@@ -98,6 +98,89 @@ html
     font-family: 'Roboto Condensed', sans-serif; /* Changes font */
 }
 
+br
+{
+    user-select: none;
+}
+
+/* 1.7 Underpage */
+
+p
+{
+    font-size: 20px; /* Font size */
+    margin: 50px 20% 50px 20%; /* Margin */
+}
+
+.projectname
+{
+    font-size: 32px; /* Font size */
+}
+
+.date
+{
+    font-size: 16px;
+    margin: 2em 0 -3.25em 0 !important;
+    color: #748CAB;
+}
+
+/* 1.8 Button */
+
+.btn
+{
+    color: var(--txt-clr);
+    font-size: 25px;
+    border: none;
+    padding: 20px;
+    text-decoration: none; /* No decor */
+    user-select: none; /* User can't select text */
+    border-radius: 35px;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif; /* Changes font */
+    outline: none;
+    margin: auto;
+
+    background-size: 200% 100%;
+    background-position: right bottom; /* Transition start position */
+    transition: all .5s ease-out; /* Transition */
+}
+
+.btn:hover
+{
+    color: var(--btn-bkg); /* Hover text color */
+    transform: scale(1.1);
+}
+
+.mainbtn
+{
+    margin: 0 30px;
+    font-size: 20px !important; /* Font-size */
+    padding: 15px !important; /* Padding */
+    min-width: 145px !important; /* Min width */
+    max-width: 230px !important; /* Min width */
+}
+
+.mainbtn:hover
+{
+    color: var(--btn-bkg); /* Mainbtn hover color */
+}
+
+#infobtn
+{
+    background: none !important;
+    border: solid #F3526A !important;
+    color: var(--btn-bkg) !important;
+    margin: 9vh 0 0 0 !important;
+
+}
+
+#infobtn:hover
+{
+    color: var(--txt-clr) !important;
+    background: #F3526A !important;
+    border-radius: 20px !important;
+}
+
 .morebtn
 {
     cursor: none !important; /* Removes cursor on hover */
@@ -127,91 +210,6 @@ html
     opacity: 0;
     transition: ease 300ms; /* Transition */
     /*display: none;*/
-}
-
-br
-{
-    user-select: none;
-}
-
-#infobtn
-{
-    background: none !important;
-    border: solid #F3526A !important;
-    color: var(--btn-bkg) !important;
-    margin: 9vh 0 0 0 !important;
-
-}
-
-#infobtn:hover
-{
-    color: var(--txt-clr) !important;
-    background: #F3526A !important;
-    border-radius: 20px !important;
-
-}
-
-/* 1.7 Underpage */
-
-p
-{
-    font-size: 20px; /* Font size */
-    margin: 50px 20% 50px 20%; /* Margin */
-}
-
-.projectname
-{
-    font-size: 32px; /* Font size */
-}
-
-.date
-{
-    font-size: 16px;
-    margin: 2em 0 -3.25em 0 !important;
-    color: #748CAB;
-}
-
-.mainbtn
-{
-    margin: 0 30px;
-    font-size: 20px !important; /* Font-size */
-    padding: 15px !important; /* Padding */
-    min-width: 145px !important; /* Min width */
-    max-width: 230px !important; /* Min width */
-}
-
-.mainbtn:hover
-{
-    color: var(--btn-bkg); /* Mainbtn hover color */
-}
-
-
-/* 1.8 Button */
-
-.btn
-{
-    color: var(--txt-clr);
-    font-size: 25px;
-    border: none;
-    padding: 20px;
-    text-decoration: none; /* No decor */
-    user-select: none; /* User can't select text */
-    border-radius: 35px;
-    display: inline-block;
-    text-align: center;
-    font-family: 'Roboto Condensed', sans-serif; /* Changes font */
-    outline: none;
-    margin: auto;
-
-    background-size: 200% 100%;
-    background-position: right bottom; /* Transition start position */
-    transition: all .5s ease-out; /* Transition */
-}
-
-.btn:hover
-{
-    color: var(--btn-bkg); /* Hover text color */
-    transform: scale(1.1);
 }
 
 /* 1.9 Scroll */
