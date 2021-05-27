@@ -140,7 +140,7 @@ br
     border: solid #F3526A !important;
     color: var(--btn-bkg) !important;
     margin: 9vh 0 0 0 !important;
-    transition: all .5s ease-out; /* Hover transition */
+
 }
 
 #infobtn:hover
@@ -148,14 +148,7 @@ br
     color: var(--txt-clr) !important;
     background: #F3526A !important;
     border-radius: 20px !important;
-    transition: all .5s ease-out; /* Hover transition */
 
-}
-
-#infobtn:hover::after
-{
-    content: "Mer info";
-    transition: all .5s ease-out; /* Hover transition */
 }
 
 /* 1.7 Underpage */
@@ -347,25 +340,6 @@ footer
 }
 
 
-<<<<<<< HEAD
-#old
-{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 1rem;
-    text-align: right;
-    margin: 0 0 0 90vw;
-    color: var(--txt-clr);
-    outline: none;
-    border: none;
-    text-decoration: none;
-    z-index: 10000000;
-}
-
-=======
->>>>>>> parent of d65231b (rolled back)
 /* 2 Page Specific*/
 
 /* 2.1 Home */
