@@ -353,7 +353,6 @@ footer
     padding: 1rem;
 }
 
-<<<<<<< HEAD
 /* 1.14 SVG */
 
 svg
@@ -367,7 +366,7 @@ svg
 {
     stroke: var(--txt-clr);
 }
-=======
+
 #old
 {
     position: absolute;
@@ -383,8 +382,6 @@ svg
     text-decoration: none;
     z-index: 10000000;
 }
-
->>>>>>> parent of 72f3a06 (add old page button, restyle buttons. add scaling on all buttons)
 
 /* 2 Page Specific*/
 

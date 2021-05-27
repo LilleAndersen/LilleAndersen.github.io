@@ -10,10 +10,6 @@
     <list default="true" id="bee98fe4-341e-4398-a2ef-7d8e61cbc69b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-<<<<<<< HEAD
-=======
-      <change beforePath="$PROJECT_DIR$/pages/school/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/school/index.html" afterDir="false" />
->>>>>>> parent of 72f3a06 (add old page button, restyle buttons. add scaling on all buttons)
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -186,13 +182,9 @@
       <workItem from="1621923643110" duration="5475000" />
       <workItem from="1621932463675" duration="10723000" />
       <workItem from="1622021386577" duration="183000" />
-<<<<<<< HEAD
       <workItem from="1622031378417" duration="7729000" />
       <workItem from="1622051428034" duration="4395000" />
-      <workItem from="1622094000791" duration="3047000" />
-=======
-      <workItem from="1622031378417" duration="7725000" />
->>>>>>> parent of 72f3a06 (add old page button, restyle buttons. add scaling on all buttons)
+      <workItem from="1622094000791" duration="3479000" />
     </task>
     <servers />
   </component>
