@@ -226,7 +226,6 @@ p
 .btn:hover
 {
     color: var(--btn-bkg); /* Hover text color */
-    transform: scale(1.1);
 }
 
 /* 1.9 Scroll */
@@ -354,6 +353,7 @@ footer
     padding: 1rem;
 }
 
+<<<<<<< HEAD
 /* 1.14 SVG */
 
 svg
@@ -367,6 +367,24 @@ svg
 {
     stroke: var(--txt-clr);
 }
+=======
+#old
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: right;
+    margin: 0 0 0 90vw;
+    color: var(--txt-clr);
+    outline: none;
+    border: none;
+    text-decoration: none;
+    z-index: 10000000;
+}
+
+>>>>>>> parent of 72f3a06 (add old page button, restyle buttons. add scaling on all buttons)
 
 /* 2 Page Specific*/
 
@@ -392,28 +410,6 @@ svg
 {
     font-size: 25px; /* Font size */
     margin: 25px; /* Margin */
-}
-
-#old
-{
-    position: absolute;
-    right: 0;
-    top: 0;
-    padding: 1rem;
-    text-align: center;
-    margin: 0 0 0 80vw;
-    color: var(--txt-clr);
-    outline: none;
-    border: none;
-    display: inline-block;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 15px;
-    transition: all .5s ease-out; /* Transition */
-}
-
-#old:hover
-{
-    transform: scale(1.1);
 }
 
 /* 2.2 School */
