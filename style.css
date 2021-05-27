@@ -137,7 +137,7 @@ p
     display: inline-block;
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif; /* Changes font */
-    outline: none;
+
     margin: auto;
 
     background-size: 200% 100%;
@@ -373,7 +373,6 @@ footer
     text-align: center;
     margin: 0 0 0 80vw;
     color: var(--txt-clr);
-    outline: none;
     border: none;
     display: inline-block;
     font-family: 'Roboto Condensed', sans-serif;
