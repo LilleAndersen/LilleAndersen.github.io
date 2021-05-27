@@ -8,6 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bee98fe4-341e-4398-a2ef-7d8e61cbc69b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
@@ -185,10 +186,14 @@
       <workItem from="1622031378417" duration="7729000" />
       <workItem from="1622051428034" duration="4395000" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <workItem from="1622094000791" duration="3479000" />
 =======
       <workItem from="1622094000791" duration="3047000" />
 >>>>>>> parent of d65231b (rolled back)
+=======
+      <workItem from="1622094000791" duration="1703000" />
+>>>>>>> parent of c60c5df (experiments)
     </task>
     <servers />
   </component>

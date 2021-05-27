@@ -13,7 +13,6 @@
       1.11 Github Logo
       1.12 Links
       1.13 Footer
-      1.14 SVG
     2 Page Specific
       2.1 Home
       2.2 School
@@ -142,8 +141,6 @@ br
     color: var(--btn-bkg) !important;
     margin: 9vh 0 0 0 !important;
     transition: all .5s ease-out; /* Hover transition */
-    min-width: 60px !important;
-    max-width: 250px !important;
 }
 
 #infobtn:hover
@@ -152,17 +149,12 @@ br
     background: #F3526A !important;
     border-radius: 20px !important;
     transition: all .5s ease-out; /* Hover transition */
+
 }
 
-more
+#infobtn:hover::after
 {
-    opacity: 0;
-    transition: all .5s ease-out; /* Hover transition */
-}
-
-#infobtn:hover more
-{
-    opacity: 1;
+    content: "Mer info";
     transition: all .5s ease-out; /* Hover transition */
 }
 
@@ -354,19 +346,6 @@ footer
     padding: 1rem;
 }
 
-/* 1.14 SVG */
-
-svg
-{
-    width: 1em;
-    stroke: #F3526A;
-    transition: all .5s ease-out; /* Transition */
-}
-
-#infobtn:hover svg
-{
-    stroke: var(--txt-clr);
-}
 
 <<<<<<< HEAD
 #old
