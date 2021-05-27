@@ -8,7 +8,6 @@ fetch("/pages/freetime/freetime.json")
             document.getElementById("schoolcontent").innerHTML +=
                 "<div id='" + data.freetime[i].title.replace(/\s/g, "") + "'>" +
                 data.freetime[i].media + "<br>" +
-                "<p class='date'>" + data.freetime[i].date + "</p>" +
                 "<p>" + "<a class='projectname'>" + data.freetime[i].title + "</a>" +
                 "<br>" + data.freetime[i].text +
                 "</p>" +
