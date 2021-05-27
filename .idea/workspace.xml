@@ -11,6 +11,7 @@
       <change afterPath="$PROJECT_DIR$/pages/school/school.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/icons/android-chrome-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/favicons/android-chrome-192x192.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/icons/android-chrome-256x256.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/favicons/android-chrome-256x256.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/icons/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/favicons/apple-touch-icon.png" afterDir="false" />
@@ -29,7 +30,6 @@
       <change beforePath="$PROJECT_DIR$/pages/freetime/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/freetime/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/school/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/school/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sections/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/sections/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,7 +216,7 @@
       <workItem from="1622021386577" duration="183000" />
       <workItem from="1622031378417" duration="7729000" />
       <workItem from="1622051428034" duration="2831000" />
-      <workItem from="1622112567506" duration="4477000" />
+      <workItem from="1622112567506" duration="6151000" />
     </task>
     <servers />
   </component>
