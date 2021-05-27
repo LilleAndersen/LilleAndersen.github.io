@@ -8,11 +8,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bee98fe4-341e-4398-a2ef-7d8e61cbc69b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/freetime/freetime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/freetime/freetime.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/school/school.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/android-chrome-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/favicons/android-chrome-192x192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/android-chrome-256x256.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/favicons/android-chrome-256x256.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/favicons/apple-touch-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/favicons/favicon-16x16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/favicons/favicon-32x32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/assets/favicons/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/mstile-150x150.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/favicons/mstile-150x150.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/safari-pinned-tab.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/favicons/safari-pinned-tab.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/site.webmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/assets/favicons/site.webmanifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/json/school.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/school/school.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/browserconfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/assets/favicons/browserconfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/freetime/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/freetime/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/school/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/school/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sections/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/sections/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +43,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -72,7 +88,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last.edited.regexp" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../graphide studios/yessness" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages/fritid" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -84,18 +100,31 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\My Drive\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\pages\fritid" />
+      <recent name="G:\My Drive\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\pages\freetime" />
       <recent name="G:\Min disk\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\assets\fonts" />
       <recent name="G:\Min disk\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\content\html\vg1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\My Drive\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\pages\freetime" />
+      <recent name="G:\My Drive\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\assets\icons" />
       <recent name="G:\My Drive\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\pages\school" />
+      <recent name="G:\My Drive\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\pages\freetime" />
       <recent name="G:\My Drive\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\assets\rest" />
       <recent name="G:\My Drive\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\assets\logos" />
-      <recent name="G:\Min disk\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\assets\icons" />
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/LilleAndersen.github.io/LilleAndersen.github.io/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -187,6 +216,7 @@
       <workItem from="1622021386577" duration="183000" />
       <workItem from="1622031378417" duration="7729000" />
       <workItem from="1622051428034" duration="2831000" />
+      <workItem from="1622112567506" duration="2404000" />
     </task>
     <servers />
   </component>
