@@ -61,21 +61,41 @@ html
     background-attachment: fixed;
     animation: bkg-grad 12s infinite linear;
     overflow: hidden;
+    margin-top: 0;
 }
 
 /* 1.5 Header */
 
-#header
+#home-header #header
 {
-    margin: 2% 20% 5% 20%; /* Adds margin */
     justify-content: space-evenly;
     display: flex;
     flex-direction: row;
+    padding: 2vw 0 5vw 0;
+    top: 0;
+}
+
+#subpage-header #header
+{
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    backdrop-filter: blur(50px);
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 2vw 0 2vw 0;
+    box-shadow: 0 0 0 0;
+    transition: all .5s ease-out; /* Transition */
 }
 
 #homebtn
 {
     align-items: center;
+    margin-left: 15vw;
+
 }
 
 #schoolbtn
@@ -86,6 +106,7 @@ html
 #freetimebtn
 {
     align-items: center;
+    margin-right: 15vw;
 }
 
 /* 1.6 Main */
@@ -137,8 +158,6 @@ p
     display: inline-block;
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif; /* Changes font */
-
-    margin: auto;
 
     background-size: 200% 100%;
     background-position: right bottom; /* Transition start position */
@@ -348,14 +367,20 @@ footer
     margin-top: 20%; /* Margin top */
 }
 
-#name
+#home #name
 {
     font-size: 60px; /* Font size */
 }
 
+#school #name
+{
+    font-size: 60px; /* Font size */
+    margin: 45vh 0 0 0;
+}
+
 #homeinfobox
 {
-    margin: 80vh 0 30vh 0; /* Margin */
+    margin: 80vh 0 34vh 0; /* Margin */
 }
 
 #homeinfo
@@ -366,12 +391,11 @@ footer
 
 #old
 {
-    position: absolute;
+    position: fixed;
     right: 0;
     top: 0;
     padding: 1rem;
     text-align: center;
-    margin: 0 0 0 80vw;
     color: var(--txt-clr);
     border: none;
     display: inline-block;
@@ -383,6 +407,11 @@ footer
 #old:hover
 {
     transform: scale(1.1);
+}
+
+#home #old
+{
+    position: absolute;
 }
 
 /* 2.2 School */

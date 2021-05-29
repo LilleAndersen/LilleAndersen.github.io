@@ -2,12 +2,14 @@ $("#header-pre").load("/sections/header.html")
 
 // Changes visibility in #backtotop after certain amount of px is scrolled
 window.onscroll = function () {
-    if (window.pageYOffset >= 800) {
-        document.getElementById("backtotop").style.opacity="1";
+    if (window.pageYOffset >= 400) {
+        document.querySelector("#backtotop").style.opacity="1";
+        document.querySelector("#subpage-header #header").style.boxShadow="0 1px 30px 0 var(--bkg)";
         // document.getElementById("backtotop").style.display="inline-block";
     }
     else {
-        document.getElementById("backtotop").style.opacity="0";
+        document.querySelector("#backtotop").style.opacity="0";
+        document.querySelector("#subpage-header #header").style.boxShadow="0 0 0 0";
         // document.getElementById("backtotop").style.display="none";
     }
 }
@@ -35,14 +37,3 @@ $(window).on("load", function () {
     }, 250)
 
 });
-
-function CopyToClipboard(little)
-{
-    var r = document.createRange();
-    r.selectNode(document.getElementById(little));
-    window.getSelection().removeAllRanges();
-    window.getSelection().addRange(r);
-    document.execCommand('copy');
-    window.getSelection().removeAllRanges();
-    alert("shit")
-}
