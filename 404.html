@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<!-- Forteller browseren at nettsiden er norsk -->
+<!-- Tells browser that the preffered language is Norwegian -->
 <html lang="NB-no">
-<!-- Gjør at nettsiden tillater ÆØÅ -->
-<meta charset="UTF-8">
+<meta charset="UTF-8"> <!-- Allows ÆØÅ -->
 <head>
-    <!-- Forteller HTML dokumentet hvor den skal leite for CSS dokumentet -->
-    <link rel="stylesheet" type="text/css" href="/style.css">
 
+    <link rel="stylesheet" type="text/css" href="style.css"> <!-- Tells HTML where the CSS is located -->
+    <link rel="canonical" href="https://little.yessness.com/">
     <title>Tobias' Skoleside</title>
 
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
@@ -21,7 +20,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Gjør at previewen blir fin -->
+    <!-- Open graph link preview -->
 
     <meta property="og:title" content="Tobias' Skoleside">
     <meta property="og:image" content="https://little.yessness.com/assets/logos/favicon.png">
@@ -32,7 +31,9 @@
     <meta property="og:description" content="Tobias Strømme Andersen sin skolenettside for videregående skole. Inneholder alle oppgaver og prosjekter som skjer innen programfagene. Siden oppdateres fortløpende.">
     <meta property="og:type" content="website">
 </head>
-<body id="home" scroll="no" style="overflow: hidden">
+
+
+<body id="home" scroll="no"> <!-- Body tag, Makes Body non-scrollable -->
 
 <div id="header">
     <a href="index.html" class="homebtn btn" tabindex="-1">Hjem</a>
@@ -52,7 +53,7 @@
 
 <a href="#" id="backtotop" class="btn" tabindex="-1">Tilbake til toppen</a>
 
-<script src="/js/libraries/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="/js/libraries/jquery-3.6.0.min.js"></script>
 <script src="/js/auto_resize.js"></script>
 <script src="/js/common.js"></script>
 
