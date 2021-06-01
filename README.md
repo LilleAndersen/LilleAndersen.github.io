@@ -6,7 +6,7 @@ This is my personal school website for school and all other potential projects. 
 
 ### The website has two primary designs:
 - The old, cozier and more complicated design: [old.little.yessness.com](https://old.little.yessness.com/)
-- The new and improved; simpler and stylish design: [little.yessness.com](https://little.yessness.com/)
+- The new and improved; simpler and more stylish design: [little.yessness.com](https://little.yessness.com/)
 
 ---
 
