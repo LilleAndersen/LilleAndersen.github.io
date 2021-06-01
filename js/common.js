@@ -4,7 +4,7 @@ $("#header-pre").load("/sections/header.html")
 window.onscroll = function () {
     if (window.pageYOffset >= 500) {
         document.querySelector("#backtotop").style.opacity="1";
-        document.querySelector("#subpage-header #header").style.boxShadow="0 1px 30px 0 var(--bkg)";
+        document.querySelector("#subpage-header #header").style.boxShadow="0 0 2rem var(--bkg)";
         document.querySelector("#subpage-header #header").style.padding=".5vw 0 .5vw 0";
         document.querySelector("#subpage-header #header").style.background="rgba(251,99,81,.8)";
         document.querySelector("#subpage-header #homebtn:hover, #schoolbtn:hover, #freetimebtn:hover").style.color="rgb(23,23,82)";

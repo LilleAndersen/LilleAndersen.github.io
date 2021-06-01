@@ -51,15 +51,15 @@ html
 
 /* 1.4 Flex */
 
-#home, #school
+#home, #school, body
 {
     background: var(--bkg); /* Background color */
     background: var(--bkg-grad); /* Gradient on background */
     background-size: 500vw;
+    animation: bkg-grad 12s infinite linear;
     display: flex;
     flex-direction: column;
     background-attachment: fixed;
-    animation: bkg-grad 12s infinite linear;
     overflow: hidden;
     margin-top: 0;
 }
@@ -356,6 +356,9 @@ footer
     bottom: 0;
     left: 0;
     padding: 1rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fdfffc;
+    text-align: center;
 }
 
 
