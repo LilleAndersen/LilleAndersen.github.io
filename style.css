@@ -88,7 +88,9 @@ html
     right: 0;
     padding: 2vw 0 2vw 0;
     box-shadow: 0 0 0 0;
-    transition: all .5s ease-out; /* Transition */
+    transition: all .5s ease-out,
+                background-color .5s ease .2s; /* Transition */
+    background: none;
 }
 
 #homebtn

@@ -2,14 +2,20 @@ $("#header-pre").load("/sections/header.html")
 
 // Changes visibility in #backtotop after certain amount of px is scrolled
 window.onscroll = function () {
-    if (window.pageYOffset >= 400) {
+    if (window.pageYOffset >= 500) {
         document.querySelector("#backtotop").style.opacity="1";
         document.querySelector("#subpage-header #header").style.boxShadow="0 1px 30px 0 var(--bkg)";
+        document.querySelector("#subpage-header #header").style.padding=".5vw 0 .5vw 0";
+        document.querySelector("#subpage-header #header").style.background="rgba(251,99,81,.8)";
+        document.querySelector("#subpage-header #homebtn:hover, #schoolbtn:hover, #freetimebtn:hover").style.color="rgb(23,23,82)";
         // document.getElementById("backtotop").style.display="inline-block";
     }
     else {
         document.querySelector("#backtotop").style.opacity="0";
         document.querySelector("#subpage-header #header").style.boxShadow="0 0 0 0";
+        document.querySelector("#subpage-header #header").style.padding="2vw 0 2vw 0";
+        document.querySelector("#subpage-header #header").style.background="none";
+        document.querySelector("#subpage-header #homebtn:hover, #schoolbtn:hover, #freetimebtn:hover").style.color="rgb(251,99,81)";
         // document.getElementById("backtotop").style.display="none";
     }
 }
