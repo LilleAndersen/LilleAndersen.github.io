@@ -412,6 +412,7 @@ footer
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 15px;
     transition: all .5s ease-out; /* Transition */
+    z-index: 1000001;
 }
 
 #old:hover
