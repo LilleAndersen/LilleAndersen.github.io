@@ -66,6 +66,11 @@ html
 
 /* 1.5 Header */
 
+#header
+{
+    z-index: 1000000;
+}
+
 #home-header #header
 {
     justify-content: space-evenly;
