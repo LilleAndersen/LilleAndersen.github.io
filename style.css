@@ -468,6 +468,7 @@ error
     left: 50%; /* 50% from left */
     transform:translate(-50%,-50%); /* -50% on two sides to make centered */
     position: absolute; /* Absolute to bypass any other set restrictions and bypass other html element */
+    user-select: none;
 }
 
 /* 3 Animation */
