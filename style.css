@@ -33,27 +33,28 @@
 /* 1.2 Variables */
 
 html {
-  --bkg: rgb(23, 23, 82);
-  --bkg-grad: linear-gradient(
-    225deg,
-    rgba(23, 23, 82, 1) 0%,
-    rgba(36, 36, 130, 1) 25%,
-    rgba(55, 55, 199, 1) 50%,
-    rgba(36, 36, 130, 1) 75%,
-    rgba(23, 23, 82, 1) 100%
-  );
-  --btn-bkg: rgb(251, 99, 81);
-  --btn-bkg-grad: linear-gradient(
-    to right,
-    rgba(255, 151, 139, 1) 0%,
-    rgba(249, 124, 128, 1) 50%,
-    rgba(242, 115, 142, 1) 50%,
-    rgba(251, 99, 81, 1) 0%,
-    rgba(246, 89, 95, 1) 50%,
-    rgba(242, 78, 112, 1) 100%
-  );
-  --txt-clr: #fdfffc;
-=======
+    --bkg: rgb(23, 23, 82);
+    --bkg-grad: linear-gradient(
+            225deg,
+            rgba(23, 23, 82, 1) 0%,
+            rgba(36, 36, 130, 1) 25%,
+            rgba(55, 55, 199, 1) 50%,
+            rgba(36, 36, 130, 1) 75%,
+            rgba(23, 23, 82, 1) 100%
+    );
+    --btn-bkg: rgb(251, 99, 81);
+    --btn-bkg-grad: linear-gradient(
+            to right,
+            rgba(255, 151, 139, 1) 0%,
+            rgba(249, 124, 128, 1) 50%,
+            rgba(242, 115, 142, 1) 50%,
+            rgba(251, 99, 81, 1) 0%,
+            rgba(246, 89, 95, 1) 50%,
+            rgba(242, 78, 112, 1) 100%
+    );
+    --txt-clr: #fdfffc;
+}
+
 html
 {
     --bkg: rgb(23,23,82);
@@ -178,63 +179,72 @@ p {
   transition: all 0.5s ease-out; /* Transition */
 }
 
-.btn:hover {
-  color: var(--btn-bkg); /* Hover text color */
-  transform: scale(1.1);
+.btn:hover
+{
+    color: var(--btn-bkg); /* Hover text color */
+    transform: scale(1.1);
 }
 
-.mainbtn {
-  margin: 0 30px;
-  font-size: 20px !important; /* Font-size */
-  padding: 15px !important; /* Padding */
-  min-width: 145px !important; /* Min width */
-  max-width: 230px !important; /* Min width */
+.mainbtn
+{
+    margin: 0 30px;
+    font-size: 20px !important; /* Font-size */
+    padding: 15px !important; /* Padding */
+    min-width: 145px !important; /* Min width */
+    max-width: 230px !important; /* Min width */
 }
 
-.mainbtn:hover {
-  color: var(--btn-bkg); /* Mainbtn hover color */
+.mainbtn:hover
+{
+    color: var(--btn-bkg); /* Mainbtn hover color */
 }
 
-#infobtn {
-  background: none !important;
-  border: solid #f3526a !important;
-  color: var(--btn-bkg) !important;
-  margin: 9vh 0 0 0 !important;
-  transition: all 0.3s ease-out !important; /* Transition */
+#infobtn
+{
+    background: none !important;
+    border: solid #f3526a !important;
+    color: var(--btn-bkg) !important;
+    margin: 9vh 0 0 0 !important;
+    transition: all 0.3s ease-out !important; /* Transition */
 }
 
-#infobtn:hover {
-  color: var(--txt-clr) !important;
-  background: #f3526a !important;
-  border-radius: 20px !important;
+#infobtn:hover
+{
+    color: var(--txt-clr) !important;
+    background: #f3526a !important;
+    border-radius: 20px !important;
 }
 
-.morebtn {
-  cursor: none !important; /* Removes cursor on hover */
-  min-width: 165px !important; /* Adds !important min width */
-  max-width: 250px !important; /* Adds !important max width */
-  background: var(--btn-bkg);
-  background: var(--btn-bkg-grad); /* Gradient and gradient on button hover */
-  background-size: 200% 100%;
-  background-position: right bottom; /* Transition start position */
-  transition: all 0.5s ease-out; /* Hover transition */
-  margin: 0 0.5em !important;
+.morebtn
+{
+    cursor: none !important; /* Removes cursor on hover */
+    min-width: 165px !important; /* Adds !important min width */
+    max-width: 250px !important; /* Adds !important max width */
+    background: var(--btn-bkg);
+    background: var(--btn-bkg-grad); /* Gradient and gradient on button hover */
+    background-size: 200% 100%;
+    background-position: right bottom; /* Transition start position */
+    transition: all 0.5s ease-out; /* Hover transition */
+    margin: 0 0.5em !important;
 }
 
-.morebtn:hover {
+.morebtn:hover
+{
   color: var(--txt-clr) !important;
   background-position: left bottom;
 }
 
-#backtotop {
-  position: fixed; /* Changes position to fixed to it stays still */
-  bottom: 0;
-  right: 0;
-  margin: 15px;
-  z-index: 100; /* Order of items */
-  opacity: 0;
-  transition: ease 300ms; /* Transition */
-  /*display: none;*/
+#backtotop
+{
+    position: fixed; /* Changes position to fixed to it stays still */
+    bottom: 0;
+    right: 0;
+    margin: 15px;
+    z-index: 100; /* Order of items */
+    opacity: 0;
+    transition: ease 300ms; /* Transition */
+    /*display: none;*/
+}
 
 .btn
 {
@@ -324,48 +334,57 @@ p {
 
 /* 1.9 Scroll */
 
-* {
+*
+{
   scroll-behavior: smooth; /* Change scroll behavior */
   overscroll-behavior: none;
 }
 
-body {
+body
+{
   overflow-y: hidden;
 }
 
-#home::-webkit-scrollbar {
+#home::-webkit-scrollbar
+{
   display: none; /* Makes scrollbar invisible on homepage */
 }
 
-::-webkit-scrollbar {
+::-webkit-scrollbar
+{
   width: 10px; /* Width on scrollbar */
 }
 
 /* Track */
-::-webkit-scrollbar-track {
+::-webkit-scrollbar-track
+{
   background: #232425; /* Scrollbar track background color */
 }
 
 /* Handle */
-::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb
+{
   background: rgba(242, 78, 112, 1); /* Scrollbar thumb color */
   border-radius: 2147483647px; /* Makes the thumb piece have round edges */
 }
 
-::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover
+{
   background: rgba(249, 124, 128, 1); /* Scrollbar thumb piece hover color */
 }
 
 /* 1.10 Images */
 
-.img {
+.img
+{
   width: 70%; /* Image width */
   user-select: none;
   border-radius: 2rem;
   height: auto;
 }
 
-iframe {
+iframe
+{
   width: 70%; /* Iframe width */
   height: auto;
   border-radius: 2rem;
@@ -373,7 +392,8 @@ iframe {
 
 /* 1.11 Github Logo */
 
-.logo {
+.logo
+{
   position: fixed; /* Fixed position */
   bottom: 0; /* Bottom justified */
   left: 0; /* Left justified */
@@ -383,13 +403,15 @@ iframe {
   width: 2.2vw;
 }
 
-.rotate {
+.rotate
+{
   transition: transform ease-in-out 0.2s; /* Logo transition */
 }
 
 /* Rotating transitions (for all browsers) */
 
-.rotate:hover {
+.rotate:hover
+{
   transition: 0.7s;
   -webkit-transition: 0.7s;
   -moz-transition: 0.7s;
@@ -405,28 +427,33 @@ iframe {
 /* 1.12 Links */
 
 /* unvisited link */
-.here:link {
+.here:link
+{
   color: rgba(242, 78, 112, 1); /* Link color */
 }
 
 /* visited link */
-.here:visited {
+.here:visited
+{
   color: rgba(242, 78, 112, 1); /* Visited link color */
 }
 
 /* mouse over link */
-.here:hover {
+.here:hover
+{
   color: rgba(249, 124, 128, 1); /* Link hover color */
 }
 
 /* selected link */
-.here:active {
+.here:active
+{
   color: rgba(242, 78, 112, 1); /* Link active color */
 }
 
 /* 1.13 Footer */
 
-footer {
+footer
+{
   position: absolute;
   right: 0;
   bottom: 0;
@@ -441,30 +468,36 @@ footer {
 
 /* 2.1 Home */
 
-#welcome {
+#welcome
+{
   text-align: center; /* Text align center */
   margin-top: 20%; /* Margin top */
 }
 
-#home #name {
+#home #name
+{
   font-size: 60px; /* Font size */
 }
 
-#school #name {
+#school #name
+{
   font-size: 60px; /* Font size */
   margin: 45vh 0 0 0;
 }
 
-#homeinfobox {
+#homeinfobox
+{
   margin: 80vh 0 34vh 0; /* Margin */
 }
 
-#homeinfo {
+#homeinfo
+{
   font-size: 25px; /* Font size */
   margin: 25px; /* Margin */
 }
 
-#old {
+#old
+{
   position: fixed;
   right: 0;
   top: 0;
@@ -479,17 +512,20 @@ footer {
   z-index: 1000001;
 }
 
-#old:hover {
+#old:hover
+{
   transform: scale(1.1);
 }
 
-#home #old {
+#home #old
+{
   position: absolute;
 }
 
 /* 2.2 School */
 
-#schoolcontent {
+#schoolcontent
+{
   margin: 500px 0 0 0; /* Margin */
   padding: 100px 0 0 0; /* Padding */
 }
@@ -498,18 +534,21 @@ footer {
 
 /* 2.4 404 */
 
-.main404 {
+.main404
+{
   margin-top: -50px; /* Minus margin to move past previously set margin */
   margin-bottom: 750px; /* Margin */
 }
 
-error {
+error
+{
   font-size: 40px;
 }
 
 /* 2.5 Preloader */
 
-.loader-wrapper {
+.loader-wrapper
+{
   background: var(--bkg); /* Background color */
   background: var(--bkg-grad); /* Gradient on background */
   background-size: 5000vw;
@@ -523,7 +562,8 @@ error {
   animation: bkg-grad 12s infinite linear;
 }
 
-.loading {
+.loading
+{
   width: 5%; /* Logo width */
   top: 50%; /* 50% from top */
   left: 50%; /* 50% from left */
@@ -535,24 +575,24 @@ error {
 /* 3 Animation */
 
 @keyframes bkg-grad {
-  0% {
+  0%{
     background-position: 0;
   }
 
-  100% {
+  100%{
     background-position: 90%;
   }
 }
 
 /* 4 Rest */
 
-::-moz-selection {
+::-moz-selection{
   /* Code for Firefox */
   color: white;
   background: rgba(242, 78, 112, 1);
 }
 
-::selection {
+::selection{
   color: white;
   background: rgba(242, 78, 112, 1);
 }
