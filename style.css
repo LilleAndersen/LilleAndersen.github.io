@@ -25,14 +25,35 @@
 
 /* 1.1 Imports */
 
-@font-face
-{
-    font-family: "Roboto Condensed";
-    src: url(assets/fonts/RobotoCondensed-Regular.ttf); /* Imports font from fonts folder to use */
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url(assets/fonts/RobotoCondensed-Regular.ttf); /* Imports font from fonts folder to use */
 }
 
 /* 1.2 Variables */
 
+html {
+  --bkg: rgb(23, 23, 82);
+  --bkg-grad: linear-gradient(
+    225deg,
+    rgba(23, 23, 82, 1) 0%,
+    rgba(36, 36, 130, 1) 25%,
+    rgba(55, 55, 199, 1) 50%,
+    rgba(36, 36, 130, 1) 75%,
+    rgba(23, 23, 82, 1) 100%
+  );
+  --btn-bkg: rgb(251, 99, 81);
+  --btn-bkg-grad: linear-gradient(
+    to right,
+    rgba(255, 151, 139, 1) 0%,
+    rgba(249, 124, 128, 1) 50%,
+    rgba(242, 115, 142, 1) 50%,
+    rgba(251, 99, 81, 1) 0%,
+    rgba(246, 89, 95, 1) 50%,
+    rgba(242, 78, 112, 1) 100%
+  );
+  --txt-clr: #fdfffc;
+=======
 html
 {
     --bkg: rgb(23,23,82);
@@ -44,114 +65,176 @@ html
 
 /* 1.3 Cursor */
 
-*
-{
-    /*cursor: url("assets/cursor/cursor-orange.png") 8 8, auto; !* Adds custom cursor *!*/
+* {
+  /*cursor: url("assets/cursor/cursor-orange.png") 8 8, auto; !* Adds custom cursor *!*/
 }
 
 /* 1.4 Flex */
 
-#home, #school, body
-{
-    background: var(--bkg); /* Background color */
-    background: var(--bkg-grad); /* Gradient on background */
-    background-size: 500vw;
-    animation: bkg-grad 12s infinite linear;
-    display: flex;
-    flex-direction: column;
-    background-attachment: fixed;
-    overflow: hidden;
-    margin-top: 0;
+#home,
+#school,
+body {
+  background: var(--bkg); /* Background color */
+  background: var(--bkg-grad); /* Gradient on background */
+  background-size: 500vw;
+  animation: bkg-grad 12s infinite alternate;
+  display: flex;
+  flex-direction: column;
+  background-attachment: fixed;
+  overflow: hidden;
+  margin-top: 0;
 }
 
 /* 1.5 Header */
 
-#header
-{
-    z-index: 1000000;
+#header {
+  z-index: 1000000;
 }
 
-#home-header #header
-{
-    justify-content: space-evenly;
-    display: flex;
-    flex-direction: row;
-    padding: 2vw 0 5vw 0;
-    top: 0;
+#home-header #header {
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  padding: 2vw 0 5vw 0;
+  top: 0;
 }
 
-#subpage-header #header
-{
-    justify-content: space-evenly;
-    display: flex;
-    flex-direction: row;
-    position: fixed;
-    backdrop-filter: blur(50px);
-    width: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: 2vw 0 2vw 0;
-    box-shadow: 0 0 0 0;
-    transition: all .5s ease-out,
-                background-color .5s ease .2s; /* Transition */
-    background: none;
+#subpage-header #header {
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  backdrop-filter: blur(50px);
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 2vw 0 2vw 0;
+  box-shadow: 0 0 0 0;
+  transition: all 0.5s ease-out, background-color 0.5s ease 0.2s; /* Transition */
+  background: none;
 }
 
-#homebtn
-{
-    align-items: center;
-    margin-left: 15vw;
-
+#homebtn {
+  align-items: center;
+  margin-left: 15vw;
 }
 
-#schoolbtn
-{
-    align-items: center;
+#schoolbtn {
+  align-items: center;
 }
 
-#freetimebtn
-{
-    align-items: center;
-    margin-right: 15vw;
+#freetimebtn {
+  align-items: center;
+  margin-right: 15vw;
 }
 
 /* 1.6 Main */
 
-.main
-{
-    margin: 0 20% 0 20%;
-    text-align: center;
-    color: var(--txt-clr); /* Text color */
-    font-family: 'Roboto Condensed', sans-serif; /* Changes font */
+.main {
+  margin: 0 20% 0 20%;
+  text-align: center;
+  color: var(--txt-clr); /* Text color */
+  font-family: "Roboto Condensed", sans-serif; /* Changes font */
 }
 
-br
-{
-    user-select: none;
+br {
+  user-select: none;
 }
 
 /* 1.7 Underpage */
 
-p
-{
-    font-size: 20px; /* Font size */
-    margin: 50px 20% 50px 20%; /* Margin */
+p {
+  font-size: 20px; /* Font size */
+  margin: 50px 20% 50px 20%; /* Margin */
 }
 
-.projectname
-{
-    font-size: 32px; /* Font size */
+.projectname {
+  font-size: 32px; /* Font size */
 }
 
-.date
-{
-    font-size: 16px;
-    margin: 2em 0 -3.25em 0 !important;
-    color: #748CAB;
+.date {
+  font-size: 16px;
+  margin: 2em 0 -3.25em 0 !important;
+  color: #748cab;
 }
 
 /* 1.8 Button */
+
+.btn {
+  color: var(--txt-clr);
+  font-size: 25px;
+  border: none;
+  padding: 20px;
+  text-decoration: none; /* No decor */
+  user-select: none; /* User can't select text */
+  border-radius: 35px;
+  display: inline-block;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif; /* Changes font */
+
+  background-size: 200% 100%;
+  background-position: right bottom; /* Transition start position */
+  transition: all 0.5s ease-out; /* Transition */
+}
+
+.btn:hover {
+  color: var(--btn-bkg); /* Hover text color */
+  transform: scale(1.1);
+}
+
+.mainbtn {
+  margin: 0 30px;
+  font-size: 20px !important; /* Font-size */
+  padding: 15px !important; /* Padding */
+  min-width: 145px !important; /* Min width */
+  max-width: 230px !important; /* Min width */
+}
+
+.mainbtn:hover {
+  color: var(--btn-bkg); /* Mainbtn hover color */
+}
+
+#infobtn {
+  background: none !important;
+  border: solid #f3526a !important;
+  color: var(--btn-bkg) !important;
+  margin: 9vh 0 0 0 !important;
+  transition: all 0.3s ease-out !important; /* Transition */
+}
+
+#infobtn:hover {
+  color: var(--txt-clr) !important;
+  background: #f3526a !important;
+  border-radius: 20px !important;
+}
+
+.morebtn {
+  cursor: none !important; /* Removes cursor on hover */
+  min-width: 165px !important; /* Adds !important min width */
+  max-width: 250px !important; /* Adds !important max width */
+  background: var(--btn-bkg);
+  background: var(--btn-bkg-grad); /* Gradient and gradient on button hover */
+  background-size: 200% 100%;
+  background-position: right bottom; /* Transition start position */
+  transition: all 0.5s ease-out; /* Hover transition */
+  margin: 0 0.5em !important;
+}
+
+.morebtn:hover {
+  color: var(--txt-clr) !important;
+  background-position: left bottom;
+}
+
+#backtotop {
+  position: fixed; /* Changes position to fixed to it stays still */
+  bottom: 0;
+  right: 0;
+  margin: 15px;
+  z-index: 100; /* Order of items */
+  opacity: 0;
+  transition: ease 300ms; /* Transition */
+  /*display: none;*/
 
 .btn
 {
@@ -236,278 +319,258 @@ p
     opacity: 0;
     transition: ease 300ms; /* Transition */
     /*display: none;*/
+
 }
 
 /* 1.9 Scroll */
 
-*
-{
-    scroll-behavior: smooth; /* Change scroll behavior */
-    overscroll-behavior: none;
+* {
+  scroll-behavior: smooth; /* Change scroll behavior */
+  overscroll-behavior: none;
 }
 
-body
-{
-    overflow-y: hidden;
+body {
+  overflow-y: hidden;
 }
 
-#home::-webkit-scrollbar
-{
-    display: none; /* Makes scrollbar invisible on homepage */
+#home::-webkit-scrollbar {
+  display: none; /* Makes scrollbar invisible on homepage */
 }
 
-::-webkit-scrollbar
-{
-    width: 10px; /* Width on scrollbar */
+::-webkit-scrollbar {
+  width: 10px; /* Width on scrollbar */
 }
 
 /* Track */
-::-webkit-scrollbar-track
-{
-    background: #232425; /* Scrollbar track background color */
+::-webkit-scrollbar-track {
+  background: #232425; /* Scrollbar track background color */
 }
 
 /* Handle */
-::-webkit-scrollbar-thumb
-{
-    background: rgba(242,78,112,1); /* Scrollbar thumb color */
-    border-radius: 2147483647px; /* Makes the thumb piece have round edges */
+::-webkit-scrollbar-thumb {
+  background: rgba(242, 78, 112, 1); /* Scrollbar thumb color */
+  border-radius: 2147483647px; /* Makes the thumb piece have round edges */
 }
 
-::-webkit-scrollbar-thumb:hover
-{
-    background: rgba(249,124,128,1); /* Scrollbar thumb piece hover color */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(249, 124, 128, 1); /* Scrollbar thumb piece hover color */
 }
 
 /* 1.10 Images */
 
-.img
-{
-    width: 70%; /* Image width */
-    user-select: none;
-    border-radius: 2rem;
-    height: auto;
+.img {
+  width: 70%; /* Image width */
+  user-select: none;
+  border-radius: 2rem;
+  height: auto;
 }
 
-iframe
-{
-    width: 70%; /* Iframe width */
-    height: auto;
-    border-radius: 2rem;
+iframe {
+  width: 70%; /* Iframe width */
+  height: auto;
+  border-radius: 2rem;
 }
 
 /* 1.11 Github Logo */
 
-.logo
-{
-    position: fixed; /* Fixed position */
-    bottom: 0; /* Bottom justified */
-    left: 0; /* Left justified */
-    z-index: 100; /* Makes item at the top of everything */
-    margin: 5px; /* Margin */
-    background-color: transparent; /* Background transparent */
-    width: 2.2vw;
+.logo {
+  position: fixed; /* Fixed position */
+  bottom: 0; /* Bottom justified */
+  left: 0; /* Left justified */
+  z-index: 100; /* Makes item at the top of everything */
+  margin: 5px; /* Margin */
+  background-color: transparent; /* Background transparent */
+  width: 2.2vw;
 }
 
-.rotate
-{
-    transition: transform ease-in-out 0.2s; /* Logo transition */
+.rotate {
+  transition: transform ease-in-out 0.2s; /* Logo transition */
 }
 
 /* Rotating transitions (for all browsers) */
 
-.rotate:hover
-{
-    transition: 0.70s;
-    -webkit-transition: 0.70s;
-    -moz-transition: 0.70s;
-    -ms-transition: 0.70s;
-    -o-transition: 0.70s;
-    -webkit-transform: rotate(180deg);
-    -moz-transform: rotate(180deg);
-    -o-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    transform: scale(1.1) rotate(360deg);
+.rotate:hover {
+  transition: 0.7s;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.7s;
+  -ms-transition: 0.7s;
+  -o-transition: 0.7s;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: scale(1.1) rotate(360deg);
 }
 
 /* 1.12 Links */
 
 /* unvisited link */
 .here:link {
-    color: rgba(242,78,112,1); /* Link color */
+  color: rgba(242, 78, 112, 1); /* Link color */
 }
 
 /* visited link */
 .here:visited {
-    color: rgba(242,78,112,1); /* Visited link color */
+  color: rgba(242, 78, 112, 1); /* Visited link color */
 }
 
 /* mouse over link */
 .here:hover {
-    color: rgba(249,124,128,1); /* Link hover color */
+  color: rgba(249, 124, 128, 1); /* Link hover color */
 }
 
 /* selected link */
 .here:active {
-    color: rgba(242,78,112,1); /* Link active color */
+  color: rgba(242, 78, 112, 1); /* Link active color */
 }
 
 /* 1.13 Footer */
 
-footer
-{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 1rem;
-    font-family: 'Roboto Condensed', sans-serif;
-    color: #fdfffc;
-    text-align: center;
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #fdfffc;
+  text-align: center;
 }
-
 
 /* 2 Page Specific*/
 
 /* 2.1 Home */
 
-#welcome
-{
-    text-align: center; /* Text align center */
-    margin-top: 20%; /* Margin top */
+#welcome {
+  text-align: center; /* Text align center */
+  margin-top: 20%; /* Margin top */
 }
 
-#home #name
-{
-    font-size: 60px; /* Font size */
+#home #name {
+  font-size: 60px; /* Font size */
 }
 
-#school #name
-{
-    font-size: 60px; /* Font size */
-    margin: 45vh 0 0 0;
+#school #name {
+  font-size: 60px; /* Font size */
+  margin: 45vh 0 0 0;
 }
 
-#homeinfobox
-{
-    margin: 80vh 0 34vh 0; /* Margin */
+#homeinfobox {
+  margin: 80vh 0 34vh 0; /* Margin */
 }
 
-#homeinfo
-{
-    font-size: 25px; /* Font size */
-    margin: 25px; /* Margin */
+#homeinfo {
+  font-size: 25px; /* Font size */
+  margin: 25px; /* Margin */
 }
 
-#old
-{
-    position: fixed;
-    right: 0;
-    top: 0;
-    padding: 1rem;
-    text-align: center;
-    color: var(--txt-clr);
-    border: none;
-    display: inline-block;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 15px;
-    transition: all .5s ease-out; /* Transition */
-    z-index: 1000001;
+#old {
+  position: fixed;
+  right: 0;
+  top: 0;
+  padding: 1rem;
+  text-align: center;
+  color: var(--txt-clr);
+  border: none;
+  display: inline-block;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 15px;
+  transition: all 0.5s ease-out; /* Transition */
+  z-index: 1000001;
 }
 
-#old:hover
-{
-    transform: scale(1.1);
+#old:hover {
+  transform: scale(1.1);
 }
 
-#home #old
-{
-    position: absolute;
+#home #old {
+  position: absolute;
 }
 
 /* 2.2 School */
 
-#schoolcontent
-{
-    margin: 500px 0 0 0; /* Margin */
-    padding: 100px 0 0 0; /* Padding */
+#schoolcontent {
+  margin: 500px 0 0 0; /* Margin */
+  padding: 100px 0 0 0; /* Padding */
 }
 
 /* 2.3 Freetime */
 
-
-
 /* 2.4 404 */
 
-.main404
-{
-    margin-top: -50px; /* Minus margin to move past previously set margin */
-    margin-bottom: 750px; /* Margin */
+.main404 {
+  margin-top: -50px; /* Minus margin to move past previously set margin */
+  margin-bottom: 750px; /* Margin */
 }
 
-error
-{
-    font-size: 40px;
+error {
+  font-size: 40px;
 }
 
 /* 2.5 Preloader */
 
-.loader-wrapper
-{
-    background: var(--bkg); /* Background color */
-    background: var(--bkg-grad); /* Gradient on background */
-    background-size: 5000vw;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: absolute;
-    z-index: 500;
-    background-attachment: fixed;
-    animation: bkg-grad 12s infinite linear;
+.loader-wrapper {
+  background: var(--bkg); /* Background color */
+  background: var(--bkg-grad); /* Gradient on background */
+  background-size: 5000vw;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 500;
+  background-attachment: fixed;
+  animation: bkg-grad 12s infinite linear;
 }
 
-.loading
-{
-    width: 5%; /* Logo width */
-    top: 50%; /* 50% from top */
-    left: 50%; /* 50% from left */
-    transform:translate(-50%,-50%); /* -50% on two sides to make centered */
-    position: absolute; /* Absolute to bypass any other set restrictions and bypass other html element */
-    user-select: none;
+.loading {
+  width: 5%; /* Logo width */
+  top: 50%; /* 50% from top */
+  left: 50%; /* 50% from left */
+  transform: translate(-50%, -50%); /* -50% on two sides to make centered */
+  position: absolute; /* Absolute to bypass any other set restrictions and bypass other html element */
+  user-select: none;
 }
 
 /* 3 Animation */
 
-@keyframes bkg-grad
-{
-    0%
-    {
-        background-position: 0;
-    }
+@keyframes bkg-grad {
+  0% {
+    background-position: 0;
+  }
 
-    100%
-    {
-        background-position: 90%;
-    }
+  100% {
+    background-position: 90%;
+  }
 }
 
 /* 4 Rest */
 
-::-moz-selection { /* Code for Firefox */
-    color: white;
-    background: rgba(242,78,112,1);
+::-moz-selection {
+  /* Code for Firefox */
+  color: white;
+  background: rgba(242, 78, 112, 1);
 }
 
 ::selection {
-    color: white;
-    background: rgba(242,78,112,1);
+  color: white;
+  background: rgba(242, 78, 112, 1);
 }
 
 /* Connects class to grid area */
 
-.main { grid-area: main; }
-.header { grid-area: header; }
-#homebtn { grid-area: homebtn; }
-#schoolbtn { grid-area: schoolbtn; }
-#freetimebtn { grid-area: freetimebtn; }
+.main {
+  grid-area: main;
+}
+.header {
+  grid-area: header;
+}
+#homebtn {
+  grid-area: homebtn;
+}
+#schoolbtn {
+  grid-area: schoolbtn;
+}
+#freetimebtn {
+  grid-area: freetimebtn;
+}
