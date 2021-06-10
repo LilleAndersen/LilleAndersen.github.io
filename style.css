@@ -555,36 +555,30 @@ error
     user-select: none;
 }
 
-/* 3 Animation */
+/* 3 Animations */
 
-@keyframes bkg-grad {
-    0%{
+@keyframes bkg-grad
+{
+    0%
+    {
         background-position: 0;
     }
 
-    100%{
+    100%
+    {
         background-position: 90%;
     }
 }
 
-@keyframes svg-bounce {
-    0%{
+@keyframes svg-bounce
+{
+    0%, 25%, 50%, 75%
+    {
         margin-top: 0;
     }
 
-    25%{
-        margin-top: 0;
-    }
-
-    50%{
-        margin-top: 0;
-    }
-
-    75% {
-        margin-top: 0;
-    }
-
-    100%{
+    100%
+    {
         margin-top: 20px;
     }
 }
