@@ -35,8 +35,8 @@
 
 html
 {
-    --bkg: rgb(23, 23, 82);
-    --bkg-grad: linear-gradient(
+    --accent-pink: rgb(23, 23, 82);
+    --accent-pink-grad: linear-gradient(
             225deg,
             rgba(23, 23, 82, 1) 0%,
             rgba(36, 36, 130, 1) 25%,
@@ -44,8 +44,8 @@ html
             rgba(36, 36, 130, 1) 75%,
             rgba(23, 23, 82, 1) 100%
     );
-    --btn-bkg: rgb(251, 99, 81);
-    --btn-bkg-grad: linear-gradient(
+    --accent-blue: rgb(251, 99, 81);
+    --accent-blue-grad: linear-gradient(
             to right,
             rgba(255, 151, 139, 1) 0%,
             rgba(249, 124, 128, 1) 50%,
@@ -69,8 +69,8 @@ html
 #school,
 body
 {
-    background: var(--bkg); /* Background color */
-    background: var(--bkg-grad); /* Gradient on background */
+    background: var(--accent-pink); /* Background color */
+    background: var(--accent-pink-grad); /* Gradient on background */
     background-size: 500vw;
     animation: bkg-grad 12s infinite alternate;
     display: flex;
@@ -187,7 +187,7 @@ p
 
 .btn:hover
 {
-    color: var(--btn-bkg); /* Hover text color */
+    color: var(--accent-blue); /* Hover text color */
     transform: scale(1.1);
 }
 
@@ -202,14 +202,14 @@ p
 
 .mainbtn:hover
 {
-    color: var(--btn-bkg); /* Mainbtn hover color */
+    color: var(--accent-blue); /* Mainbtn hover color */
 }
 
 #infobtn
 {
     background: none !important;
     border: solid #F3526A !important;
-    color: var(--btn-bkg) !important;
+    color: var(--accent-blue) !important;
     margin: 9vh 0 0 0 !important;
     transition: all .3s ease-out !important; /* Transition */
 }
@@ -226,8 +226,8 @@ p
     cursor: none !important; /* Removes cursor on hover */
     min-width: 165px !important; /* Adds !important min width */
     max-width: 250px !important; /* Adds !important max width */
-    background: var(--btn-bkg);
-    background: var(--btn-bkg-grad); /* Gradient and gradient on button hover */
+    background: var(--accent-blue);
+    background: var(--accent-blue-grad); /* Gradient and gradient on button hover */
     background-size: 200% 100%;
     background-position: right bottom; /* Transition start position */
     transition: all .5s ease-out; /* Hover transition */
@@ -470,8 +470,8 @@ error
 
 .loader-wrapper
 {
-  background: var(--bkg); /* Background color */
-  background: var(--bkg-grad); /* Gradient on background */
+  background: var(--accent-pink); /* Background color */
+  background: var(--accent-pink-grad); /* Gradient on background */
   background-size: 5000vw;
   height: 100%;
   width: 100%;
