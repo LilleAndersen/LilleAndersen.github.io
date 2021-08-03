@@ -12,8 +12,10 @@
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/libraries/jquery-3.6.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/libs/jquery-3.6.0.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/freetime/freetime.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/freetime/freetime.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/freetime/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/freetime/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/school/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/school/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +197,7 @@
       <workItem from="1622634510390" duration="618000" />
       <workItem from="1623346917840" duration="7720000" />
       <workItem from="1627997259273" duration="3572000" />
-      <workItem from="1628000940558" duration="1472000" />
+      <workItem from="1628000940558" duration="4286000" />
     </task>
     <servers />
   </component>

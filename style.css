@@ -276,7 +276,7 @@ p
 
 .morebtn:hover
 {
-    color: var(--accent-white) !important;
+    color: var(--accent-white) !important; /* Sets white accent color */
     background-position: left bottom;
 }
 
