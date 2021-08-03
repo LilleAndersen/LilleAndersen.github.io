@@ -12,7 +12,7 @@ window.onscroll = function () {
     }
     else {
         document.querySelector("#backtotop").style.opacity="0";
-        document.querySelector("#subpage-header #header").style.boxShadow="0 0 0 0";
+        document.querySelector("#subpage-header #header").style.boxShadow="0";
         document.querySelector("#subpage-header #header").style.padding="2vw 0 2vw 0";
         document.querySelector("#subpage-header #header").style.background="none";
         document.querySelector("#subpage-header #homebtn:hover, #schoolbtn:hover, #freetimebtn:hover").style.color="rgb(251,99,81)";

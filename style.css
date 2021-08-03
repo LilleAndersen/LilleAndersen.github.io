@@ -263,7 +263,7 @@ p
 
 .morebtn
 {
-    cursor: none !important; /* Removes cursor on hover */
+    /*cursor: none !important; !* Removes cursor on hover *!*/
     min-width: 165px !important; /* Adds !important min width */
     max-width: 250px !important; /* Adds !important max width */
     background: var(--accent-pink);
