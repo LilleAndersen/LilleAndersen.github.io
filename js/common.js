@@ -82,4 +82,5 @@ topbar.show();
 
 setTimeout(function() {
     topbar.hide()
+    document.querySelector("#school").style.overflowY="scroll";
 }, 500)

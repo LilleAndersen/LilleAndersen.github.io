@@ -77,7 +77,7 @@ body {
 
 /* 1.5 Header */
 #header {
-  z-index: 1000000;
+  z-index: 100000;
 }
 
 #home-header #header {
