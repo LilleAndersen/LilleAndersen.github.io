@@ -15,7 +15,6 @@
       <change beforePath="$PROJECT_DIR$/pages/freetime/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/freetime/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/school/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/school/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -207,7 +206,7 @@
       <workItem from="1627997259273" duration="3572000" />
       <workItem from="1628000940558" duration="4863000" />
       <workItem from="1629122974580" duration="3478000" />
-      <workItem from="1629128626698" duration="2211000" />
+      <workItem from="1629128626698" duration="2813000" />
     </task>
     <servers />
   </component>
