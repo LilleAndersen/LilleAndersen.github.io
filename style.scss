@@ -358,7 +358,7 @@ iframe
     position: fixed; /* Fixed position */
     bottom: 0; /* Bottom justified */
     left: 0; /* Left justified */
-    z-index: 100; /* Makes item at the top of everything */
+    z-index: 1000; /* Makes item at the top of everything */
     margin: 5px; /* Margin */
     background-color: transparent; /* Background transparent */
     width: 2.2vw;

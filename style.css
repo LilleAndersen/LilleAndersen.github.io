@@ -359,7 +359,7 @@ iframe {
   /* Bottom justified */
   left: 0;
   /* Left justified */
-  z-index: 100;
+  z-index: 1000;
   /* Makes item at the top of everything */
   margin: 5px;
   /* Margin */
