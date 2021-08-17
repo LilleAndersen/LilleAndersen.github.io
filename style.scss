@@ -326,7 +326,8 @@ body
 ::-webkit-scrollbar-thumb
 {
     background: rgba(242, 78, 112, 1); /* Scrollbar thumb color */
-    border-radius: 2147483647px; /* Makes the thumb piece have round edges */
+    //border-radius: 2147483647px; /* Makes the thumb piece have round edges */
+    border-radius: 4px; /* Makes the thumb piece have round edges */
 }
 
 ::-webkit-scrollbar-thumb:hover
@@ -415,7 +416,7 @@ iframe
 
 footer
 {
-    position: absolute;
+    position: initial;
     right: 0;
     bottom: 0;
     left: 0;
@@ -470,7 +471,7 @@ footer
 
 #homeinfobox
 {
-    margin: 150vh 0 31vh 0; /* Margin */
+    margin: 150vh 0 28vh 0; /* Margin */
 }
 
 #homeinfo

@@ -326,7 +326,7 @@ body {
 ::-webkit-scrollbar-thumb {
   background: #f24e70;
   /* Scrollbar thumb color */
-  border-radius: 2147483647px;
+  border-radius: 4px;
   /* Makes the thumb piece have round edges */
 }
 
@@ -414,7 +414,7 @@ iframe {
 
 /* 1.13 Footer */
 footer {
-  position: absolute;
+  position: initial;
   right: 0;
   bottom: 0;
   left: 0;
@@ -468,7 +468,7 @@ footer {
 }
 
 #homeinfobox {
-  margin: 150vh 0 31vh 0;
+  margin: 150vh 0 28vh 0;
   /* Margin */
 }
 
