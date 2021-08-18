@@ -23,7 +23,6 @@
     3 Animations
     4 Rest
 */
-/* 1.1 Imports */
 @font-face {
   font-family: "Roboto Condensed";
   src: url(assets/fonts/RobotoCondensed-Regular.ttf);
@@ -54,11 +53,6 @@ html {
 }
 
 /* 1.3 Cursor */
-* {
-  /*cursor: url("assets/cursor/cursor-orange.png") 8 8, auto; !* Adds custom cursor *!*/
-}
-
-/* 1.4 Flex */
 #home,
 #school,
 body {
