@@ -9,6 +9,8 @@
         1.5 Header
         1.6 Body
         1.11 Github Logo
+        1.12 Back to top
+        1.13 Footer
       2 Page Specific
         2.1 Home
         2.2 School
@@ -23,6 +25,18 @@
     font-family: "Roboto Condensed";
     src: url(assets/fonts/RobotoCondensed-Regular.ttf); // Imports font from fonts folder to use
 }
+
+@font-face
+{
+    font-family: "Righteous";
+    src: url(assets/fonts/Righteous-Regular.ttf); // Imports font from fonts folder to use
+}
+
+// Variables
+
+$accent-light: #DEE0F7;
+$accent-light-purple: #B5AED6;
+$accent-dark-purple: #0C070D;
 
 // 1.4 Flex
 
@@ -55,7 +69,7 @@ body
 
 .btn
 {
-    color: #DEE0F7;
+    color: $accent-light;
     text-decoration: none;
 }
 
@@ -70,6 +84,7 @@ body
     min-width: 7vw;
     font-size: 32px;
     padding: 15px;
+    font-family: Righteous, Arial, sans-serif;
 }
 
 #home-button-right
@@ -79,7 +94,7 @@ body
     color: #0C070D;
     padding: 15px;
     border-radius: 25px;
-    background-color: #DEE0F7;
+    background-color: $accent-light;
 }
 
 // 1.6 Body
@@ -108,6 +123,21 @@ body
     transition: transform ease-in-out 0.2s; // Logo transition
 }
 
+// 1.12 Back to top
+
+#backtotop
+{
+    position: fixed; // Changes position to fixed to it stays still
+    bottom: 0;
+    right: 0;
+    margin: 15px;
+    z-index: 100; // Order of items
+    //opacity: 0;
+    transition: ease 300ms; // Transition
+    //display: none;
+
+}
+
 // Rotating transitions (for all browsers)
 
 .rotate:hover
@@ -124,7 +154,19 @@ body
    transform: scale(1.1) rotate(360deg);
 }
 
+// 1.13 Footer
 
+footer
+{
+    position: initial;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    font-family: "Roboto Condensed", arial, sans-serif;
+    color: $accent-light;
+    text-align: center;
+}
 
 // 2.1 Home
 
@@ -133,9 +175,41 @@ body
     background-image: url("/assets/images/minimalist_trim1.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
-    color: #DEE0F7;
+    color: $accent-light;
     text-align: center;
-    font-family: "Roboto Condensed", Arial, serif;
+    font-family: "Roboto Condensed", Arial, sans-serif;
+}
+
+#home-headline
+{
+    font-family: Righteous, Arial, sans-serif;
+    font-size: 60px;
+}
+
+#home-info
+{
+
+}
+
+.subjectbtn
+{
+    display: inline-block;
+    color: $accent-dark-purple;
+    background-color: $accent-light;
+    margin: 25px;
+    padding: 15px 75px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.subjectbtn:hover
+{
+    text-decoration: underline;
+}
+
+#subjectbtn-left
+{
+
 }
 
 /*

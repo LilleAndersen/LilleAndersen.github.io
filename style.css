@@ -8,6 +8,8 @@
         1.5 Header
         1.6 Body
         1.11 Github Logo
+        1.12 Back to top
+        1.13 Footer
       2 Page Specific
         2.1 Home
         2.2 School
@@ -17,6 +19,10 @@
 @font-face {
   font-family: "Roboto Condensed";
   src: url(assets/fonts/RobotoCondensed-Regular.ttf);
+}
+@font-face {
+  font-family: "Righteous";
+  src: url(assets/fonts/Righteous-Regular.ttf);
 }
 #home,
 #subpage,
@@ -53,6 +59,7 @@ body {
   min-width: 7vw;
   font-size: 32px;
   padding: 15px;
+  font-family: Righteous, Arial, sans-serif;
 }
 
 #home-button-right {
@@ -83,6 +90,15 @@ body {
   transition: transform ease-in-out 0.2s;
 }
 
+#backtotop {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 15px;
+  z-index: 100;
+  transition: ease 300ms;
+}
+
 .rotate:hover {
   transition: 0.7s;
   -webkit-transition: 0.7s;
@@ -96,13 +112,43 @@ body {
   transform: scale(1.1) rotate(360deg);
 }
 
+footer {
+  position: initial;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  font-family: "Roboto Condensed", arial, sans-serif;
+  color: #DEE0F7;
+  text-align: center;
+}
+
 #home {
   background-image: url("/assets/images/minimalist_trim1.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   color: #DEE0F7;
   text-align: center;
-  font-family: "Roboto Condensed", Arial, serif;
+  font-family: "Roboto Condensed", Arial, sans-serif;
+}
+
+#home-headline {
+  font-family: Righteous, Arial, sans-serif;
+  font-size: 60px;
+}
+
+.subjectbtn {
+  display: inline-block;
+  color: #0C070D;
+  background-color: #DEE0F7;
+  margin: 25px;
+  padding: 15px 75px;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+.subjectbtn:hover {
+  text-decoration: underline;
 }
 
 /*
