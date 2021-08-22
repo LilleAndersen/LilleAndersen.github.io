@@ -10,6 +10,8 @@
         1.11 Github Logo
         1.12 Back to top
         1.13 Footer
+        1.14 Icons
+        1.15 Links
       2 Page Specific
         2.1 Home
         2.2 School
@@ -73,7 +75,8 @@ body {
 
 body {
   background-color: #B5AED6;
-  margin: 0 20vw;
+  margin: 0 0;
+  font-size: 18px;
 }
 
 .logo {
@@ -121,12 +124,28 @@ footer {
   font-family: "Roboto Condensed", arial, sans-serif;
   color: #DEE0F7;
   text-align: center;
+  margin-top: 100vh;
+}
+
+.icon {
+  align-content: center;
+  text-align: center;
+  align-self: center;
+  align-items: center;
+}
+
+a {
+  user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
 }
 
 #home {
   background-image: url("/assets/images/minimalist_trim1.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
+  background-attachment: unset;
   color: #DEE0F7;
   text-align: center;
   font-family: "Roboto Condensed", Arial, sans-serif;
@@ -137,18 +156,52 @@ footer {
   font-size: 60px;
 }
 
+#home-info {
+  margin: 5vh 30% 0 30%;
+  mix-blend-mode: normal;
+}
+
 .subjectbtn {
   display: inline-block;
   color: #0C070D;
   background-color: #DEE0F7;
   margin: 25px;
-  padding: 15px 75px;
+  padding: 15px 50px;
+  min-width: 5vw;
   border-radius: 25px;
   text-decoration: none;
 }
 
 .subjectbtn:hover {
   text-decoration: underline;
+}
+
+.home-sections-light {
+  display: flex;
+  max-height: 500px;
+  margin: 500px 0 0 0;
+  padding: 125px 250px 125px 250px;
+  text-align: center;
+  align-items: center;
+  background-color: #B5AED6;
+}
+
+.home-sections-light img, .home-sections-light p {
+  margin: 0 150px;
+}
+
+.home-sections-dark {
+  display: flex;
+  max-height: 500px;
+  margin: 0;
+  padding: 125px 250px 125px 250px;
+  text-align: center;
+  align-items: center;
+  background-color: #9C92C8;
+}
+
+.home-sections-dark img, .home-sections-dark p {
+  margin: 0 150px;
 }
 
 /*

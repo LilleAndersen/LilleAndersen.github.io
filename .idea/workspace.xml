@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AnalysisUIOptions">
-    <option name="SCOPE_TYPE" value="3" />
-  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
@@ -10,8 +7,6 @@
     <list default="true" id="bee98fe4-341e-4398-a2ef-7d8e61cbc69b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/school/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/school/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sections/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/sections/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style.scss" afterDir="false" />
@@ -59,9 +54,6 @@
     <include_path>
       <path value="$PROJECT_DIR$" />
     </include_path>
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="2" />
   </component>
   <component name="ProjectId" id="1o3rn9QHaa1GImo9D7GUVgWQ2OM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -213,6 +205,7 @@
       <workItem from="1629271529217" duration="1097000" />
       <workItem from="1629440568474" duration="8062000" />
       <workItem from="1629549850189" duration="7868000" />
+      <workItem from="1629617699673" duration="7026000" />
     </task>
     <servers />
   </component>
