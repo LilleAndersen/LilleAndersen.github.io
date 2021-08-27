@@ -1,4 +1,5 @@
 $("#header-pre").load("/sections/header.html")
+console.log("you're cringe")
 
 const blueHover = '#subpage-header #homebtn:hover, #schoolbtn:hover, #freetimebtn:hover { color: rgb(23,23,82) }';
 const pinkHover = '#subpage-header #homebtn:hover, #schoolbtn:hover, #freetimebtn:hover { color: rgb(251,99,81) }';
@@ -35,15 +36,6 @@ window.onscroll = function () {
 }
 
 document.getElementsByTagName('head')[0].appendChild(style);
-
-// Spins Github logo
-$(document).ready(function(){
-    $(".img").hover(function(){
-        $(".bodyP").addClass("adamfade");
-    }, function () {
-        $(".bodyP").removeClass("adamfade");
-    });
-});
 
 // Resize timeout
 setTimeout(function () {
