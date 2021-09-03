@@ -1,4 +1,3 @@
-
 /*
     Table of contents
       1 Broad CSS
@@ -48,7 +47,7 @@ $accent-dark-purple: #0C070D;
 #subpage,
 body
 {
-    display: flex;
+    display: flex; // Makes body flex box becuase flex good
     flex-direction: column;
     background-attachment: fixed;
     margin-top: 0;
@@ -58,7 +57,7 @@ body
 
 #home-header #header
 {
-    align-items: center;
+    align-items: center; // Centered content
     justify-content: center;
     display: flex;
     flex-direction: row;
@@ -73,7 +72,7 @@ body
 
 .btn
 {
-    color: $accent-light;
+    color: $accent-light; // Sets color to variable
     text-decoration: none;
 }
 
@@ -98,7 +97,7 @@ body
     color: #0C070D;
     padding: 15px;
     border-radius: 25px;
-    background-color: $accent-light;
+    background-color: $accent-light; // Sets color to variable
 }
 
 // 1.6 Body
@@ -128,6 +127,22 @@ body
     transition: transform ease-in-out 0.2s; // Logo transition
 }
 
+// Rotating transitions for github logo (for all browsers)
+
+.rotate:hover
+{
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: scale(1.1) rotate(360deg);
+}
+
 // 1.12 Back to top
 
 #backtotop
@@ -141,22 +156,6 @@ body
     transition: ease 300ms; // Transition
     //display: none;
 
-}
-
-// Rotating transitions (for all browsers)
-
-.rotate:hover
-{
-   transition: 0.7s;
-   -webkit-transition: 0.7s;
-   -moz-transition: 0.7s;
-   -ms-transition: 0.7s;
-   -o-transition: 0.7s;
-   -webkit-transform: rotate(180deg);
-   -moz-transform: rotate(180deg);
-   -o-transform: rotate(180deg);
-   -ms-transform: rotate(180deg);
-   transform: scale(1.1) rotate(360deg);
 }
 
 // 1.13 Footer
@@ -186,6 +185,8 @@ footer
 
 // 1.15 Links
 
+// Adds user select on all browsers
+
 a
 {
     user-select: none;
@@ -214,6 +215,14 @@ a
 
     min-width: 100%;
     height: 80vh;
+
+
+    // When viewport height is less than 700 do this
+    @media (max-height: 700px)
+    {
+        max-width: 100%;
+        height: unset;
+    }
 }
 
 #home
@@ -235,13 +244,13 @@ a
 
 #home-infobox
 {
-    margin: 0 0 19vh 0;
+    margin: 0 0 19vh 0; // Bottom margin
 }
 
 #home-info
 {
     margin: 5vh 30% 0 30%;
-    mix-blend-mode: normal;
+    mix-blend-mode: normal; // Mixes colors for smoother transition
 }
 
 .subjectbtn
@@ -275,6 +284,7 @@ a
     align-items: center;
     background-color: $accent-light-purple;
 
+    // Adds custom properties for different viewport widths
     @media (max-width: 1050px)
     {
         padding: 25px 0;
@@ -306,6 +316,7 @@ a
     align-items: center;
     background-color: $accent-middle-purple;
 
+    // Adds custom properties for different viewport widths
     @media (max-width: 1050px)
     {
         padding: 25px 0;
@@ -331,10 +342,11 @@ a
 {
     margin: 0 150px;
 
-    @media (max-width: 1050px)
+    // Adds custom properties for different viewport widths
+    @media (max-width: 1400px)
     {
         padding: 25px 0;
-        margin: 0 10vw;
+        margin: 0 7vw;
         max-height: 20000px;
     }
 
@@ -366,6 +378,14 @@ a
     margin: 20px 0;
     text-align: center;
     max-width: 100px;
+    min-width: 75px;
+    border-radius: 2147483647px; // Epic integer limit
+
+    // Adds custom properties for different viewport widths
+    @media (max-width: 1400px)
+    {
+        padding: 15px 50px;
+    }
 }
 
 /*

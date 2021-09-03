@@ -94,15 +94,6 @@ body {
   transition: transform ease-in-out 0.2s;
 }
 
-#backtotop {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  margin: 15px;
-  z-index: 100;
-  transition: ease 300ms;
-}
-
 .rotate:hover {
   transition: 0.7s;
   -webkit-transition: 0.7s;
@@ -114,6 +105,15 @@ body {
   -o-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: scale(1.1) rotate(360deg);
+}
+
+#backtotop {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 15px;
+  z-index: 100;
+  transition: ease 300ms;
 }
 
 footer {
@@ -153,6 +153,12 @@ a {
   z-index: -1;
   min-width: 100%;
   height: 80vh;
+}
+@media (max-height: 700px) {
+  #background {
+    max-width: 100%;
+    height: unset;
+  }
 }
 
 #home {
@@ -252,10 +258,10 @@ a {
 .home-sections-light *, .home-sections-dark * {
   margin: 0 150px;
 }
-@media (max-width: 1050px) {
+@media (max-width: 1400px) {
   .home-sections-light *, .home-sections-dark * {
     padding: 25px 0;
-    margin: 0 10vw;
+    margin: 0 7vw;
     max-height: 20000px;
   }
 }
@@ -285,6 +291,13 @@ a {
   margin: 20px 0;
   text-align: center;
   max-width: 100px;
+  min-width: 75px;
+  border-radius: 2147483647px;
+}
+@media (max-width: 1400px) {
+  .home-sections-light p .home-sections-button, .home-sections-dark p .home-sections-button {
+    padding: 15px 50px;
+  }
 }
 
 /*
