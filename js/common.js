@@ -8,7 +8,7 @@ const style = document.createElement('style');
 window.onscroll = function () {
     if (window.pageYOffset >= 900) {
         document.querySelector("#backtotop").style.opacity="1";
-        document.querySelector("#background").style.opacity="0";
+        // document.querySelector("#background").style.opacity="0";
         // document.querySelector("#subpage-header #header").style.boxShadow="0 0 2rem var(--bkg)";
         // document.querySelector("#subpage-header #header").style.padding=".5vw 0 .5vw 0";
         // document.querySelector("#subpage-header #header").style.background="rgba(251,99,81,.8)";
@@ -22,7 +22,7 @@ window.onscroll = function () {
     }
     else {
         document.querySelector("#backtotop").style.opacity="0";
-        document.querySelector("#background").style.opacity="100";
+        //document.querySelector("#background").style.opacity="100";
         // document.querySelector("#subpage-header #header").style.boxShadow="0";
         // document.querySelector("#subpage-header #header").style.padding="2vw 0 2vw 0";
         // document.querySelector("#subpage-header #header").style.background="none";

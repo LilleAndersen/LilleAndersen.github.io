@@ -47,15 +47,12 @@ $img-width: 400px;
 // 1.4 Flex
 
 #home,
-#subpage,
-body
+#subpage
 {
-    display: flex; // Makes body flex box becuase flex good
+    display: flex; // Makes body flexbox becuase flex good
     flex-direction: column;
     margin-top: 0;
     background-attachment: fixed;
-
-
 }
 
 // 1.5 Header
@@ -172,9 +169,11 @@ footer
     bottom: 0;
     left: 0;
     padding: 2.5rem;
+    margin: fill;
     font-family: "Roboto Condensed", arial, sans-serif;
     color: $accent-light;
     text-align: center;
+    background-color: $accent-light-purple;
 
 }
 
@@ -223,10 +222,17 @@ a
 
 
     // When viewport height is less than 700 do this
-    @media (max-height: 700px)
+    @media (max-height: 800px)
     {
         max-width: 100%;
         height: unset;
+    }
+
+    @media (min-width: 2000px)
+    {
+        width: 100%;
+        height: unset;
+        object-fit: fill;
     }
 }
 
@@ -280,6 +286,11 @@ a
 
 }
 
+.home-sections > *
+{
+
+}
+
 .home-sections-light
 {
     display: flex;
@@ -308,6 +319,11 @@ a
         flex-direction: column;
         padding: 25px;
         margin: 0;
+    }
+
+    @media (min-width: 2000px)
+    {
+        padding: 125px 20vw;
     }
 }
 
@@ -339,6 +355,11 @@ a
         flex-direction: column-reverse;
         padding: 25px;
         margin: 0;
+    }
+
+    @media (min-width: 2000px)
+    {
+        padding: 125px 20vw;
     }
 }
 
@@ -402,6 +423,7 @@ a
 {
     stroke: #594B95;
     stroke-width: $img-width;
+    max-width: $img-width;
     aspect-ratio: 1/1;
 }
 

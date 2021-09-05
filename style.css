@@ -28,8 +28,7 @@
   src: url(assets/fonts/Righteous-Regular.ttf);
 }
 #home,
-#subpage,
-body {
+#subpage {
   display: flex;
   flex-direction: column;
   margin-top: 0;
@@ -122,9 +121,11 @@ footer {
   bottom: 0;
   left: 0;
   padding: 2.5rem;
+  margin: fill;
   font-family: "Roboto Condensed", arial, sans-serif;
   color: #DEE0F7;
   text-align: center;
+  background-color: #B5AED6;
 }
 
 .icon {
@@ -154,10 +155,17 @@ a {
   min-width: 100%;
   height: 80vh;
 }
-@media (max-height: 700px) {
+@media (max-height: 800px) {
   #background {
     max-width: 100%;
     height: unset;
+  }
+}
+@media (min-width: 2000px) {
+  #background {
+    width: 100%;
+    height: unset;
+    object-fit: fill;
   }
 }
 
@@ -224,6 +232,11 @@ a {
     margin: 0;
   }
 }
+@media (min-width: 2000px) {
+  .home-sections-light {
+    padding: 125px 20vw;
+  }
+}
 
 .home-sections-dark {
   display: flex;
@@ -251,6 +264,11 @@ a {
     flex-direction: column-reverse;
     padding: 25px;
     margin: 0;
+  }
+}
+@media (min-width: 2000px) {
+  .home-sections-dark {
+    padding: 125px 20vw;
   }
 }
 
@@ -307,6 +325,7 @@ a {
 .home-sections-img {
   stroke: #594B95;
   stroke-width: 400px;
+  max-width: 400px;
   aspect-ratio: 1/1;
 }
 
