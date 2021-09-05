@@ -207,7 +207,7 @@ a {
 .home-sections-light {
   display: flex;
   max-height: 500px;
-  padding: 125px 150px 125px 150px;
+  padding: 90px;
   text-align: center;
   align-items: center;
   background-color: #B5AED6;
@@ -241,7 +241,7 @@ a {
 .home-sections-dark {
   display: flex;
   max-height: 500px;
-  padding: 125px 150px 125px 150px;
+  padding: 90px;
   text-align: center;
   align-items: center;
   background-color: #9C92C8;
@@ -273,7 +273,7 @@ a {
 }
 
 .home-sections-light *, .home-sections-dark * {
-  margin: 0 100px;
+  margin: 0 90px;
 }
 @media (max-width: 1400px) {
   .home-sections-light *, .home-sections-dark * {
@@ -332,6 +332,11 @@ a {
 .home-sections-dark img, .home-sections-light img {
   width: 400px;
   border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .home-sections-dark img, .home-sections-light img {
+    width: 200px;
+  }
 }
 
 /*

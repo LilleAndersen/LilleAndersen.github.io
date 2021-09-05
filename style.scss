@@ -42,7 +42,7 @@ $accent-light-purple: #B5AED6;
 $accent-middle-purple: #9C92C8;
 $accent-dark-purple: #0C070D;
 
-$img-width: 400px;
+$img-width: 400px !default;
 
 // 1.4 Flex
 
@@ -295,7 +295,7 @@ a
 {
     display: flex;
     max-height: 500px;
-    padding: 125px 150px 125px 150px;
+    padding: 90px;
     text-align: center;
     align-items: center;
     background-color: $accent-light-purple;
@@ -331,7 +331,7 @@ a
 {
     display: flex;
     max-height: 500px;
-    padding: 125px 150px 125px 150px;
+    padding: 90px;
     text-align: center;
     align-items: center;
     background-color: $accent-middle-purple;
@@ -365,7 +365,7 @@ a
 
 .home-sections-light *, .home-sections-dark *
 {
-    margin: 0 100px;
+    margin: 0 90px;
 
     // Adds custom properties for different viewport widths
     @media (max-width: 1400px)
@@ -431,6 +431,10 @@ a
 {
     width: $img-width;
     border-radius: 10px;
+
+    @media (max-width: 500px) {
+        width: 200px;
+    }
 }
 
 /*
