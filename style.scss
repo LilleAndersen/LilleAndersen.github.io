@@ -37,9 +37,12 @@
 // Variables
 
 $accent-light: #DEE0F7;
+$accent-dark: #594B95;
 $accent-light-purple: #B5AED6;
 $accent-middle-purple: #9C92C8;
 $accent-dark-purple: #0C070D;
+
+$img-width: 400px;
 
 // 1.4 Flex
 
@@ -49,8 +52,10 @@ body
 {
     display: flex; // Makes body flex box becuase flex good
     flex-direction: column;
-    background-attachment: fixed;
     margin-top: 0;
+    background-attachment: fixed;
+
+
 }
 
 // 1.5 Header
@@ -119,7 +124,7 @@ body
     z-index: 1000; // Makes item at the top of everything
     margin: 5px; // Margin
     background-color: transparent; // Background transparent
-    width: 2.2vw;
+    width: 40px;
 }
 
 .rotate
@@ -310,7 +315,6 @@ a
 {
     display: flex;
     max-height: 500px;
-    margin: 0;
     padding: 125px 150px 125px 150px;
     text-align: center;
     align-items: center;
@@ -340,7 +344,7 @@ a
 
 .home-sections-light *, .home-sections-dark *
 {
-    margin: 0 150px;
+    margin: 0 100px;
 
     // Adds custom properties for different viewport widths
     @media (max-width: 1400px)
@@ -386,6 +390,25 @@ a
     {
         padding: 15px 50px;
     }
+}
+
+.home-sections-title
+{
+    color: $accent-dark;
+    font-size: 22px;
+}
+
+.home-sections-img
+{
+    stroke: #594B95;
+    stroke-width: $img-width;
+    aspect-ratio: 1/1;
+}
+
+.home-sections-dark img, .home-sections-light img
+{
+    width: $img-width;
+    border-radius: 10px;
 }
 
 /*

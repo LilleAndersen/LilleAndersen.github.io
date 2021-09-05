@@ -32,8 +32,8 @@
 body {
   display: flex;
   flex-direction: column;
-  background-attachment: fixed;
   margin-top: 0;
+  background-attachment: fixed;
 }
 
 #home-header #header {
@@ -87,7 +87,7 @@ body {
   z-index: 1000;
   margin: 5px;
   background-color: transparent;
-  width: 2.2vw;
+  width: 40px;
 }
 
 .rotate {
@@ -228,7 +228,6 @@ a {
 .home-sections-dark {
   display: flex;
   max-height: 500px;
-  margin: 0;
   padding: 125px 150px 125px 150px;
   text-align: center;
   align-items: center;
@@ -256,7 +255,7 @@ a {
 }
 
 .home-sections-light *, .home-sections-dark * {
-  margin: 0 150px;
+  margin: 0 100px;
 }
 @media (max-width: 1400px) {
   .home-sections-light *, .home-sections-dark * {
@@ -298,6 +297,22 @@ a {
   .home-sections-light p .home-sections-button, .home-sections-dark p .home-sections-button {
     padding: 15px 50px;
   }
+}
+
+.home-sections-title {
+  color: #594B95;
+  font-size: 22px;
+}
+
+.home-sections-img {
+  stroke: #594B95;
+  stroke-width: 400px;
+  aspect-ratio: 1/1;
+}
+
+.home-sections-dark img, .home-sections-light img {
+  width: 400px;
+  border-radius: 10px;
 }
 
 /*
