@@ -60,17 +60,29 @@ $img-width: 400px !default;
 #home-header #header
 {
     align-items: center; // Centered content
-    justify-content: center;
+    justify-content: center; // Centers content
     display: flex;
-    flex-direction: row;
+    flex-direction: row; // Sets flex direction (by default row)
     padding: 1vw 0 5vw 0;
 
     top: 0;
-    column-gap: 5vw;
+    column-gap: 5vw; // Gap between colums
     text-decoration: none;
 
     min-width: 150px;
+
+    //// Responsiveness
+    //@media (max-width: 450px)
+    //{
+    //    flex-direction: column-reverse;
+    //}
 }
+
+//#home-header :nth-child(1) { order: 1; }
+//#home-header :nth-child(2) { order: 3; }
+//#home-header :nth-child(3) { order: 4; }
+//#home-header :nth-child(4) { order: 5; }
+//#home-header :nth-child(5) { order: 2; }
 
 .btn
 {
@@ -83,6 +95,27 @@ $img-width: 400px !default;
     text-decoration: underline;
 }
 
+#homebtn
+{
+    @media (max-width: 450px) {
+
+    }
+}
+
+#schoolbtn
+{
+    @media (max-width: 450px) {
+
+    }
+}
+
+#personalbtn
+{
+    @media (max-width: 450px) {
+
+    }
+}
+
 #home-button-left
 {
     margin-right: 10vw;
@@ -90,6 +123,10 @@ $img-width: 400px !default;
     font-size: 32px;
     padding: 15px;
     font-family: Righteous, Arial, sans-serif;
+
+    @media (max-width: 450px) {
+        align-self: flex-start;
+    }
 }
 
 #home-button-right
@@ -100,6 +137,16 @@ $img-width: 400px !default;
     padding: 15px;
     border-radius: 25px;
     background-color: $accent-light; // Sets color to variable
+
+    @media (max-width: 450px) {
+        align-self: flex-end;
+    }
+}
+
+#home-button-left, #home-button-right
+{
+    display: flex !important;
+    flex-direction: row !important;
 }
 
 // 1.6 Body
@@ -221,7 +268,7 @@ a
     height: 80vh;
 
 
-    // When viewport height is less than 700 do this
+    // When viewport height is less than 800 do this
     @media (max-height: 800px)
     {
         max-width: 100%;
@@ -234,6 +281,10 @@ a
         height: unset;
         object-fit: fill;
     }
+
+    //@media (max-width: 500px) {
+    //    opacity: 0;
+    //}
 }
 
 #home
@@ -255,13 +306,18 @@ a
 
 #home-infobox
 {
-    margin: 0 0 19vh 0; // Bottom margin
+    margin: 0 0 11.5vw 0; // Bottom margin between about me and content of page.
 }
 
 #home-info
 {
     margin: 5vh 30% 0 30%;
     mix-blend-mode: normal; // Mixes colors for smoother transition
+
+    @media (max-width: 450px)
+    {
+        margin: 5vh 10% 0 10%;
+    }
 }
 
 .subjectbtn
@@ -274,6 +330,11 @@ a
     min-width: 5vw;
     border-radius: 25px;
     text-decoration: none;
+
+    @media (max-width: 410px)
+    {
+        margin: 10px;
+    }
 }
 
 .subjectbtn:hover
