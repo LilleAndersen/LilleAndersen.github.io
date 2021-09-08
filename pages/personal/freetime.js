@@ -1,5 +1,5 @@
 // Dynamically loads content
-fetch("/pages/freetime/freetime.json")
+fetch("/pages/personal/freetime.json")
     .then(response => response.json())
     .then(data =>
     {
