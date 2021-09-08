@@ -8,11 +8,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/images/m liuttel is hreally fringe.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/m liuttel is hreally fringe.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style.scss" afterDir="false" />
     </list>
     <list id="5a24bc89-9090-4503-a349-20d9076717bb" name="Changes by Soni" comment="">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,46 +53,21 @@
   <component name="LineStatusTrackerManager">
     <file path="$PROJECT_DIR$/style.scss">
       <ranges>
-        <range start1="0" end1="3" start2="0" end2="5" changelist="5a24bc89-9090-4503-a349-20d9076717bb" />
-        <range start1="15" end1="16" start2="17" end2="18" changelist="5a24bc89-9090-4503-a349-20d9076717bb" />
-        <range start1="38" end1="38" start2="40" end2="41" changelist="5a24bc89-9090-4503-a349-20d9076717bb" />
-        <range start1="44" end1="44" start2="47" end2="48" changelist="5a24bc89-9090-4503-a349-20d9076717bb" />
-        <range start1="45" end1="45" start2="49" end2="53" changelist="5a24bc89-9090-4503-a349-20d9076717bb" />
-        <range start1="51" end1="52" start2="59" end2="60" changelist="5a24bc89-9090-4503-a349-20d9076717bb" />
-        <range start1="71" end1="72" start2="79" end2="80" changelist="5a24bc89-9090-4503-a349-20d9076717bb" />
-        <range start1="75" end1="75" start2="83" end2="84" changelist="5a24bc89-9090-4503-a349-20d9076717bb" />
-        <range start1="77" end1="80" start2="86" end2="86" changelist="bee98fe4-341e-4398-a2ef-7d8e61cbc69b" />
-        <range start1="81" end1="83" start2="87" end2="90" changelist="bee98fe4-341e-4398-a2ef-7d8e61cbc69b" />
-        <range start1="87" end1="87" start2="94" end2="95" changelist="bee98fe4-341e-4398-a2ef-7d8e61cbc69b" />
-        <range start1="88" end1="93" start2="96" end2="103" changelist="bee98fe4-341e-4398-a2ef-7d8e61cbc69b" />
-        <range start1="112" end1="112" start2="122" end2="123" changelist="5a24bc89-9090-4503-a349-20d9076717bb" />
-        <range start1="114" end1="115" start2="125" end2="126" changelist="5a24bc89-9090-4503-a349-20d9076717bb" />
-        <range start1="122" end1="123" start2="133" end2="134" changelist="5a24bc89-9090-4503-a349-20d9076717bb" />
-        <range start1="130" end1="131" start2="141" end2="142" changelist="5a24bc89-9090-4503-a349-20d9076717bb" />
-        <range start1="138" end1="139" start2="149" end2="150" changelist="5a24bc89-9090-4503-a349-20d9076717bb" />
-        <range start1="144" end1="149" start2="155" end2="155" changelist="bee98fe4-341e-4398-a2ef-7d8e61cbc69b" />
-        <range start1="153" end1="154" start2="159" end2="160" changelist="5a24bc89-9090-4503-a349-20d9076717bb" />
-        <range start1="158" end1="160" start2="164" end2="164" changelist="bee98fe4-341e-4398-a2ef-7d8e61cbc69b" />
-        <range start1="161" end1="166" start2="165" end2="165" changelist="bee98fe4-341e-4398-a2ef-7d8e61cbc69b" />
-        <range start1="282" end1="283" start2="281" end2="285" changelist="bee98fe4-341e-4398-a2ef-7d8e61cbc69b" />
-        <range start1="285" end1="287" start2="287" end2="289" changelist="bee98fe4-341e-4398-a2ef-7d8e61cbc69b" />
-        <range start1="289" end1="293" start2="291" end2="293" changelist="bee98fe4-341e-4398-a2ef-7d8e61cbc69b" />
-        <range start1="295" end1="296" start2="295" end2="296" changelist="5a24bc89-9090-4503-a349-20d9076717bb" />
-        <range start1="303" end1="306" start2="303" end2="314" changelist="bee98fe4-341e-4398-a2ef-7d8e61cbc69b" />
-        <range start1="307" end1="311" start2="315" end2="315" changelist="bee98fe4-341e-4398-a2ef-7d8e61cbc69b" />
-        <range start1="329" end1="330" start2="333" end2="334" changelist="5a24bc89-9090-4503-a349-20d9076717bb" />
-        <range start1="346" end1="347" start2="350" end2="351" changelist="5a24bc89-9090-4503-a349-20d9076717bb" />
-        <range start1="357" end1="366" start2="361" end2="363" changelist="5a24bc89-9090-4503-a349-20d9076717bb" />
-        <range start1="371" end1="372" start2="368" end2="369" changelist="bee98fe4-341e-4398-a2ef-7d8e61cbc69b" />
-        <range start1="383" end1="384" start2="380" end2="381" changelist="5a24bc89-9090-4503-a349-20d9076717bb" />
-        <range start1="390" end1="391" start2="387" end2="388" changelist="5a24bc89-9090-4503-a349-20d9076717bb" />
-        <range start1="407" end1="408" start2="404" end2="405" changelist="bee98fe4-341e-4398-a2ef-7d8e61cbc69b" />
-        <range start1="419" end1="420" start2="416" end2="417" changelist="5a24bc89-9090-4503-a349-20d9076717bb" />
-        <range start1="426" end1="427" start2="423" end2="424" changelist="5a24bc89-9090-4503-a349-20d9076717bb" />
-        <range start1="451" end1="452" start2="448" end2="449" changelist="5a24bc89-9090-4503-a349-20d9076717bb" />
-        <range start1="459" end1="460" start2="456" end2="457" changelist="5a24bc89-9090-4503-a349-20d9076717bb" />
-        <range start1="509" end1="510" start2="506" end2="507" changelist="5a24bc89-9090-4503-a349-20d9076717bb" />
-        <range start1="840" end1="841" start2="837" end2="838" changelist="5a24bc89-9090-4503-a349-20d9076717bb" />
+        <range start1="49" end1="49" start2="49" end2="53" changelist="5a24bc89-9090-4503-a349-20d9076717bb" />
+        <range start1="50" end1="54" start2="54" end2="54" changelist="bee98fe4-341e-4398-a2ef-7d8e61cbc69b" />
+        <range start1="728" end1="729" start2="728" end2="729" changelist="5a24bc89-9090-4503-a349-20d9076717bb" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/index.html">
+      <ranges>
+        <range start1="1" end1="2" start2="1" end2="2" changelist="5a24bc89-9090-4503-a349-20d9076717bb" />
+        <range start1="3" end1="4" start2="3" end2="3" changelist="5a24bc89-9090-4503-a349-20d9076717bb" />
+        <range start1="5" end1="6" start2="4" end2="5" changelist="5a24bc89-9090-4503-a349-20d9076717bb" />
+        <range start1="18" end1="19" start2="17" end2="18" changelist="bee98fe4-341e-4398-a2ef-7d8e61cbc69b" />
+        <range start1="23" end1="24" start2="22" end2="22" changelist="5a24bc89-9090-4503-a349-20d9076717bb" />
+        <range start1="34" end1="38" start2="32" end2="34" changelist="5a24bc89-9090-4503-a349-20d9076717bb" />
+        <range start1="52" end1="53" start2="48" end2="49" changelist="5a24bc89-9090-4503-a349-20d9076717bb" />
+        <range start1="121" end1="122" start2="117" end2="118" changelist="5a24bc89-9090-4503-a349-20d9076717bb" />
       </ranges>
     </file>
   </component>
@@ -264,7 +238,7 @@
       <workItem from="1630944692672" duration="3500000" />
       <workItem from="1630948545780" duration="2486000" />
       <workItem from="1631082299024" duration="4815000" />
-      <workItem from="1631119652995" duration="8636000" />
+      <workItem from="1631119652995" duration="9493000" />
     </task>
     <servers />
   </component>
