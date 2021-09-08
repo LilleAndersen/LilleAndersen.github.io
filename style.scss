@@ -112,21 +112,24 @@ $img-width: 400px !default;
 
 #homebtn
 {
-    @media (max-width: 450px) {
+    @media (max-width: 450px)
+    {
 
     }
 }
 
 #schoolbtn
 {
-    @media (max-width: 450px) {
+    @media (max-width: 450px)
+    {
 
     }
 }
 
 #personalbtn
 {
-    @media (max-width: 450px) {
+    @media (max-width: 450px)
+    {
 
     }
 }
@@ -140,7 +143,8 @@ $img-width: 400px !default;
     text-align: center;
     font-family: Righteous, Arial, sans-serif;
 
-    @media (max-width: 450px) {
+    @media (max-width: 450px)
+    {
         align-self: flex-start;
     }
 }
@@ -156,7 +160,8 @@ $img-width: 400px !default;
     justify-self: center;
     background-color: $accent-light; // Sets color to variable
 
-    @media (max-width: 450px) {
+    @media (max-width: 450px)
+    {
         align-self: flex-end;
     }
 }
@@ -508,7 +513,8 @@ a
 }
 
 /*
-!* Table of contents
+!* Table of contents4
+hehe
     1 Broad CSS
       1.1 Imports
       1.2 Variables
