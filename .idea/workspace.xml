@@ -6,14 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="bee98fe4-341e-4398-a2ef-7d8e61cbc69b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/m liuttel is hreally fringe.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/m liuttel is hreally fringe.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style.scss" afterDir="false" />
     </list>
-    <list id="5a24bc89-9090-4503-a349-20d9076717bb" name="Changes by Soni" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style.scss" afterDir="false" />
-    </list>
+    <list id="5a24bc89-9090-4503-a349-20d9076717bb" name="Changes by Soni" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,27 +47,6 @@
     <setting file="file://$PROJECT_DIR$/index.html" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/404.html" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/style.scss">
-      <ranges>
-        <range start1="49" end1="49" start2="49" end2="53" changelist="5a24bc89-9090-4503-a349-20d9076717bb" />
-        <range start1="50" end1="54" start2="54" end2="54" changelist="bee98fe4-341e-4398-a2ef-7d8e61cbc69b" />
-        <range start1="728" end1="729" start2="728" end2="729" changelist="5a24bc89-9090-4503-a349-20d9076717bb" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/index.html">
-      <ranges>
-        <range start1="1" end1="2" start2="1" end2="2" changelist="5a24bc89-9090-4503-a349-20d9076717bb" />
-        <range start1="3" end1="4" start2="3" end2="3" changelist="5a24bc89-9090-4503-a349-20d9076717bb" />
-        <range start1="5" end1="6" start2="4" end2="5" changelist="5a24bc89-9090-4503-a349-20d9076717bb" />
-        <range start1="18" end1="19" start2="17" end2="18" changelist="bee98fe4-341e-4398-a2ef-7d8e61cbc69b" />
-        <range start1="23" end1="24" start2="22" end2="22" changelist="5a24bc89-9090-4503-a349-20d9076717bb" />
-        <range start1="34" end1="38" start2="32" end2="34" changelist="5a24bc89-9090-4503-a349-20d9076717bb" />
-        <range start1="52" end1="53" start2="48" end2="49" changelist="5a24bc89-9090-4503-a349-20d9076717bb" />
-        <range start1="121" end1="122" start2="117" end2="118" changelist="5a24bc89-9090-4503-a349-20d9076717bb" />
-      </ranges>
-    </file>
-  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$" />
@@ -99,7 +75,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="ReaderModeSettings">
@@ -238,7 +214,8 @@
       <workItem from="1630944692672" duration="3500000" />
       <workItem from="1630948545780" duration="2486000" />
       <workItem from="1631082299024" duration="4815000" />
-      <workItem from="1631119652995" duration="9493000" />
+      <workItem from="1631119652995" duration="9602000" />
+      <workItem from="1631203266775" duration="6940000" />
     </task>
     <servers />
   </component>

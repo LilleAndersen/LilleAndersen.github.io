@@ -7,8 +7,10 @@
         1.2 Variables
         1.3 Cursor
         1.4 Flex
-        1.5 Header
-        1.6 Body
+        1.5 Pages
+        1.6 Header
+        1.7 Body
+        1.8 Selection
         1.11 Github Logo
         1.12 Back to top
         1.13 Footer
@@ -22,7 +24,9 @@
         2.4 404
 */
 
+//====================================
 // 1.1 Imports
+//====================================
 
 @font-face
 {
@@ -40,19 +44,23 @@
 
 // Colors
 $accent-light: #DEE0F7;
-$accent-dark: #594B95;
+$accent-dark: #6152A3;
 $accent-light-purple: #B5AED6;
-$accent-middle-purple: #;
+$accent-middle-purple: #9C92C8;
+$accent-middle-dark-purple: #201C36;
 $accent-dark-purple: #0C070D;
 
 // Sizes
 $img-width: 400px !default;
 
 // Breakpoints
-$breakpoint: 500px;
-$breakpoint-large: 800px;
+$breakpoint: 550px;
+$breakpoint-medium: 800px;
+$breakpoint-large: 1200px;
 
+//====================================
 // 1.4 Flex
+//====================================
 
 #page,
 #subpage
@@ -63,8 +71,9 @@ $breakpoint-large: 800px;
     background-attachment: fixed;
 }
 
-
+//====================================
 // 1.5 Pages
+//====================================
 
 #page
 {
@@ -77,7 +86,15 @@ $breakpoint-large: 800px;
     font-family: "Roboto Condensed", Arial, sans-serif;
 }
 
-// 1.6 Header -------------------------------------------
+#page *
+{
+    transition: ease 300ms;
+}
+
+
+//====================================
+// 1.6 Header
+//====================================
 
 #home-header #header
 {
@@ -97,17 +114,26 @@ $breakpoint-large: 800px;
     // Responsiveness
     @media (max-width: $breakpoint)
     {
-        flex-direction: column-reverse;
-        align-items: flex-start; // Centered content
-        justify-content: flex-start; // Centers content
+        flex-direction: column;
+
+        :nth-child(1) { order: 4; }
+        :nth-child(2) { order: 1; }
+        :nth-child(3) { order: 2; }
+        :nth-child(4) { order: 3; }
+        :nth-child(5) { order: 5; }
+    }
+
+    // Responsiveness
+    @media (max-width: $breakpoint-large)
+    {
+        column-gap: 5vw; // Gap between colums
+    }
+
+    @media (max-width: 720px)
+    {
+        column-gap: 3vw; // Gap between colums
     }
 }
-
-//#home-header :nth-child(1) { order: 1; }
-//#home-header :nth-child(2) { order: 3; }
-//#home-header :nth-child(3) { order: 4; }
-//#home-header :nth-child(4) { order: 5; }
-//#home-header :nth-child(5) { order: 2; }
 
 .btn
 {
@@ -153,6 +179,17 @@ $breakpoint-large: 800px;
     padding: 15px 25px;
     text-align: center;
     font-family: Righteous, Arial, sans-serif;
+
+    // Responsiveness
+    @media (max-width: $breakpoint-large)
+    {
+        margin-right: 10vw;
+    }
+
+    @media (max-width: 720px)
+    {
+        margin-right: 8vw;
+    }
 }
 
 #home-button-right
@@ -163,15 +200,28 @@ $breakpoint-large: 800px;
     border-radius: 25px;
     text-align: center;
     background-color: $accent-light; // Sets color to variable
+
+    // Responsiveness
+    @media (max-width: $breakpoint-large)
+    {
+        margin-left: 10vw;
+    }
+
+    @media (max-width: 720px)
+    {
+        margin-left: 8vw;
+    }
 }
 
 #home-button-left, #home-button-right
 {
-    display: flex !important;
-    flex-direction: row !important;
+    display: flex;
+    flex-direction: row;
 }
 
-// 1.7 Body
+//====================================
+// 1.7 Body/
+//====================================
 
 body
 {
@@ -180,7 +230,24 @@ body
     font-size: 18px;
 }
 
+//====================================
+// 1.8 Selection
+//====================================
+
+::-moz-selection{
+    // Code for Firefox
+    color: $accent-light;
+    background: $accent-dark;
+}
+
+::selection{
+    color: $accent-light;
+    background: $accent-dark;
+}
+
+//====================================
 // 1.11 Github Logo
+//====================================
 
 .logo
 {
@@ -214,7 +281,9 @@ body
     transform: scale(1.1) rotate(360deg);
 }
 
+//====================================
 // 1.12 Back to top
+//====================================
 
 #backtotop
 {
@@ -229,7 +298,9 @@ body
 
 }
 
+//====================================
 // 1.13 Footer
+//====================================
 
 footer
 {
@@ -246,7 +317,9 @@ footer
 
 }
 
+//====================================
 // 1.14 Icons
+//====================================
 
 .icon
 {
@@ -256,7 +329,9 @@ footer
     align-items: center;
 }
 
+//====================================
 // 1.15 Links
+//====================================
 
 // Adds user select on all browsers
 
@@ -268,14 +343,18 @@ a
     -webkit-user-select: none;
 }
 
+//====================================
 // 1.16 Scroll
+//====================================
 
 *
 {
     scroll-behavior: smooth;
 }
 
+//====================================
 // 2.1 Home
+//====================================
 
 #background
 {
@@ -290,10 +369,9 @@ a
     z-index: -1;
 
     width: 100%;
-    aspect-ratio: 16/9;
 
     // When viewport height is less than 800 do this
-    @media (max-height: $breakpoint-large)
+    @media (max-height: $breakpoint-medium)
     {
         max-width: 100%;
         height: unset;
@@ -304,12 +382,20 @@ a
         margin: -250px 0 0 0;
     }
 
-    @media (max-width: $breakpoint-large) {
+    @media (max-width: $breakpoint-large)
+    {
         width: unset;
         height: 80vh;
     }
 
-    @media (max-width: $breakpoint) {
+    @media (max-width: $breakpoint-medium)
+    {
+        width: unset;
+        height: 80vh;
+    }
+
+    @media (max-width: $breakpoint)
+    {
         width: unset;
         height: 100vh;
     }
@@ -369,16 +455,23 @@ a
     padding: 80px 180px;
     text-align: center;
     align-items: center;
+
     background-color: $accent-light-purple;
 
     // Adds custom properties for different viewport widths
+    @media (max-width: 1350px)
+    {
+        padding: 50px 0;
+        max-height: 20000px;
+    }
+
     @media (max-width: 1050px)
     {
         padding: 25px 0;
         max-height: 20000px;
     }
 
-    @media (max-width: $breakpoint-large)
+    @media (max-width: $breakpoint-medium)
     {
         flex-direction: column;
         padding: 0;
@@ -408,13 +501,19 @@ a
     background-color: $accent-middle-purple;
 
     // Adds custom properties for different viewport widths
+    @media (max-width: 1350px)
+    {
+        padding: 50px 0;
+        max-height: 20000px;
+    }
+
     @media (max-width: 1050px)
     {
         padding: 25px 0;
         max-height: 20000px;
     }
 
-    @media (max-width: $breakpoint-large)
+    @media (max-width: $breakpoint-medium)
     {
         flex-direction: column-reverse;
         padding: 0;
@@ -446,7 +545,7 @@ a
         max-height: 20000px;
     }
 
-    @media (max-width: $breakpoint-large)
+    @media (max-width: $breakpoint-medium)
     {
         flex-direction: column;
         padding: 25px 0;
@@ -486,7 +585,7 @@ a
 
 .home-sections-title
 {
-    color: $accent-dark;
+    color: $accent-middle-dark-purple;
     font-size: 22px;
     margin: 0 0 20px 0;
 }
