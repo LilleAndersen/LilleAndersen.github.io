@@ -1,8 +1,8 @@
 $("#header-pre").load("/sections/header.html")
 
-const blueHover = '#subpage-header #homebtn:hover, #schoolbtn:hover, #freetimebtn:hover { color: rgb(23,23,82) }';
-const pinkHover = '#subpage-header #homebtn:hover, #schoolbtn:hover, #freetimebtn:hover { color: rgb(251,99,81) }';
-const style = document.createElement('style');
+// const blueHover = '#subpage-header #homebtn:hover, #schoolbtn:hover, #freetimebtn:hover { color: rgb(23,23,82) }';
+// const pinkHover = '#subpage-header #homebtn:hover, #schoolbtn:hover, #freetimebtn:hover { color: rgb(251,99,81) }';
+// const style = document.createElement('style');
 
 // Changes visibility in #backtotop after certain amount of px is scrolled
 window.onscroll = function () {
@@ -36,12 +36,12 @@ window.onscroll = function () {
     }
 }
 
-document.getElementsByTagName('head')[0].appendChild(style);
+// document.getElementsByTagName('head')[0].appendChild(style);
 
 // Resize timeout
-setTimeout(function () {
-    resize()
-},100)
+//setTimeout(function () {
+//    resize()
+//},100)
 
 // Preloader
 

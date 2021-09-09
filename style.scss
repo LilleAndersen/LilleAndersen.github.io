@@ -1,4 +1,4 @@
-// soni made this work, without soni this code would be nothing - soni howni (system operator for northern ireland)
+// soni made this work, without soni this code would be nothing - SOny howni (system operator for northern ireland)
 // https://haha.yessness.com/index.html#
 
 /* STYLESHIT TABLE OF CONTENTS
@@ -43,12 +43,12 @@
 // Variables
 
 // Colors
-$accent-light: #DEE0F7;
-$accent-dark: #6152A3;
-$accent-light-purple: #B5AED6;
-$accent-middle-purple: #9C92C8;
-$accent-middle-dark-purple: #201C36;
-$accent-dark-purple: #0C070D;
+$accent-light: #DEE0F7; // Lavender Web
+$accent-light-light: #B5AED6; // Blue Bell
+$accent-light-dark: #9C92C8; // Blue Bell
+$accent-middle: #6152A3; // Liberty
+$accent-middle-dark: #201C36; // Dark Purple
+$accent-dark: #0C070D; // Rick Black FOGRA 39
 
 // Sizes
 $img-width: 400px !default;
@@ -237,12 +237,12 @@ body
 ::-moz-selection{
     // Code for Firefox
     color: $accent-light;
-    background: $accent-dark;
+    background: $accent-middle;
 }
 
 ::selection{
     color: $accent-light;
-    background: $accent-dark;
+    background: $accent-middle;
 }
 
 //====================================
@@ -313,7 +313,7 @@ footer
     font-family: "Roboto Condensed", arial, sans-serif;
     color: $accent-light;
     text-align: center;
-    background-color: $accent-light-purple;
+    background-color: $accent-light-dark;
 
 }
 
@@ -426,7 +426,7 @@ a
 .subjectbtn
 {
     display: inline-block; // Fixes collapsing marges issue
-    color: $accent-dark-purple;
+    color: $accent-dark;
     background-color: $accent-light;
     margin: 25px;
     padding: 15px 50px;
@@ -456,7 +456,7 @@ a
     text-align: center;
     align-items: center;
 
-    background-color: $accent-light-purple;
+    background-color: $accent-light-dark;
 
     // Adds custom properties for different viewport widths
     @media (max-width: 1350px)
@@ -498,7 +498,7 @@ a
     padding: 80px 180px;
     text-align: center;
     align-items: center;
-    background-color: $accent-middle-purple;
+    background-color: $accent-light-dark;
 
     // Adds custom properties for different viewport widths
     @media (max-width: 1350px)
@@ -585,7 +585,7 @@ a
 
 .home-sections-title
 {
-    color: $accent-middle-dark-purple;
+    color: $accent-middle-dark;
     font-size: 22px;
     margin: 0 0 20px 0;
 }
