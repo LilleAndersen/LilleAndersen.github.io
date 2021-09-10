@@ -111,15 +111,21 @@ $breakpoint-large: 1200px;
     min-width: 150px;
     max-width: 2147483647px; // Should be less, but littel is bumd TODO: Make this better
 
+    :nth-child(1) { order: 1; }
+    :nth-child(2) { order: 5; }
+    :nth-child(3) { order: 2; }
+    :nth-child(4) { order: 3; }
+    :nth-child(5) { order: 4; }
+
     // Responsiveness
     @media (max-width: $breakpoint)
     {
         flex-direction: column;
 
-        :nth-child(1) { order: 4; }
-        :nth-child(2) { order: 1; }
-        :nth-child(3) { order: 2; }
-        :nth-child(4) { order: 3; }
+        :nth-child(1) { order: 1; }
+        :nth-child(2) { order: 2; }
+        :nth-child(3) { order: 3; }
+        :nth-child(4) { order: 4; }
         :nth-child(5) { order: 5; }
     }
 
@@ -132,6 +138,15 @@ $breakpoint-large: 1200px;
     @media (max-width: 720px)
     {
         column-gap: 3vw; // Gap between colums
+    }
+}
+
+#header-middle
+{
+    display: flex;
+
+    @media (max-width: $breakpoint) {
+        flex-direction: row;
     }
 }
 
@@ -213,19 +228,13 @@ $breakpoint-large: 1200px;
     }
 }
 
-#home-button-left, #home-button-right
-{
-    display: flex;
-    flex-direction: row;
-}
-
 //====================================
 // 1.7 Body/
 //====================================
 
 body
 {
-    background-color: #B5AED6;
+    background-color: $accent-light-light;
     margin: 0;
     font-size: 18px;
 }
@@ -313,7 +322,7 @@ footer
     font-family: "Roboto Condensed", arial, sans-serif;
     color: $accent-light;
     text-align: center;
-    background-color: $accent-light-dark;
+    background-color: $accent-light-light;
 
 }
 
@@ -456,7 +465,7 @@ a
     text-align: center;
     align-items: center;
 
-    background-color: $accent-light-dark;
+    background-color: $accent-light-light;
 
     // Adds custom properties for different viewport widths
     @media (max-width: 1350px)
