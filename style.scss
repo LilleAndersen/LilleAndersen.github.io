@@ -123,10 +123,25 @@ $breakpoint-large: 1200px;
         flex-direction: column;
 
         :nth-child(1) { order: 1; }
-        :nth-child(2) { order: 2; }
-        :nth-child(3) { order: 3; }
-        :nth-child(4) { order: 4; }
-        :nth-child(5) { order: 5; }
+        :nth-child(2) { order: 3; }
+        :nth-child(3) { order: 4; }
+        :nth-child(4) { order: 5; }
+        :nth-child(5) { order: 2; }
+
+        *
+        {
+            margin: 0;
+        }
+
+        #homebtn, #personalbtn, #schoolbtn
+        {
+            flex-direction: column;
+        }
+
+        #home-button-left, #home-button-right
+        {
+            flex-direction: row !important;
+        }
     }
 
     // Responsiveness
@@ -190,7 +205,7 @@ $breakpoint-large: 1200px;
 {
     margin-right: 12.5rem;
     font-size: 32px;
-    max-width: 70px;
+    max-width: 90px;
     padding: 15px 25px;
     text-align: center;
     font-family: Righteous, Arial, sans-serif;
@@ -204,6 +219,10 @@ $breakpoint-large: 1200px;
     @media (max-width: 720px)
     {
         margin-right: 8vw;
+    }
+
+    @media (max-width: $breakpoint) {
+
     }
 }
 

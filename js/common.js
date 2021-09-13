@@ -1,5 +1,18 @@
 $("#header-pre").load("/sections/header.html")
 
+
+
+// window.onresize = function () {
+//     if (window.innerWidth <= 500) {
+//         document.querySelector("#header-pre").innerHTML = "";
+//         $("#header-pre").load("/sections/test.html")
+//     }
+//     if (window.innerWidth >= 500) {
+//         document.querySelector("#header-pre").innerHTML = "";
+//         $("#header-pre").load("/sections/header.html")
+//     }
+// }
+
 // const blueHover = '#subpage-header #homebtn:hover, #schoolbtn:hover, #freetimebtn:hover { color: rgb(23,23,82) }';
 // const pinkHover = '#subpage-header #homebtn:hover, #schoolbtn:hover, #freetimebtn:hover { color: rgb(251,99,81) }';
 // const style = document.createElement('style');
