@@ -7,8 +7,11 @@
     <list default="true" id="bee98fe4-341e-4398-a2ef-7d8e61cbc69b" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/sections/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/personal/freetime.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/personal/freetime.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/personal/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/personal/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/school/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/school/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/school/school.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/school/school.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sections/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/sections/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
@@ -226,7 +229,7 @@
       <workItem from="1631119652995" duration="9602000" />
       <workItem from="1631203266775" duration="8710000" />
       <workItem from="1631254429676" duration="4846000" />
-      <workItem from="1631549983851" duration="8032000" />
+      <workItem from="1631549983851" duration="9296000" />
     </task>
     <servers />
   </component>
