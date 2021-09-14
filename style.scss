@@ -661,11 +661,91 @@ a
 // 2.1 Subpages
 //====================================
 
+#schoolcontent
+{
+    .odd
+    {
+        background-color: $accent-light-light !important;
+    }
+
+    .even
+    {
+        background-color: $accent-light-dark !important;
+    }
+
+    *
+    {
+        padding: 15px;
+    }
+}
+
 .subpage-content-flex
 {
-    display: flex;
-    align-items: center;
+    display: flex; // Makes box flex
     flex-direction: column;
+    padding: 80px 180px;
+    text-align: center;
+    align-items: center;
+
+    // Adds custom properties for different viewport widths
+    @media (max-width: 1350px)
+    {
+        padding: 50px 0;
+        max-height: 20000px;
+    }
+
+    @media (max-width: 1050px)
+    {
+        padding: 25px 0;
+        max-height: 20000px;
+    }
+
+    @media (max-width: $breakpoint-medium)
+    {
+        flex-direction: column;
+        padding: 0;
+        max-height: 20000px;
+    }
+
+    @media (max-width: $breakpoint)
+    {
+        flex-direction: column;
+        padding: 25px;
+        margin: 0;
+    }
+
+    @media (min-width: 2000px)
+    {
+        padding: 125px 20vw;
+    }
+}
+
+.subpage-content-flex *
+{
+    margin: 0 0;
+
+    // Adds custom properties for different viewport widths
+    @media (max-width: 1400px)
+    {
+        padding: 25px 0;
+        margin: 0 7vw;
+        max-height: 20000px;
+    }
+
+    @media (max-width: $breakpoint-medium)
+    {
+        flex-direction: column;
+        padding: 25px 0;
+        margin: 0 10vw;
+        max-height: 20000px;
+    }
+
+    @media (max-width: $breakpoint)
+    {
+        flex-direction: column;
+        padding: 25px;
+        margin: 0;
+    }
 }
 
 .content
@@ -673,19 +753,18 @@ a
     text-align: center;
     margin: 50px 0 50px 0; // Margin
     max-width: 70ch;
-    color: $accent-middle-dark !important;
 }
 
-.projectname
+.projecttitle
 {
-    font-size: 32px; // Font size
-    font-weight: bold;
     color: $accent-middle-dark;
+    font-size: 22px;
+    margin: 0 0 20px 0;
 }
 
 .date
 {
-    margin: 2em 0 -2.25em 0;
+    margin: 0 0 2em 0;
     color:  $accent-middle-dark;
 }
 
