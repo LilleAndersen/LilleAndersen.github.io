@@ -55,9 +55,6 @@
       <path value="$PROJECT_DIR$" />
     </include_path>
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="1" />
-  </component>
   <component name="ProjectId" id="1o3rn9QHaa1GImo9D7GUVgWQ2OM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -226,7 +223,7 @@
       <workItem from="1631254429676" duration="4846000" />
       <workItem from="1631549983851" duration="9766000" />
       <workItem from="1631601933452" duration="6619000" />
-      <workItem from="1631627223973" duration="8949000" />
+      <workItem from="1631627223973" duration="10217000" />
     </task>
     <servers />
   </component>
