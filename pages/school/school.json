@@ -4,7 +4,7 @@
       "title": "Verstasjon",
       "media": "<img src=\"../../assets/images/verstasjon.jpg\" alt=\"bildet\" class=\"img\" loading=\"lazy\">",
       "date": "26.04.21",
-      "text": "Det gikk ut på vi skulle lage en verstasjon og vise data på en nettside. Dataene skulle bruke database og vi måtte bruke php til å få det inn på nettsiden. Vi skulle og lage romovervåkning og opplaste bildet på FTP server og vise på nettside."
+      "text": "Verstasjonen handlet om å samle inn værdata, plassere inn i database og hente fra databasen og plasserer på nettside. Vi brukte MySQL database og PHP til å få det inn i database og nettside. En annen del av oppgaven var at vi skulle programmere et system med Python som overvåkte et rom og detektet om det kom noen inn, idéen var og lage rammeverket for et system der man kunne sjekke om et rom var ledig."
     },
     {
       "title": "App",
@@ -16,13 +16,13 @@
       "title": "Raspberry Pi",
       "media": "<img src=\"../../assets/images/rpi.jpg\" alt=\"bildet\" class=\"img\" loading=\"lazy\">",
       "date": "26.03.21",
-      "text": "Vi holdt på med Raspberry Pi. Vi testet mye og vikk gjøre engentil hva vi ville så lenge vi lærte noe. Min gruppe hadde et grasiøst prosjekt som gikk ut på å; 1. Trykke på en knapp, 2. Starte en timer med lys, 3. Ta bilde når timeren er bilde"
+      "text": "I denne oppgaven brukte vi Raspberry PI (RPI) og vi fikk som oppgave å starte hvilket som helst prosjekt vi ville så lenge vi viste kompetanse. Min gruppe sitt prosjekt gikk ut på å: 1. Trykke på en knapp, 2. Starte en nedtelling med lys, 3. Ta bilde da timeren er ferdig. Det var et simpelt prosjekt men det holdt oss opptatt og det var lærerikt."
     },
     {
       "title": "Database",
       "media": "<iframe src=\"https://www.youtube.com/embed/_Z-V9e34ddo\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen loading=\"lazy\"></iframe>",
       "date": "25.02.21",
-      "text": "Denne videoen tilhører et prosjekt som gikk ut på å lage en database som skulle holde informasjon om forskjellige fagkilder. Vi skulle koble dette til nettsiden vår å gjøre det mulig å inn info til databasen fra nettsiden og se informasjonen fra nettsiden."
+      "text": "Videoen handler om et prosjekt som gikk ut på å lagre informasjon om fagkilder i en database. Et annet krav var og koble til nettside på dette og gjøre det mulig og set fagkildene på nettsiden. Det var og mulig og sette inn fagkildene på nettsiden. Dataen var dynamisk lastet inn med PHP inn i en tabell på nettsiden der dataen var lett og forståelig og lese."
     },
     {
       "title": "Videodagbok",
@@ -40,7 +40,7 @@
       "title": "Charity",
       "media": "<img src=\"../../assets/images/charity.jpg\" alt=\"bildet av en xbox kontroller\" class=\"img\" loading=\"lazy\">",
       "date": "17.12.20",
-      "text": "Dette bildet tilhører et tverrfaglig prosjekt. Prosjektet gikk på å lage en charity stream for å samle inn penger til BCFS som en del av skolen sitt årlige innsamlingsaksjon. Klassen vår måtte planlegge alt og vi hadde ansvar. Jeg synes det var veldig gøy og streamen var en stor suksess. Mer info <a href=\"https://docs.google.com/document/d/1foxj9DL2PIXq5AzErvu6ryT_5wtbNj7TR9es8mGa4bM/edit?usp=sharing\" target=\"_blank\" class=\"here\">her</a>"
+      "text": "Denne gang hadde vi et tverrfaglig prosjekt som gikk ut på å samle penger inn til veldedighet. Vi samlet inn til BCFS som en del av skolens årlige innsamlingsaksjon. Siden klassen vår er en IT og media klasse valgte vi og ha en stream. Vi spilte masse spill og hadde masse flotte utfordringer med kommentatorer og alt mulig. Vi streamet totalt 9 timer og samlet inn rett rundt 17 000 kr. Jeg synes det var veldig gøy og streamen ble en stor suksess. Mer info <a href=\"https://docs.google.com/document/d/1foxj9DL2PIXq5AzErvu6ryT_5wtbNj7TR9es8mGa4bM/edit?usp=sharing\" target=\"_blank\" class=\"here\">her</a>"
     },
     {
       "title": "Reklame",
@@ -52,7 +52,7 @@
       "title": "Fotoserie",
       "media": "<img src=\"../../assets/images/photoserie.jpg\" alt=\"Bilde\" class=\"img\" loading=\"lazy\">",
       "date": "04.11.20",
-      "text": "Dette bildet tilhører et tverrfaglig prosjekt. Prosjektet gikk ut på å lage en serie av bilder som fortalte en historie. Det var og et kriteriet at bildene skal kunne stokkes får å få en annen historie. Dette var en av fire bilder tilhørende oppgaven min. Mer info <a href=\"https://docs.google.com/presentation/d/1BPuJTTA9PDIgeSSA2F_VkkZ4hgttO9kGwgVUXOCcWt8/edit?usp=sharing\" target=\"_blank\" class=\"here\">her</a>"
+      "text": "Fotoserien handlet om å lage en historie på fire bilder, men historien skulle og kunnes sett fra flere vinkler. Dvs. en vei er det en konklusjon (en mann dør) og hvis man endrer rekkefølgen på bildene så kommer man til en annen konlusjon (en man dør ikke). Dette var en av fire bilder tilhørende oppgaven min. Mer info <a href=\"https://docs.google.com/presentation/d/1BPuJTTA9PDIgeSSA2F_VkkZ4hgttO9kGwgVUXOCcWt8/edit?usp=sharing\" target=\"_blank\" class=\"here\">her</a>"
     },
     {
       "title": "HMS",
