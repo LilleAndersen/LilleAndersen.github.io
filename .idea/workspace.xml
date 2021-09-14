@@ -9,7 +9,6 @@
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/school/school.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/school/school.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/school/school.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/school/school.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style.scss" afterDir="false" />
     </list>
@@ -223,7 +222,7 @@
       <workItem from="1631254429676" duration="4846000" />
       <workItem from="1631549983851" duration="9766000" />
       <workItem from="1631601933452" duration="6619000" />
-      <workItem from="1631627223973" duration="10217000" />
+      <workItem from="1631627223973" duration="11708000" />
     </task>
     <servers />
   </component>

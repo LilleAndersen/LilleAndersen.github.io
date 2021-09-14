@@ -10,7 +10,7 @@
       "title": "App",
       "media": "<img src=\"../../assets/images/app.jpg\" alt=\"bildet\" class=\"img\" loading=\"lazy\">",
       "date": "13.04.21",
-      "text": "Dette prosjektet handlet om at vi skulle lage en demo app for en kunde. Våres gruppe valgte Kaffe Diem som vår kunde og vi lagde en demo app og web interface."
+      "text": "Dette prosjektet handlet om at vi skulle lage en demo app for en kunde. Våres gruppe valgte Kaffe Diem som vår kunde og vi lagde en demo app og web interface. Vi var tre stykker på gruppen, med en gigantisk idè på hva vi ville få til. Vi endte opp med og spørre læreren om ekstra tid (som vi fikk ja til) og planlagte et ekstremt vanskelig og tidkrevende prosjekt for kompetansen vår. Planen innebærte notifikasjoner etter oppdatering i database, oppdatering av passsord hver uke, dynamisk app der de som jobbet i Kaffe Diem kunne legge in nye ting på menyen uten at ting skulle være vanskelig."
     },
     {
       "title": "Raspberry Pi",
@@ -28,13 +28,13 @@
       "title": "Videodagbok",
       "media": "<iframe src=\"https://www.youtube.com/embed/h1NaiH2hyCs\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen loading=\"lazy\"></iframe>",
       "date": "11.01.21",
-      "text": "Denne videoen tilhører et prosjekt som gikk ut på å lage en innlegg til en videodagbok. Videoen var en koronadagbok som skulle vise dagen min og hvordan den er blitt påvirket av korona."
+      "text": "Videoprosjektet gikk ut på å lage et innlegg til en videodagbok. Videoen skulle forsøke å vise hvordan en vanlig dag under korona var, og hvordan det kanskje har påvirket livet mitt. Jeg filmet en hel uke og satte det sammen for å vise en slags helhet i hverdagene. Jeg ville vise hvordan livet er veldig repitivt og hvordan det egentlig ikke har endret seg så mye etter korona."
     },
     {
       "title": "Lego",
       "media": "<iframe src=\"https://www.youtube.com/embed/HxwR7FIav68\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen loading=\"lazy\"></iframe>",
       "date": "05.01.21",
-      "text": "Denne videoen tilhører et prosjekt som gikk ut på å lage en legorobot som skulle gjøre masse forskjellig, som å kjøre i sirkler, rektangler og mange andre former."
+      "text": "Vi lagde en lego robot som kunne kjøre i mange alle retninger og utføre alle slags mulige ting. Vi startet med å bygge lego med fire stykker på gruppen. Oppgaven gikk hovedsakelig ut på blokkprogrammering, testing og utforsking. Vi fikk et par utfordringer vi skulle løse også fikk vi muligheten til og lage akkurat hva vi ville, sånn at vi kunne vise ekstra kompetanse."
     },
     {
       "title": "Charity",
@@ -46,7 +46,7 @@
       "title": "Reklame",
       "media": "<iframe src=\"https://www.youtube.com/embed/W7IoIeMsydU\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen loading=\"lazy\"></iframe>",
       "date": "17.11.20",
-      "text": "Denne videoen tilhører et prosjekt som gikk ut på å lage en reklamefilm for linjen jeg går. Vi var delt inn i grupper og laget en reklamefilm sammen. Mer info <a href=\"#\" target=\"_blank\" class=\"here\">her</a>"
+      "text": "Oppgaven gikk ut på å lage en reklamefilm for linjen, dette var et delvis gruppeprosjekt. Vi filmet sammen i grupper men måtte redigere hver for oss, for å eliminere problemet med at noen gjør alt. Vi var tre på gruppen og vi gikk for en reklamefilm som viste en vanlig dag på skolen. Mer info <a href=\"#\" target=\"_blank\" class=\"here\">her</a>"
     },
     {
       "title": "Fotoserie",
@@ -58,7 +58,7 @@
       "title": "HMS",
       "media": "<img src=\"../../assets/images/hms.JPG\" alt=\"Bilde\" class=\"img\" loading=\"lazy\">",
       "date": "20.10.20",
-      "text": "Dette prosjektet gikk ut på å lære om HMS, gdpr og andre sikkehets foreskrifter. Jeg hadde om HMS og lagde denne presentasjonen angående dette. Mer info <a href=\"https://docs.google.com/presentation/d/1946PR6z7mhGwhbbER3RiiGJjzL5NFr66d76q4pIAmOM/edit?usp=sharing\" target=\"_blank\" class=\"here\">her</a>"
+      "text": "Prosjektet gikk ut på å lære om HMS, GDPR og andre sikkehets foreskrifter. Jeg hadde om HMS og lagde denne presentasjonen angående dette. HMS står for helse, miljø og sikkerhet og handler om arbeidet man gjør for å forbedre arbeidsplassen. Mer info <a href=\"https://docs.google.com/presentation/d/1946PR6z7mhGwhbbER3RiiGJjzL5NFr66d76q4pIAmOM/edit?usp=sharing\" target=\"_blank\" class=\"here\">her</a>"
     }
   ]
 }
