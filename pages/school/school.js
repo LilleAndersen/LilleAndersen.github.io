@@ -5,13 +5,7 @@ fetch("school.json")
     {
         for (let i = 0; i < data.school.length; i++)
         {
-            let oddeven = "";
-            console.log(i)
-            if ( i % 2 === 0) {
-                oddeven = "even";
-            } else {
-                oddeven = "odd";
-            }
+            const oddeven = i % 2 === 0 ? "even" : "odd";
             document.querySelector("#schoolcontent").innerHTML += `
                 <div id="${data.school[i].title.replace(/\s/g, "")}" class="subpage-content-flex ${oddeven}">
                 ${data.school[i].media} <br>
@@ -25,12 +19,5 @@ fetch("school.json")
                 </p>
                 </div>
             `;
-                // "<div id='" + data.school[i].title.replace(/\s/g, "") + "'>" +
-                // data.school[i].media + "<br>" +
-                // "<p class='date'>" + data.school[i].date + "</p>" +
-                // "<p>" + "<h1 class='projectname'>" + data.school[i].title + "</h1>" +
-                // "<br>" + data.school[i].text +
-                // "</p>" +
-                // "</div>";
         }
     });

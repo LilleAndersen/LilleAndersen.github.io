@@ -279,15 +279,19 @@ body
 // 1.9 Images
 //====================================
 
-img
-{
-    width: 35%;
-}
-
 iframe
 {
-    width: 35%;
     aspect-ratio: 16/9;
+}
+
+iframe, img
+{
+    width: $img-width;
+
+    @media (max-width: $breakpoint)
+    {
+        width: 200px;
+    }
 }
 
 //====================================
@@ -406,14 +410,13 @@ a
     display: flex;
     align-self: center;
 
-
-
     position: fixed;
     //left: 50%;
     //transform: translate(-50%, 0); // Centers image with (line over) and (line under)
     z-index: -1;
 
     width: 100%;
+
 
     // When viewport height is less than 800 do this
     @media (max-height: $breakpoint-medium)
@@ -523,7 +526,7 @@ a
     @media (max-width: $breakpoint-medium)
     {
         flex-direction: column;
-        padding: 0;
+        padding: 25px;
         max-height: 20000px;
     }
 
@@ -565,7 +568,7 @@ a
     @media (max-width: $breakpoint-medium)
     {
         flex-direction: column-reverse;
-        padding: 0;
+        padding: 25px;
         max-height: 20000px;
     }
 
@@ -589,7 +592,6 @@ a
     // Adds custom properties for different viewport widths
     @media (max-width: 1400px)
     {
-        padding: 25px 0;
         margin: 0 7vw;
         max-height: 20000px;
     }
@@ -597,7 +599,6 @@ a
     @media (max-width: $breakpoint-medium)
     {
         flex-direction: column;
-        padding: 25px 0;
         margin: 0 10vw;
         max-height: 20000px;
     }
@@ -605,7 +606,6 @@ a
     @media (max-width: $breakpoint)
     {
         flex-direction: column;
-        padding: 25px;
         margin: 0;
     }
 }
@@ -637,6 +637,10 @@ a
     color: $accent-middle-dark;
     font-size: 22px;
     margin: 0 0 20px 0;
+
+    @media (max-width: $breakpoint-medium) {
+        margin: 25px 0 20px 0;
+    }
 }
 
 .home-sections-img
@@ -646,16 +650,15 @@ a
     max-width: $img-width;
     aspect-ratio: 1/1;
 }
-
 .home-sections-dark img, .home-sections-light img
 {
     width: $img-width;
-    border-radius: 10px;
-
+    border-radius: 1rem;
     @media (max-width: $breakpoint) {
         width: 200px;
     }
 }
+
 
 //====================================
 // 2.1 Subpages
@@ -666,26 +669,27 @@ a
     .odd
     {
         background-color: $accent-light-light !important;
+        flex-direction: row-reverse;
+
+        @media (max-width: $breakpoint-medium)
+        {
+            flex-direction: column;
+        }
     }
 
     .even
     {
         background-color: $accent-light-dark !important;
     }
-
-    *
-    {
-        padding: 15px;
-    }
 }
 
 .subpage-content-flex
 {
     display: flex; // Makes box flex
-    flex-direction: column;
     padding: 80px 180px;
     text-align: center;
     align-items: center;
+    justify-content: center;
 
     // Adds custom properties for different viewport widths
     @media (max-width: 1350px)
@@ -703,7 +707,7 @@ a
     @media (max-width: $breakpoint-medium)
     {
         flex-direction: column;
-        padding: 0;
+        padding: 25px;
         max-height: 20000px;
     }
 
@@ -722,12 +726,11 @@ a
 
 .subpage-content-flex *
 {
-    margin: 0 0;
+    margin: 0 90px;
 
     // Adds custom properties for different viewport widths
     @media (max-width: 1400px)
     {
-        padding: 25px 0;
         margin: 0 7vw;
         max-height: 20000px;
     }
@@ -735,7 +738,6 @@ a
     @media (max-width: $breakpoint-medium)
     {
         flex-direction: column;
-        padding: 25px 0;
         margin: 0 10vw;
         max-height: 20000px;
     }
@@ -743,15 +745,15 @@ a
     @media (max-width: $breakpoint)
     {
         flex-direction: column;
-        padding: 25px;
         margin: 0;
     }
 }
 
 .content
 {
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    margin: 50px 0 50px 0; // Margin
     max-width: 70ch;
 }
 
@@ -759,13 +761,41 @@ a
 {
     color: $accent-middle-dark;
     font-size: 22px;
-    margin: 0 0 20px 0;
+    margin: 0 0 20px;
 }
 
 .date
 {
-    margin: 0 0 2em 0;
+    margin: 0 0 -.5em;
+    padding: 15px;
     color:  $accent-middle-dark;
+}
+
+.here
+{
+    padding: 0 15px;
+}
+
+#schoolcontent
+{
+
+    img {
+        border-radius: 1rem;
+    }
+
+    iframe
+    {
+        min-width: $img-width;
+        width: $img-width;
+
+        border-radius: 1rem;
+
+        @media (max-width: $breakpoint)
+        {
+            min-width: 200px;
+            width: 200px;
+        }
+    }
 }
 
 

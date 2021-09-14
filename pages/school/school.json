@@ -25,18 +25,6 @@
       "text": "Denne videoen tilhører et prosjekt som gikk ut på å lage en database som skulle holde informasjon om forskjellige fagkilder. Vi skulle koble dette til nettsiden vår å gjøre det mulig å inn info til databasen fra nettsiden og se informasjonen fra nettsiden."
     },
     {
-      "title": "Skrivebord",
-      "media": "<img src=\"../../assets/images/tutorial.jpg\" alt=\"bildet\" class=\"img\" loading=\"lazy\">",
-      "date": "3.02.21",
-      "text": "Jeg hadde en oppgave som handlet om å jobbe på et skrivebord. <a href=\"a/tutorialOppgave_17-24.2.21.html\" target=\"_blank\" class=\"here\">Her</a> er svaret mitt."
-    },
-    {
-      "title": "Server",
-      "media": "<img src=\"../../assets/images/server.jpg\" alt=\"bildet\" class=\"img\" loading=\"lazy\">",
-      "date": "27.01.21",
-      "text": "Jeg hadde en oppgave som handler om servere med MySQL. <a href=\"a/mysqlOppgave_27.1.21.html\" target=\"_blank\" class=\"here\">Her</a> er svaret mitt."
-    },
-    {
       "title": "Videodagbok",
       "media": "<iframe src=\"https://www.youtube.com/embed/h1NaiH2hyCs\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen loading=\"lazy\"></iframe>",
       "date": "11.01.21",
@@ -52,25 +40,25 @@
       "title": "Charity",
       "media": "<img src=\"../../assets/images/charity.jpg\" alt=\"bildet av en xbox kontroller\" class=\"img\" loading=\"lazy\">",
       "date": "17.12.20",
-      "text": "Dette bildet tilhører et tverrfaglig prosjekt. Prosjektet gikk på å lage en charity stream for å samle inn penger til BCFS som en del av skolen sitt årlige innsamlingsaksjon. Klassen vår måtte planlegge alt og vi hadde ansvar. Jeg synes det var veldig gøy og streamen var en stor suksess. Mer info <a href=\"https://docs.google.com/document/d/1foxj9DL2PIXq5AzErvu6ryT_5wtbNj7TR9es8mGa4bM/edit?usp=sharing\" target=\"_blank\" class=\"here\">her</a>."
+      "text": "Dette bildet tilhører et tverrfaglig prosjekt. Prosjektet gikk på å lage en charity stream for å samle inn penger til BCFS som en del av skolen sitt årlige innsamlingsaksjon. Klassen vår måtte planlegge alt og vi hadde ansvar. Jeg synes det var veldig gøy og streamen var en stor suksess. Mer info <a href=\"https://docs.google.com/document/d/1foxj9DL2PIXq5AzErvu6ryT_5wtbNj7TR9es8mGa4bM/edit?usp=sharing\" target=\"_blank\" class=\"here\">her</a>"
     },
     {
       "title": "Reklame",
       "media": "<iframe src=\"https://www.youtube.com/embed/W7IoIeMsydU\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen loading=\"lazy\"></iframe>",
       "date": "17.11.20",
-      "text": "Denne videoen tilhører et prosjekt som gikk ut på å lage en reklamefilm for linjen jeg går. Vi var delt inn i grupper og laget en reklamefilm sammen. Mer info <a href=\"#\" target=\"_blank\" class=\"here\">her</a>."
+      "text": "Denne videoen tilhører et prosjekt som gikk ut på å lage en reklamefilm for linjen jeg går. Vi var delt inn i grupper og laget en reklamefilm sammen. Mer info <a href=\"#\" target=\"_blank\" class=\"here\">her</a>"
     },
     {
       "title": "Fotoserie",
       "media": "<img src=\"../../assets/images/photoserie.jpg\" alt=\"Bilde\" class=\"img\" loading=\"lazy\">",
       "date": "04.11.20",
-      "text": "Dette bildet tilhører et tverrfaglig prosjekt. Prosjektet gikk ut på å lage en serie av bilder som fortalte en historie. Det var og et kriteriet at bildene skal kunne stokkes får å få en annen historie. Dette var en av fire bilder tilhørende oppgaven min. Mer info <a href=\"https://docs.google.com/presentation/d/1BPuJTTA9PDIgeSSA2F_VkkZ4hgttO9kGwgVUXOCcWt8/edit?usp=sharing\" target=\"_blank\" class=\"here\">her</a>."
+      "text": "Dette bildet tilhører et tverrfaglig prosjekt. Prosjektet gikk ut på å lage en serie av bilder som fortalte en historie. Det var og et kriteriet at bildene skal kunne stokkes får å få en annen historie. Dette var en av fire bilder tilhørende oppgaven min. Mer info <a href=\"https://docs.google.com/presentation/d/1BPuJTTA9PDIgeSSA2F_VkkZ4hgttO9kGwgVUXOCcWt8/edit?usp=sharing\" target=\"_blank\" class=\"here\">her</a>"
     },
     {
       "title": "HMS",
       "media": "<img src=\"../../assets/images/hms.JPG\" alt=\"Bilde\" class=\"img\" loading=\"lazy\">",
       "date": "20.10.20",
-      "text": "Dette prosjektet gikk ut på å lære om HMS, gdpr og andre sikkehets foreskrifter. Jeg hadde om HMS og lagde denne presentasjonen angående dette. Mer info <a href=\"https://docs.google.com/presentation/d/1946PR6z7mhGwhbbER3RiiGJjzL5NFr66d76q4pIAmOM/edit?usp=sharing\" target=\"_blank\" class=\"here\">her</a>."
+      "text": "Dette prosjektet gikk ut på å lære om HMS, gdpr og andre sikkehets foreskrifter. Jeg hadde om HMS og lagde denne presentasjonen angående dette. Mer info <a href=\"https://docs.google.com/presentation/d/1946PR6z7mhGwhbbER3RiiGJjzL5NFr66d76q4pIAmOM/edit?usp=sharing\" target=\"_blank\" class=\"here\">her</a>"
     }
   ]
 }
