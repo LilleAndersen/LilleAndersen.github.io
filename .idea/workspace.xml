@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bee98fe4-341e-4398-a2ef-7d8e61cbc69b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/old/old.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style.scss" afterDir="false" />
     </list>
     <list id="5a24bc89-9090-4503-a349-20d9076717bb" name="Changes by Soni" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,9 +23,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -37,12 +41,15 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/js/common.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/style.scss" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/404.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/pages/school/school.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/pages/school/index.html" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/sections/header.html" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/js/common.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/index.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/assets/old/old.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/pages/school/school.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/404.html" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -87,11 +94,11 @@
       <recent name="G:\Min disk\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\content\html\vg1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\My Drive\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\assets\old" />
       <recent name="G:\My Drive\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\assets\icons" />
       <recent name="G:\My Drive\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\pages\school" />
       <recent name="G:\My Drive\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\pages\freetime" />
       <recent name="G:\My Drive\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\assets\rest" />
-      <recent name="G:\My Drive\Konseptutvikling og programmering\Nettside_Oppgave\Nettside kode\LilleAndersen.github.io\assets\logos" />
     </key>
   </component>
   <component name="RunManager">
@@ -218,7 +225,9 @@
       <workItem from="1631549983851" duration="9766000" />
       <workItem from="1631601933452" duration="6619000" />
       <workItem from="1631627223973" duration="14502000" />
-      <workItem from="1631690938878" duration="3979000" />
+      <workItem from="1631690938878" duration="3980000" />
+      <workItem from="1631725339674" duration="1661000" />
+      <workItem from="1631729291355" duration="1425000" />
     </task>
     <servers />
   </component>
