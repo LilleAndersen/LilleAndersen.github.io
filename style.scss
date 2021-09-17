@@ -52,7 +52,7 @@ $accent-middle-dark: #201C36; // Dark Purple
 $accent-dark: #0C070D; // Rick Black FOGRA 39
 
 // Sizes
-$img-width: 400px !default;
+$img-width: 400px;
 
 // Breakpoints
 $breakpoint: 550px;
@@ -311,23 +311,23 @@ iframe, img
 
 .rotate
 {
-    transition: transform ease-in-out 0.2s; // Logo transition
+    transition: ease-in-out 0.2s !important; // Logo transition
 }
 
 // Rotating transitions for github logo (for all browsers)
 
 .rotate:hover
 {
-    transition: 0.7s;
-    -webkit-transition: 0.7s;
-    -moz-transition: 0.7s;
-    -ms-transition: 0.7s;
-    -o-transition: 0.7s;
-    -webkit-transform: rotate(180deg);
-    -moz-transform: rotate(180deg);
-    -o-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    transform: scale(1.1) rotate(360deg);
+    transition: 0.7s !important;
+    -webkit-transition: 0.7s !important;
+    -moz-transition: 0.7s !important;
+    -ms-transition: 0.7s !important;
+    -o-transition: 0.7s !important;
+    -webkit-transform: rotate(180deg) !important;
+    -moz-transform: rotate(180deg) !important;
+    -o-transform: rotate(180deg) !important;
+    -ms-transform: rotate(180deg) !important;
+    transform: scale(1.1) rotate(360deg) !important;
 }
 
 //====================================
@@ -336,15 +336,18 @@ iframe, img
 
 #backtotop
 {
-    position: fixed; // Changes position to fixed to it stays still
-    bottom: 0;
-    right: 0;
-    margin: 15px;
-    z-index: 100; // Order of items
+    margin: 0 0 0 50px;
+    z-index: 1000; // Order of items
     opacity: 0;
-    transition: ease 300ms; // Transition
-    font-weight: bold;
-    color: $accent-middle-dark;
+    stroke: #100d0e;
+}
+
+#dropdown-arrow
+{
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
 }
 
 //====================================
@@ -431,20 +434,14 @@ a
 
     @media (max-width: $breakpoint-large)
     {
-        width: unset;
         height: 80vh;
-    }
-
-    @media (max-width: $breakpoint-medium)
-    {
-        width: unset;
-        height: 80vh;
+        min-width: 180vh;
     }
 
     @media (max-width: $breakpoint)
     {
-        width: unset;
         height: 100vh;
+        min-width: 215vh;
     }
 }
 
@@ -653,8 +650,11 @@ a
 {
     width: $img-width;
     border-radius: 1rem;
-    @media (max-width: $breakpoint) {
-        width: 200px;
+
+    @media (max-width: $breakpoint)
+    {
+        min-width: 80vw;
+        width: 80vw;
     }
 }
 
@@ -725,7 +725,8 @@ a
 
 .subpage-content-flex *
 {
-    margin: 0 90px;
+    margin: 0 40px;
+    text-align: center;
 
     // Adds custom properties for different viewport widths
     @media (max-width: 1400px)
@@ -768,6 +769,7 @@ a
     margin: 0 0 -.5em;
     padding: 15px;
     text-align: center;
+    align-self: center;
     color:  $accent-middle-dark;
 }
 
@@ -781,6 +783,13 @@ a
 
     img {
         border-radius: 1rem;
+
+        @media (max-width: $breakpoint)
+        {
+            min-width: 80vw;
+            width: 80vw;
+        }
+
     }
 
     iframe
@@ -792,8 +801,8 @@ a
 
         @media (max-width: $breakpoint)
         {
-            min-width: 200px;
-            width: 200px;
+            min-width: 300px;
+            width: 300px;
         }
     }
 }
