@@ -503,7 +503,7 @@ a
     padding: 80px 180px;
     text-align: center;
     align-items: center;
-
+    text-shadow: rgba($accent-dark, .5) 0 0 .2rem;
     background-color: $accent-light-light;
 
     // Adds custom properties for different viewport widths
@@ -546,6 +546,7 @@ a
     padding: 80px 180px;
     text-align: center;
     align-items: center;
+    text-shadow: rgba($accent-dark, .5) 0 0 .2rem;
     background-color: $accent-light-dark;
 
     // Adds custom properties for different viewport widths
@@ -619,6 +620,7 @@ a
     text-align: center;
     max-width: 100px;
     min-width: 75px;
+    text-shadow: 0 0;
     border-radius: 2147483647px; // Epic integer limit
 
     // Adds custom properties for different viewport widths
@@ -633,6 +635,7 @@ a
     color: $accent-middle-dark;
     font-size: 22px;
     margin: 0 0 20px 0;
+    text-shadow: 0 0;
 
     @media (max-width: $breakpoint-medium) {
         margin: 25px 0 20px 0;
@@ -669,6 +672,11 @@ a
     {
         background-color: $accent-light-light !important;
         flex-direction: row-reverse;
+
+        p
+        {
+            text-shadow: rgba($accent-dark, .5) 0 0 .2rem;
+        }
 
         @media (max-width: $breakpoint-medium)
         {
