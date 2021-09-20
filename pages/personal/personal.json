@@ -1,0 +1,14 @@
+{
+  "personal": [
+    {
+      "title": "osu!",
+      "media": "<img src=\"../../assets/images/osu.jpg\" alt=\"bildet\" class=\"img\" loading=\"lazy\">",
+      "text": "osu! er et rytme spill som handler om å klikke sirkler til sangen. Det høres kanskje ikke så komplisert ut, og der er egentlig ikke det, helt til man når de høyere vanskelighetsgradene. Sjekk ut denne videoen om du ikke vet hva jeg snakker om. Jeg er openbart ikke så god, men på grunn at den simplistiske naturen til spille, har jeg klart og spille lenge nok til og bli halvgod."
+    },
+    {
+      "title": "graphide studios",
+      "media": "<img src=\"../../assets/images/graphide.jpg\" alt=\"bildet\" class=\"img\" loading=\"lazy\">",
+      "text": "Graphide studios er lite programvareutviklingsstudio på tre stykker. Det var laget av tre elever i klassen min inkl. meg og vi har for det meste holdt på meg webdesign og -utvikling. Det er åpenbart ikke en faktisk bedrift men det er noe vi har lyst og jobbe litt med på siden. Kanskje det kunne blitt en sidejobb der vi kan tjene litt penger i ny og ne. Vi lagde studioet den tjuesjette mars 2021 med åpningsprosjektet"
+    }
+  ]
+}

@@ -48,6 +48,7 @@ $accent-light: #DEE0F7; // Lavender Web
 $accent-light-light: #B5AED6; // Blue Bell
 $accent-light-dark: #9C92C8; // Blue Bell
 $accent-middle: #6152A3; // Liberty
+$accent-middle-light: #3A3856; // Space Cadet
 $accent-middle-dark: #201C36; // Dark Purple
 $accent-dark: #0C070D; // Rick Black FOGRA 39
 
@@ -363,7 +364,7 @@ footer
     padding: 2.5rem;
     margin: fill;
     font-family: "Roboto Condensed", arial, sans-serif;
-    color: $accent-light;
+    color: $accent-middle-dark;
     text-align: center;
     background-color: $accent-light-light;
 }
@@ -503,7 +504,7 @@ a
     padding: 80px 180px;
     text-align: center;
     align-items: center;
-    text-shadow: rgba($accent-dark, .5) 0 0 .2rem;
+    color: $accent-middle-light;
     background-color: $accent-light-light;
 
     // Adds custom properties for different viewport widths
@@ -546,7 +547,7 @@ a
     padding: 80px 180px;
     text-align: center;
     align-items: center;
-    text-shadow: rgba($accent-dark, .5) 0 0 .2rem;
+    color: $accent-middle-light;
     background-color: $accent-light-dark;
 
     // Adds custom properties for different viewport widths
@@ -614,7 +615,7 @@ a
     align-items: center;
 }
 
-.home-sections-light p .home-sections-button, .home-sections-dark p .home-sections-button
+.home-sections-button
 {
     margin: 20px 0;
     text-align: center;
@@ -670,12 +671,13 @@ a
 {
     .odd
     {
-        background-color: $accent-light-light !important;
+        background-color: $accent-light-dark !important;
+
         flex-direction: row-reverse;
 
         p
         {
-            text-shadow: rgba($accent-dark, .5) 0 0 .2rem;
+            //text-shadow: rgba($accent-dark, .5) 0 0 .2rem;
         }
 
         @media (max-width: $breakpoint-medium)
@@ -686,7 +688,7 @@ a
 
     .even
     {
-        background-color: $accent-light-dark !important;
+        background-color: $accent-light-light !important;
     }
 }
 
@@ -697,6 +699,7 @@ a
     text-align: center;
     align-items: center;
     justify-content: center;
+    color: $accent-middle-light;
 
     // Adds custom properties for different viewport widths
     @media (max-width: 1350px)
@@ -761,8 +764,14 @@ a
 {
     display: flex;
     flex-direction: column;
+    align-items: center;
     text-align: center;
     max-width: 70ch;
+
+    .home-sections-button
+    {
+        margin: 20px 0;
+    }
 }
 
 .projecttitle
@@ -779,11 +788,6 @@ a
     text-align: center;
     align-self: center;
     color:  $accent-middle-dark;
-}
-
-.here
-{
-    padding: 0 15px;
 }
 
 #schoolcontent
