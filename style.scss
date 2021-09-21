@@ -337,10 +337,16 @@ iframe, img
 
 #backtotop
 {
-    margin: 0 0 0 50px;
+    margin: 0 0 0 88px;
     z-index: 1000; // Order of items
     opacity: 0;
     stroke: #100d0e;
+}
+
+#sketch
+{
+    margin: 0 0 3.5px 50px;
+    z-index: 1000; // Order of items
 }
 
 #dropdown-arrow
@@ -615,20 +621,59 @@ a
     align-items: center;
 }
 
+//.home-sections-button
+//{
+//    margin: 20px 0;
+//    text-align: center;
+//    //    max-width: 100px;
+//    //    min-width: 75px;
+//
+//    background: $accent-light-light;
+//    background: linear-gradient(
+//                    to right,
+//                    rgba(255, 151, 139, 1) 0%,
+//                    rgba(249, 124, 128, 1) 50%,
+//                    rgba(242, 115, 142, 1) 50%,
+//                    rgba(251, 99, 81, 1) 0%,
+//                    rgba(246, 89, 95, 1) 50%,
+//                    rgba(242, 78, 112, 1) 100%
+//    );
+//    /* Gradient and gradient on button hover */
+//    background-size: 200% 100%;
+//    background-position: right bottom;
+//    /* Transition start position */
+//    transition: all 0.5s ease-out !important;
+//
+//    :hover {
+//        background-position: left bottom;
+//    }
+//}
+
 .home-sections-button
 {
     margin: 20px 0;
     text-align: center;
     max-width: 100px;
     min-width: 75px;
-    text-shadow: 0 0;
+    transition: ease 1000ms !important;
     border-radius: 2147483647px; // Epic integer limit
+
+    :hover
+    {
+
+    }
 
     // Adds custom properties for different viewport widths
     @media (max-width: 1400px)
     {
         padding: 15px 50px;
     }
+}
+
+.home-sections-button:hover
+{
+    color: $accent-light !important;
+    background-color: $accent-dark !important;
 }
 
 .home-sections-title

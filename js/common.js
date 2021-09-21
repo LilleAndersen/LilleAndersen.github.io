@@ -15,7 +15,7 @@ $("#header-pre").load("/sections/header.html")
 
 // Changes visibility in #backtotop after certain amount of px is scrolled
 window.onscroll = function () {
-    if (window.pageYOffset >= 900) {
+    if (window.pageYOffset >= 700) {
         document.querySelector("#backtotop").style.opacity="1";
         document.querySelector("#background").style.opacity="0";
         // document.getElementById("backtotop").style.display="inline-block";
