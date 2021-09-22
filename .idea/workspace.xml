@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="bee98fe4-341e-4398-a2ef-7d8e61cbc69b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/sketch.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/sketch.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/personal/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/personal/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/school/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/school/index.html" afterDir="false" />
     </list>
     <list id="5a24bc89-9090-4503-a349-20d9076717bb" name="Changes by Soni" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -228,7 +229,8 @@
       <workItem from="1631878357569" duration="6675000" />
       <workItem from="1632153272341" duration="9588000" />
       <workItem from="1632205787767" duration="1627000" />
-      <workItem from="1632291702970" duration="1506000" />
+      <workItem from="1632291702970" duration="2800000" />
+      <workItem from="1632297276354" duration="762000" />
     </task>
     <servers />
   </component>
