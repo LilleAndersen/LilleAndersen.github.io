@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bee98fe4-341e-4398-a2ef-7d8e61cbc69b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/sketch.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/sketch.jpg" afterDir="false" />
     </list>
     <list id="5a24bc89-9090-4503-a349-20d9076717bb" name="Changes by Soni" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,10 +42,10 @@
     <setting file="file://$PROJECT_DIR$/404.html" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/sections/header.html" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/pages/school/school.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/index.html" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/pages/school/school.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/pages/school/index.html" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/assets/old/old.css" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/index.html" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/style.scss" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
@@ -227,6 +228,7 @@
       <workItem from="1631878357569" duration="6675000" />
       <workItem from="1632153272341" duration="9588000" />
       <workItem from="1632205787767" duration="1627000" />
+      <workItem from="1632291702970" duration="1506000" />
     </task>
     <servers />
   </component>
