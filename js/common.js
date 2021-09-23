@@ -12,6 +12,10 @@ $("#header-pre").load("/sections/header.html")
 //     }
 // }
 
+document.querySelector("#backtotop").onclick = function () {
+    document.querySelector("#backtotop").style.display="none";
+}
+
 
 // Changes visibility in #backtotop after certain amount of px is scrolled
 window.onscroll = function () {

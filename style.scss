@@ -420,8 +420,7 @@ a
     align-self: center;
 
     position: fixed;
-    //left: 50%;
-    //transform: translate(-50%, 0); // Centers image with (line over) and (line under)
+    margin-top: -100px;
     z-index: -1;
 
     width: 100%;
@@ -434,7 +433,7 @@ a
         height: unset;
     }
 
-    @media (min-width: 2000px)
+    @media (min-width: 2500px)
     {
         margin: -250px 0 0 0;
     }
@@ -817,6 +816,11 @@ a
     {
         margin: 20px 0;
     }
+}
+
+h1#subpage-headline
+{
+    font-size: 60px;
 }
 
 .projecttitle
