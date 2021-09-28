@@ -1,47 +1,33 @@
 // soni made this work, without soni this code would be nothing - SOny howni (system operator for northern ireland)
 // https://haha.yessness.com/index.html#
 
-/* STYLESHIT TABLE OF CONTENTS
-    1 Broad CSS
-        1.1 Imports
-        1.2 Variables
-        1.3 Cursor
-        1.4 Flex
-        1.5 Pages
-        1.6 Header
-        1.7 Body
-        1.8 Selection
-        1.9 Images
-        1.11 Github Logo
-        1.12 Back to top
-        1.13 Footer
-        1.14 Icons
-        1.15 Links
-        1.16
-    2 Page Specific
-        2.1 Home
-        2.2 School
-        2.3 Freetime
-        2.4 404
-*/
+/* STYLESHEET TABLE OF CONTENTS
+    1 Setup
+        1.1 Variables
+        1.2 Fonts
+        1.3 HTML and body styling
+    2 General elements
+        2.1 Tags
+        2.2 Titles
+        2.3 Separators
+    3 Reusable sections
+        3.1 Header
+        3.2 Cookie consent
+    4 Specific sections
+        4.1 Home page
+            4.1.1 Introduction section
+            4.1.2 About me section
+            4.1.3 Recent projects
+        4.2 School page
+            4.2.1 Projects list
+    5 Useless elements
+ */
 
 //====================================
-// 1.1 Imports
+// 1 Setup
 //====================================
 
-@font-face
-{
-    font-family: "Roboto Condensed";
-    src: url(assets/fonts/RobotoCondensed-Regular.ttf); // Imports font from fonts folder to use
-}
-
-@font-face
-{
-    font-family: "Righteous";
-    src: url(assets/fonts/Righteous-Regular.ttf); // Imports font from fonts folder to use
-}
-
-// Variables
+// 1.1 Variables
 
 // Colors
 $accent-light: #DEE0F7; // Lavender Web
@@ -60,45 +46,227 @@ $breakpoint: 550px;
 $breakpoint-medium: 800px;
 $breakpoint-large: 1200px;
 
-//====================================
-// 1.4 Flex
-//====================================
+// 1.2 Fonts
 
-#page,
-#subpage
+@font-face
+{
+    font-family: "Roboto Condensed";
+    src: url(assets/fonts/RobotoCondensed-Regular.ttf); // Imports font from fonts folder to use
+}
+
+@font-face
+{
+    font-family: "Righteous";
+    src: url(assets/fonts/Righteous-Regular.ttf); // Imports font from fonts folder to use
+}
+
+// 1.3 HTML and body styling
+
+
+body
 {
     display: flex; // Makes body a flexbox becuase flex good
     flex-direction: column;
-    margin-top: 0;
     background-attachment: fixed;
-}
-
-//====================================
-// 1.5 Pages
-//====================================
-
-#page
-{
-    //background-image: url("/assets/images/minimalist_trim1.jpg");
-    //background-size: 100%;
-    //background-repeat: no-repeat;
-    //background-attachment: unset;
+    background-color: $accent-light-light;
     color: $accent-light;
+    margin: 0;
+    font-size: 18px;
     text-align: center;
     font-family: "Roboto Condensed", Arial, sans-serif;
+    scroll-behavior: smooth;
+
+    *
+    {
+        transition: ease 300ms;
+    }
 }
 
-#page *
+::-moz-selection
 {
-    transition: ease 300ms;
+    // Code for Firefox
+    color: $accent-light;
+    background: $accent-middle;
 }
 
+::selection
+{
+    color: $accent-light;
+    background: $accent-middle;
+}
+
+// Adds user select on all browsers
+a
+{
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+}
 
 //====================================
-// 1.6 Header
+// 2 General elements
 //====================================
 
-#home-header #header
+.btn
+{
+    color: $accent-light; // Sets color to variable
+    text-decoration: none;
+
+    &:hover
+    {
+        text-decoration: underline;
+    }
+}
+
+#btn-left
+{
+    margin-right: 12.5rem;
+    font-size: 32px;
+    max-width: 90px;
+    padding: 15px 25px;
+    text-align: center;
+    font-family: Righteous, Arial, sans-serif;
+
+    // Responsiveness
+    @media (max-width: $breakpoint-large)
+    {
+        margin-right: 10vw;
+    }
+
+    @media (max-width: 720px)
+    {
+        margin-right: 8vw;
+    }
+    
+}
+
+#btn-right
+{
+    margin-left: 12.5rem;
+    color: #0C070D;
+    padding: 15px 25px;
+    border-radius: 25px;
+    text-align: center;
+    background-color: $accent-light; // Sets color to variable
+
+    // Responsiveness
+    @media (max-width: $breakpoint-large)
+    {
+        margin-left: 10vw;
+    }
+
+    @media (max-width: 720px)
+    {
+        margin-left: 8vw;
+    }
+}
+
+.subjectbtn
+{
+    display: inline-block; // Fixes collapsing marges issue
+    color: $accent-dark;
+    background-color: $accent-light;
+    margin: 25px;
+    padding: 15px 50px;
+    min-width: 5vw;
+    border-radius: 25px;
+    text-decoration: none;
+
+    &:hover
+    {
+        text-decoration: underline;
+    }
+
+    @media (max-width: $breakpoint)
+    {
+        margin: 10px;
+    }
+}
+
+iframe
+{
+    aspect-ratio: 16/9;
+}
+
+iframe, img
+{
+    width: $img-width;
+
+    @media (max-width: $breakpoint)
+    {
+        width: 200px;
+    }
+}
+
+.logo
+{
+    position: fixed; // Fixed position
+    bottom: 0; // Bottom justified
+    left: 0; // Left justified
+    z-index: 1000; // Makes item at the top of everything
+    margin: 5px; // Margin
+    background-color: transparent; // Background transparent
+    width: 40px;
+}
+
+.rotate
+{
+    transition: ease-in-out 0.2s !important; // Logo transition
+}
+
+// Rotating transitions for github logo (for all browsers)
+
+.rotate:hover
+{
+    transition: 0.7s !important;
+    -webkit-transition: 0.7s !important;
+    -moz-transition: 0.7s !important;
+    -ms-transition: 0.7s !important;
+    -o-transition: 0.7s !important;
+    -webkit-transform: rotate(180deg) !important;
+    -moz-transform: rotate(180deg) !important;
+    -o-transform: rotate(180deg) !important;
+    -ms-transform: rotate(180deg) !important;
+    transform: scale(1.1) rotate(360deg) !important;
+}
+
+#backtotop
+{
+    margin: 0 0 0 88px;
+    z-index: 1000; // Order of items
+    opacity: 0;
+    stroke: #100d0e;
+}
+
+#sketch
+{
+    margin: 0 0 3.5px 50px;
+    z-index: 1000; // Order of items
+}
+
+#dropdown-arrow
+{
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+}
+
+.icon
+{
+    align-content: center;
+    text-align: center;
+    align-self: center;
+    align-items: center;
+}
+
+//====================================
+// 3 Reusable sections
+//====================================
+
+// Header
+#header
 {
     display: flex;
     align-items: center; // Centered content
@@ -141,7 +309,7 @@ $breakpoint-large: 1200px;
             padding: 10px;
         }
 
-        #home-button-left, #home-button-right
+        #btn-left, #btn-right
         {
 
         }
@@ -159,207 +327,7 @@ $breakpoint-large: 1200px;
     }
 }
 
-//#header-middle
-//{
-//    display: flex;
-//
-//    @media (max-width: $breakpoint) {
-//        flex-direction: row;
-//    }
-//}
-
-.btn
-{
-    color: $accent-light; // Sets color to variable
-    text-decoration: none;
-}
-
-.btn:hover
-{
-    text-decoration: underline;
-}
-
-// fuck you - soni howni (system operator for northern ireland)
-#homebtn
-{
-    @media (max-width: $breakpoint)
-    {
-
-    }
-}
-
-#schoolbtn
-{
-    @media (max-width: $breakpoint)
-    {
-
-    }
-}
-
-#personalbtn
-{
-    @media (max-width: $breakpoint)
-    {
-
-    }
-}
-
-#home-button-left
-{
-    margin-right: 12.5rem;
-    font-size: 32px;
-    max-width: 90px;
-    padding: 15px 25px;
-    text-align: center;
-    font-family: Righteous, Arial, sans-serif;
-
-    // Responsiveness
-    @media (max-width: $breakpoint-large)
-    {
-        margin-right: 10vw;
-    }
-
-    @media (max-width: 720px)
-    {
-        margin-right: 8vw;
-    }
-
-    @media (max-width: $breakpoint) {
-
-    }
-}
-
-#home-button-right
-{
-    margin-left: 12.5rem;
-    color: #0C070D;
-    padding: 15px 25px;
-    border-radius: 25px;
-    text-align: center;
-    background-color: $accent-light; // Sets color to variable
-
-    // Responsiveness
-    @media (max-width: $breakpoint-large)
-    {
-        margin-left: 10vw;
-    }
-
-    @media (max-width: 720px)
-    {
-        margin-left: 8vw;
-    }
-}
-
-//====================================
-// 1.7 Body/
-//====================================
-
-body
-{
-    background-color: $accent-light-light;
-    margin: 0;
-    font-size: 18px;
-}
-
-//====================================
-// 1.8 Selection
-//====================================
-
-::-moz-selection{
-    // Code for Firefox
-    color: $accent-light;
-    background: $accent-middle;
-}
-
-::selection{
-    color: $accent-light;
-    background: $accent-middle;
-}
-
-//====================================
-// 1.9 Images
-//====================================
-
-iframe
-{
-    aspect-ratio: 16/9;
-}
-
-iframe, img
-{
-    width: $img-width;
-
-    @media (max-width: $breakpoint)
-    {
-        width: 200px;
-    }
-}
-
-//====================================
-// 1.11 Github Logo
-//====================================
-
-.logo
-{
-    position: fixed; // Fixed position
-    bottom: 0; // Bottom justified
-    left: 0; // Left justified
-    z-index: 1000; // Makes item at the top of everything
-    margin: 5px; // Margin
-    background-color: transparent; // Background transparent
-    width: 40px;
-}
-
-.rotate
-{
-    transition: ease-in-out 0.2s !important; // Logo transition
-}
-
-// Rotating transitions for github logo (for all browsers)
-
-.rotate:hover
-{
-    transition: 0.7s !important;
-    -webkit-transition: 0.7s !important;
-    -moz-transition: 0.7s !important;
-    -ms-transition: 0.7s !important;
-    -o-transition: 0.7s !important;
-    -webkit-transform: rotate(180deg) !important;
-    -moz-transform: rotate(180deg) !important;
-    -o-transform: rotate(180deg) !important;
-    -ms-transform: rotate(180deg) !important;
-    transform: scale(1.1) rotate(360deg) !important;
-}
-
-//====================================
-// 1.12 Back to top
-//====================================
-
-#backtotop
-{
-    margin: 0 0 0 88px;
-    z-index: 1000; // Order of items
-    opacity: 0;
-    stroke: #100d0e;
-}
-
-#sketch
-{
-    margin: 0 0 3.5px 50px;
-    z-index: 1000; // Order of items
-}
-
-#dropdown-arrow
-{
-    -webkit-transform: rotate(180deg);
-    -moz-transform: rotate(180deg);
-    -o-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-}
-
-//====================================
-// 1.13 Footer
-//====================================
+// Footer
 
 footer
 {
@@ -376,43 +344,10 @@ footer
 }
 
 //====================================
-// 1.14 Icons
+// 4 Specific sections
 //====================================
 
-.icon
-{
-    align-content: center;
-    text-align: center;
-    align-self: center;
-    align-items: center;
-}
-
-//====================================
-// 1.15 Links
-//====================================
-
-// Adds user select on all browsers
-
-a
-{
-    user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    -webkit-user-select: none;
-}
-
-//====================================
-// 1.16 Scroll
-//====================================
-
-*
-{
-    scroll-behavior: smooth;
-}
-
-//====================================
-// 2.1 Home
-//====================================
+// 4.1 Home
 
 #background
 {
@@ -455,7 +390,7 @@ a
 {
     font-family: Righteous, Arial, sans-serif;
     font-size: 60px;
-    
+
     @media (max-width: $breakpoint-medium) {
         margin: 0 20px;
     }
@@ -477,83 +412,51 @@ a
     }
 }
 
-.subjectbtn
-{
-    display: inline-block; // Fixes collapsing marges issue
-    color: $accent-dark;
-    background-color: $accent-light;
-    margin: 25px;
-    padding: 15px 50px;
-    min-width: 5vw;
-    border-radius: 25px;
-    text-decoration: none;
+//====================================
+// 5 Useless Elements
+//====================================
 
-    @media (max-width: $breakpoint)
-    {
-        margin: 10px;
-    }
-}
 
-.subjectbtn:hover
-{
-    text-decoration: underline;
-}
+/* STYLESHIT TABLE OF CONTENTS
+    1 Broad CSS
+        1.1 Imports
+        1.2 Variables
+        1.3 Cursor
+        1.4 Flex
+        1.5 Pages
+        1.6 Header
+        1.7 Body
+        1.8 Selection
+        1.9 Images
+        1.11 Github Logo
+        1.12 Back to top
+        1.13 Footer
+        1.14 Icons
+        1.15 Links
+        1.16
+    2 Page Specific
+        2.1 Home
+        2.2 School
+        2.3 Freetime
+        2.4 404
+*/
+
+//====================================
+// 2.1 Home
+//====================================
+
+
 
 // TODO: Remove this comment
 // i removed some code here - soni howni (system operator for northern ireland)
 
-.home-sections-light
-{
-    display: flex; // Makes box flex
-    max-height: 500px;
-    padding: 80px 180px;
-    text-align: center;
-    align-items: center;
-    color: $accent-middle-light;
-    background-color: $accent-light-light;
-
-    // Adds custom properties for different viewport widths
-    @media (max-width: 1350px)
-    {
-        padding: 50px 0;
-        max-height: 20000px;
-    }
-
-    @media (max-width: 1050px)
-    {
-        padding: 25px 0;
-        max-height: 20000px;
-    }
-
-    @media (max-width: $breakpoint-medium)
-    {
-        flex-direction: column;
-        padding: 25px;
-        max-height: 20000px;
-    }
-
-    @media (max-width: $breakpoint)
-    {
-        flex-direction: column;
-        padding: 25px;
-        margin: 0;
-    }
-
-    @media (min-width: 2000px)
-    {
-        padding: 125px 20vw;
-    }
-}
-
-.home-sections-dark
+.home-sections
 {
     display: flex;
     max-height: 500px;
     padding: 80px 180px;
     text-align: center;
     align-items: center;
-    color: $accent-middle-light;
-    background-color: $accent-light-dark;
 
     // Adds custom properties for different viewport widths
     @media (max-width: 1350px)
@@ -570,14 +473,12 @@ a
 
     @media (max-width: $breakpoint-medium)
     {
-        flex-direction: column-reverse;
         padding: 25px;
         max-height: 20000px;
     }
 
     @media (max-width: $breakpoint)
     {
-        flex-direction: column-reverse;
         padding: 25px;
         margin: 0;
     }
@@ -585,6 +486,40 @@ a
     @media (min-width: 2000px)
     {
         padding: 125px 20vw;
+    }
+}
+
+.home-sections-light
+{
+    color: $accent-middle-light;
+    background-color: $accent-light-light;
+
+    @media (max-width: $breakpoint-medium)
+    {
+        flex-direction: column;
+    }
+
+    @media (max-width: $breakpoint)
+    {
+        flex-direction: column;
+    }
+
+}
+
+.home-sections-dark
+{
+
+    color: $accent-middle-light;
+    background-color: $accent-light-dark;
+
+    @media (max-width: $breakpoint-medium)
+    {
+        flex-direction: column-reverse;
+    }
+
+    @media (max-width: $breakpoint)
+    {
+        flex-direction: column-reverse;
     }
 }
 
@@ -648,7 +583,7 @@ a
 //    }
 //}
 
-.home-sections-button
+.sections-btn
 {
     margin: 20px 0;
     text-align: center;
@@ -657,9 +592,10 @@ a
     transition: ease 1000ms !important;
     border-radius: 2147483647px; // Epic integer limit
 
-    :hover
+    &:hover
     {
-
+        color: $accent-light !important;
+        background-color: $accent-dark !important;
     }
 
     // Adds custom properties for different viewport widths
@@ -667,12 +603,6 @@ a
     {
         padding: 15px 50px;
     }
-}
-
-.home-sections-button:hover
-{
-    color: $accent-light !important;
-    background-color: $accent-dark !important;
 }
 
 .home-sections-title
@@ -812,7 +742,7 @@ a
     text-align: center;
     max-width: 70ch;
 
-    .home-sections-button
+    .sections-btn
     {
         margin: 20px 0;
     }
