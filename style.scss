@@ -233,7 +233,7 @@ iframe, img
 
 #backtotop
 {
-    margin: 0 0 0 88px;
+    margin: 0 0 0 130.5px;
     z-index: 1000; // Order of items
     opacity: 0;
     stroke: #100d0e;
@@ -242,6 +242,12 @@ iframe, img
 #sketch
 {
     margin: 0 0 3.5px 50px;
+    z-index: 1000; // Order of items
+}
+
+#game
+{
+    margin: 0 0 7px 92.5px;
     z-index: 1000; // Order of items
 }
 
