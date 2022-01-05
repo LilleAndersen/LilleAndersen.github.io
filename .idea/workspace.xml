@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bee98fe4-341e-4398-a2ef-7d8e61cbc69b" name="Default Changelist" comment="" />
+    <list default="true" id="bee98fe4-341e-4398-a2ef-7d8e61cbc69b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/personal/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/personal/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/school/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/school/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style.scss" afterDir="false" />
+    </list>
     <list id="5a24bc89-9090-4503-a349-20d9076717bb" name="Changes by Soni" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,15 +44,18 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/sections/header.html" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/404.html" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/pages/school/school.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/style.scss" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/pages/school/school.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/sections/header.html" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/index.html" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/js/common.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/pages/school/index.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/style.scss" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/assets/old/old.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/pages/school/school.json" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -73,7 +85,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="io.unthrottled.amii.config.ui.PluginSettingsUI" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="ReaderModeSettings">
@@ -234,6 +246,13 @@
       <workItem from="1633507041505" duration="1755000" />
       <workItem from="1634549317709" duration="109000" />
       <workItem from="1636966282630" duration="868000" />
+      <workItem from="1641367634374" duration="27000" />
+      <workItem from="1641367686662" duration="807000" />
+      <workItem from="1641368527010" duration="459000" />
+      <workItem from="1641369017935" duration="1041000" />
+      <workItem from="1641370150275" duration="102000" />
+      <workItem from="1641370275547" duration="51000" />
+      <workItem from="1641370359328" duration="3118000" />
     </task>
     <servers />
   </component>

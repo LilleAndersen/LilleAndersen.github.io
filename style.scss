@@ -20,6 +20,9 @@
             4.1.3 Recent projects
         4.2 School page
             4.2.1 Projects list
+        4.3 404 page
+            4.1.1
+            4.1.2
     5 Useless elements
  */
 
@@ -666,6 +669,7 @@ footer
 h1#subpage-headline
 {
     font-size: 60px;
+    padding-bottom: 200px;
 }
 
 .projecttitle
@@ -712,6 +716,41 @@ h1#subpage-headline
         }
     }
 }
+
+// 4.3 404 page
+
+#page404
+{
+    display:grid;
+    place-items:center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background: $accent-middle-dark;
+    color: $accent-light;
+
+    border-radius: 25px;
+    padding: 25px 50px 50px 50px;
+}
+
+#page404 #home-headline
+{
+    font-size: 69px;
+}
+
+error
+{
+    font-size: 40px;
+}
+
+.btn404
+{
+    font-size: 25px;
+    text-decoration: underline;
+}
+
 
 //====================================
 // 5 Useless Elements
