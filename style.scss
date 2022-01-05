@@ -85,6 +85,7 @@ body
     }
 }
 
+// Hover selection styling for moz or Firefox
 ::-moz-selection
 {
     // Code for Firefox
@@ -92,13 +93,14 @@ body
     background: $accent-middle;
 }
 
+// Hover selection styling for every other browser incl. chromium based and IE
 ::selection
 {
     color: $accent-light;
     background: $accent-middle;
 }
 
-// Adds user select on all browsers
+// Changes user-select on all browsers
 a
 {
     user-select: none;
@@ -111,6 +113,7 @@ a
 // 2 General elements
 //====================================
 
+// General button styling
 .btn
 {
     color: $accent-light; // Sets color to variable
@@ -122,6 +125,7 @@ a
     }
 }
 
+// General button styling for the button to the most left
 #btn-left
 {
     margin-right: 12.5rem;
@@ -144,6 +148,7 @@ a
     
 }
 
+// General button styling for the button to the most right
 #btn-right
 {
     margin-left: 12.5rem;
@@ -234,6 +239,7 @@ iframe, img
     transform: scale(1.1) rotate(360deg) !important;
 }
 
+// Backtotop button
 #backtotop
 {
     margin: 0 0 0 130.5px;
