@@ -1,6 +1,12 @@
 {
   "school": [
     {
+      "title": "Webbutikk",
+      "media": "<img src=\"../../assets/images/verstasjon.jpg\" alt=\"bildet\" class=\"img\" loading=\"lazy\">",
+      "date": "9.03.22",
+      "text": "Webbutikken handler om å kunne bestille varer, lage en bruker og innsamling av personlig innformasjon. Vi brukte an API for backend istedenfor PHP fordi PHP er vanskelig å jobbe med. For frontend bruker jeg er JS library som heter Axios for å snakke med API."
+    },
+    {
       "title": "Værstasjon",
       "media": "<img src=\"../../assets/images/verstasjon.jpg\" alt=\"bildet\" class=\"img\" loading=\"lazy\">",
       "date": "26.04.21",
