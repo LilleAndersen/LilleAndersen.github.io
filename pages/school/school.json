@@ -1,6 +1,12 @@
 {
   "school": [
     {
+      "title": "Recal Social Chattetjeneste",
+      "media": "<img src=\"https://via.placeholder.com/300x300\" alt=\"bildet\" class=\"img\" loading=\"lazy\">",
+      "date": "11.05.22",
+      "text": "En chattetjeneste som kan brukes som en erstatning om Discord går ned. Støtter chatterom (lage, bli med og forlate chatterom), profil redigering og mange andre ting. <a href=\"https://store.little.yessness.com\" target=\"_blank\" class=\"sections-btn subject-btn\">Mer</a>"
+    },
+    {
       "title": "Webbutikk",
       "media": "<img src=\"https://via.placeholder.com/300x300\" alt=\"bildet\" class=\"img\" loading=\"lazy\">",
       "date": "9.03.22",
